@@ -25,27 +25,27 @@
       "name": "Menthe",
       "tint": "Vert",
       "luminosity": "Foncé",
-      "name_type": "Plante",
+      "name_type": "Fleur",
       "major_color": "Vert",
       "secondary_color": "Bleu"
     },
     {
       "id": 4 ,
-      "code": "#efd807",
-      "name": "Jaune d'or",
+      "code": "#ffd700",
+      "name": "Or",
       "tint": "Jaune",
-      "luminosity": "Clair",
+      "luminosity": "Foncé",
       "name_type": "Materiel",
       "major_color": "Rouge",
       "secondary_color": "Vert"
     },
     {
       "id":5 ,
-      "code": "#85530f",
-      "name": "Chaudron",
+      "code": "#462e01",
+      "name": "Café",
       "tint": "Marron",
       "luminosity": "Foncé",
-      "name_type": "Objet",
+      "name_type": "Nourriture",
       "major_color": "Rouge",
       "secondary_color": "Vert"
     },
@@ -59,7 +59,6 @@
       "major_color": "Rouge",
       "secondary_color": "Bleu"
     },
-
     {
       "id": 7 ,
       "code": "#fde9e0",
@@ -78,7 +77,7 @@
       "luminosity": "Clair",
       "name_type": "Nourriture",
       "major_color": "Rouge",
-      "secondary_color": "Bleu"
+      "secondary_color": "Vert"
     },
     {
       "id": 9,
@@ -96,7 +95,7 @@
       "name": "Orchidée",
       "tint": "Violet",
       "luminosity": "Clair",
-      "name_type": "Plante",
+      "name_type": "Fleur",
       "major_color": "Rouge",
       "secondary_color": "Bleu"
     },
@@ -106,7 +105,7 @@
       "name": "Lilas",
       "tint": "Violet",
       "luminosity": "Foncé",
-      "name_type": "Plante",
+      "name_type": "Fleur",
       "major_color": "Bleu",
       "secondary_color": "Rouge"
     },
@@ -116,7 +115,7 @@
       "name": "Lavande",
       "tint": "Violet",
       "luminosity": "Clair",
-      "name_type": "Plante",
+      "name_type": "Fleur",
       "major_color": "Bleu",
       "secondary_color": "Rouge"
     },
@@ -179,6 +178,486 @@
       "name_type": "Materiel",
       "major_color": "Bleu",
       "secondary_color": "Vert"
-    }               
+    },
+    {
+      "id": 17,
+      "code": "#3a8eba",
+      "name": "Bleu acier",
+      "tint": "Bleu",
+      "luminosity": "Clair",
+      "name_type": "Materiel",
+      "major_color": "Bleu",
+      "secondary_color": "Vert"
+    },
+    {
+      "id": 18,
+      "code": "#26619c",
+      "name": "Émeraude",
+      "tint": "Vert",
+      "luminosity": "Clair",
+      "name_type": "Materiel",
+      "major_color": "Vert",
+      "secondary_color": "Bleu"
+    },
+    {
+      "id": 19,
+      "code": "#00ff7f",
+      "name": "Vert de printemps",
+      "tint": "Vert",
+      "luminosity": "Clair",
+      "name_type": "Concept",
+      "major_color": "Vert",
+      "secondary_color": "Bleu"
+    },
+    {
+      "id": 20,
+      "code": "#9efd38",
+      "name": "Vert citron",
+      "tint": "Vert",
+      "luminosity": "Clair",
+      "name_type": "Nourriture",
+      "major_color": "Vert",
+      "secondary_color": "Rouge"
+    },
+    {
+      "id": 21,
+      "code": "#3af24b",
+      "name": "Vert perroquet",
+      "tint": "Vert",
+      "luminosity": "Clair",
+      "name_type": "Animal",
+      "major_color": "Vert",
+      "secondary_color": "Bleu"
+    },
+    {
+      "id": 22,
+      "code": "#1fa055",
+      "name": "Malachite",
+      "tint": "Vert",
+      "luminosity": "Foncé",
+      "name_type": "Materiel",
+      "major_color": "Vert",
+      "secondary_color": "Bleu"
+    },
+    {
+      "id": 23,
+      "code": "#a5d152",
+      "name": "Vert tilleul",
+      "tint": "Vert",
+      "luminosity": "Clair",
+      "name_type": "Fleur",
+      "major_color": "Vert",
+      "secondary_color": "Rouge"
+    },
+    {
+      "id": 24,
+      "code": "#708d23",
+      "name": "Olive",
+      "tint": "Vert",
+      "luminosity": "Foncé",
+      "name_type": "Nourriture",
+      "major_color": "Vert",
+      "secondary_color": "Rouge"
+    },
+    {
+      "id": 25,
+      "code": "#00561b",
+      "name": "Vert impérial",
+      "tint": "Vert",
+      "luminosity": "Foncé",
+      "name_type": "Nourriture",
+      "major_color": "Vert",
+      "secondary_color": "Bleu"
+    },
+    {
+      "id": 26,
+      "code": "#c7cf00",
+      "name": "Moutarde",
+      "tint": "Jaune",
+      "luminosity": "Foncé",
+      "name_type": "Nourriture",
+      "major_color": "Vert",
+      "secondary_color": "Rouge"
+    },
+    {
+      "id": 27,
+      "code": "#f7ff3c",
+      "name": "Jaune citron",
+      "tint": "Jaune",
+      "luminosity": "Clair",
+      "name_type": "Nourriture",
+      "major_color": "Vert",
+      "secondary_color": "Rouge"
+    },
+    {
+      "id": 28,
+      "code": "#e7f00d",
+      "name": "Jaune canari",
+      "tint": "Jaune",
+      "luminosity": "Clair",
+      "name_type": "Animal",
+      "major_color": "Vert",
+      "secondary_color": "Rouge"
+    },
+    {
+      "id": 29 ,
+      "code": "#faea73",
+      "name": "Topaze",
+      "tint": "Jaune",
+      "luminosity": "Clair",
+      "name_type": "Materiel",
+      "major_color": "Rouge",
+      "secondary_color": "Vert"
+    },
+    {
+      "id": 30 ,
+      "code": "#faea73",
+      "name": "Topaze",
+      "tint": "Jaune",
+      "luminosity": "Clair",
+      "name_type": "Materiel",
+      "major_color": "Rouge",
+      "secondary_color": "Vert"
+    },
+    {
+      "id": 31 ,
+      "code": "#e8d630",
+      "name": "Aurore",
+      "tint": "Jaune",
+      "luminosity": "Clair",
+      "name_type": "Concept",
+      "major_color": "Rouge",
+      "secondary_color": "Vert"
+    },
+    {
+      "id":32 ,
+      "code": "#926d27",
+      "name": "Terre d'ombre",
+      "tint": "Marron",
+      "luminosity": "Foncé",
+      "name_type": "Concept",
+      "major_color": "Rouge",
+      "secondary_color": "Vert"
+    },
+    {
+      "id":33 ,
+      "code": "#5b3c11",
+      "name": "Bitume",
+      "tint": "Marron",
+      "luminosity": "Foncé",
+      "name_type": "Materiel",
+      "major_color": "Rouge",
+      "secondary_color": "Vert"
+    },
+    {
+      "id":34 ,
+      "code": "#b67823",
+      "name": "Poil de chameau",
+      "tint": "Marron",
+      "luminosity": "Foncé",
+      "name_type": "Animal",
+      "major_color": "Rouge",
+      "secondary_color": "Vert"
+    },
+    {
+      "id":35 ,
+      "code": "#7e5835",
+      "name": "Cannelle",
+      "tint": "Marron",
+      "luminosity": "Foncé",
+      "name_type": "Nourriture",
+      "major_color": "Rouge",
+      "secondary_color": "Vert"
+    },
+    {
+      "id":36 ,
+      "code": "#955628",
+      "name": "Noisette",
+      "tint": "Marron",
+      "luminosity": "Clair",
+      "name_type": "Nourriture",
+      "major_color": "Rouge",
+      "secondary_color": "Vert"
+    },
+    {
+      "id":37 ,
+      "code": "#614b3a",
+      "name": "Cacao",
+      "tint": "Marron",
+      "luminosity": "Foncé",
+      "name_type": "Fleur",
+      "major_color": "Rouge",
+      "secondary_color": "Vert"
+    },
+    {
+      "id":38 ,
+      "code": "#88421d",
+      "name": "Acajou",
+      "tint": "Marron",
+      "luminosity": "Clair",
+      "name_type": "Fleur",
+      "major_color": "Rouge",
+      "secondary_color": "Vert"
+    },
+    {
+      "id":39 ,
+      "code": "#ff4901",
+      "name": "Rouge feu",
+      "tint": "Rouge",
+      "luminosity": "Clair",
+      "name_type": "Concept",
+      "major_color": "Rouge",
+      "secondary_color": "Vert"
+    },
+    {
+      "id":40 ,
+      "code": "#c60800",
+      "name": "Coquelicot",
+      "tint": "Rouge",
+      "luminosity": "Foncé",
+      "name_type": "Fleur",
+      "major_color": "Rouge",
+      "secondary_color": "Vert"
+    },
+    {
+      "id":41 ,
+      "code": "#de2916",
+      "name": "Tomate",
+      "tint": "Rouge",
+      "luminosity": "Clair",
+      "name_type": "Nourriture",
+      "major_color": "Rouge",
+      "secondary_color": "Vert"
+    },
+    {
+      "id":42 ,
+      "code": "#842e1b",
+      "name": "Brique",
+      "tint": "Rouge",
+      "luminosity": "Foncé",
+      "name_type": "Materiel",
+      "major_color": "Rouge",
+      "secondary_color": "Vert"
+    },
+    {
+      "id":43 ,
+      "code": "#730800",
+      "name": "Sang de bœuf",
+      "tint": "Rouge",
+      "luminosity": "Foncé",
+      "name_type": "Animal",
+      "major_color": "Rouge",
+      "secondary_color": "Vert"
+    },
+    {
+      "id":44 ,
+      "code": "#b82010",
+      "name": "Rouge cardinal",
+      "tint": "Rouge",
+      "luminosity": "Foncé",
+      "name_type": "Concept",
+      "major_color": "Rouge",
+      "secondary_color": "Vert"
+    },
+    {
+      "id":45 ,
+      "code": "#ff0921",
+      "name": "Vermeil",
+      "tint": "Rouge",
+      "luminosity": "Clair",
+      "name_type": "Materiel",
+      "major_color": "Rouge",
+      "secondary_color": "Bleu"
+    },
+    {
+      "id":46 ,
+      "code": "#884e1609421d",
+      "name": "Puce",
+      "tint": "Marron",
+      "luminosity": "Foncé",
+      "name_type": "Animal",
+      "major_color": "Rouge",
+      "secondary_color": "Vert"
+    },
+    {
+      "id":47 ,
+      "code": "#e0115f",
+      "name": "Rubis",
+      "tint": "Rose",
+      "luminosity": "Clair",
+      "name_type": "Materiel",
+      "major_color": "Rouge",
+      "secondary_color": "Bleu"
+    },
+    {
+      "id":48 ,
+      "code": "#c72c48",
+      "name": "Framboise",
+      "tint": "Rose",
+      "luminosity": "Clair",
+      "name_type": "Nourriture",
+      "major_color": "Rouge",
+      "secondary_color": "Bleu"
+    },
+    {
+      "id":49 ,
+      "code": "#6d071a",
+      "name": "Bordeaux",
+      "tint": "Rose",
+      "luminosity": "Foncé",
+      "name_type": "Lieu",
+      "major_color": "Rouge",
+      "secondary_color": "Bleu"
+    },
+    {
+      "id":50 ,
+      "code": "#91283b",
+      "name": "Amarante",
+      "tint": "Rose",
+      "luminosity": "Foncé",
+      "name_type": "Fleur",
+      "major_color": "Rouge",
+      "secondary_color": "Bleu"
+    },
+    {
+      "id":51 ,
+      "code": "#fd6c9e",
+      "name": "Rose",
+      "tint": "Rose",
+      "luminosity": "Clair",
+      "name_type": "Fleur",
+      "major_color": "Rouge",
+      "secondary_color": "Bleu"
+    },
+    {
+      "id": 52 ,
+      "code": "#f88e55",
+      "name": "Saumon",
+      "tint": "Orange",
+      "luminosity": "Clair",
+      "name_type": "Animal",
+      "major_color": "Rouge",
+      "secondary_color": "Vert"
+    },
+    {
+      "id": 53 ,
+      "code": "#9f551e",
+      "name": "Tabac",
+      "tint": "Orange",
+      "luminosity": "Foncé",
+      "name_type": "Fleur",
+      "major_color": "Rouge",
+      "secondary_color": "Vert"
+    },
+    {
+      "id": 54 ,
+      "code": "#e7301",
+      "name": "Corail",
+      "tint": "Orange",
+      "luminosity": "Foncé",
+      "name_type": "Fleur",
+      "major_color": "Rouge",
+      "secondary_color": "Vert"
+    },
+    {
+      "id": 55 ,
+      "code": "#7e3300",
+      "name": "Caramel",
+      "tint": "Orange",
+      "luminosity": "Foncé",
+      "name_type": "Nourriture",
+      "major_color": "Rouge",
+      "secondary_color": "Vert"
+    },
+    {
+      "id": 56 ,
+      "code": "#ec1e44",
+      "name": "Lie de vin",
+      "tint": "Rose",
+      "luminosity": "Foncé",
+      "name_type": "Nourriture",
+      "major_color": "Rouge",
+      "secondary_color": "Bleu"
+    },
+    {
+      "id": 57 ,
+      "code": "#db1702",
+      "name": "Cinabre",
+      "tint": "Rouge",
+      "luminosity": "Clair",
+      "name_type": "Materiel",
+      "major_color": "Rouge",
+      "secondary_color": "Vert"
+    },
+    {
+      "id": 58 ,
+      "code": "#e7a854",
+      "name": "Blond vénitien",
+      "tint": "Orange",
+      "luminosity": "Clair",
+      "name_type": "Lieu",
+      "major_color": "Rouge",
+      "secondary_color": "Vert"
+    },
+    {
+      "id": 59 ,
+      "code": "#24445c",
+      "name": "Bleu de Prusse",
+      "tint": "Bleu",
+      "luminosity": "Foncé",
+      "name_type": "Lieu",
+      "major_color": "Bleu",
+      "secondary_color": "Vert"
+    },
+    {
+      "id": 60 ,
+      "code": "#cfa0e9",
+      "name": "Parme",
+      "tint": "Violet",
+      "luminosity": "Clair",
+      "name_type": "Lieu",
+      "major_color": "Bleu",
+      "secondary_color": "Rouge"
+    },
+    {
+      "id": 61 ,
+      "code": "#fff0bc",
+      "name": "Jaune de Naples",
+      "tint": "Jaune",
+      "luminosity": "Clair",
+      "name_type": "Lieu",
+      "major_color": "Rouge",
+      "secondary_color": "Vert"
+    },
+    {
+      "id": 62 ,
+      "code": "#eed153",
+      "name": "Jaune de Mars",
+      "tint": "Jaune",
+      "luminosity": "Foncé",
+      "name_type": "Lieu",
+      "major_color": "Rouge",
+      "secondary_color": "Vert"
+    },
+    {
+      "id": 63 ,
+      "code": "#7fff00",
+      "name": "Chartreuse",
+      "tint": "Vert",
+      "luminosity": "Clair",
+      "name_type": "Lieu",
+      "major_color": "Vert",
+      "secondary_color": "Rouge"
+    },
+    {
+      "id": 64 ,
+      "code": "#6600ff",
+      "name": "Bleu persan",
+      "tint": "Vert",
+      "luminosity": "Clair",
+      "name_type": "Lieu",
+      "major_color": "Bleu",
+      "secondary_color": "Rouge"
+    }
   ]
   
