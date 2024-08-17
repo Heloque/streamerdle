@@ -1,43 +1,53 @@
 [
     {
       "id": 1,
-      "name": "Rouge pivoine"
+      "code": "#370028",
+      "name": "Aubergine",
+      "tint": "Violet",
+      "luminosity": "Foncé",
+      "name_type": "Nourriture",
+      "major_color": "Rouge",
+      "secondary_color": "Blue"
     },
     {
       "id": 2,
-      "name": "Vert d'eau"
+      "code": "#2c75ff",
+      "name": "Bleu électrique",
+      "tint": "Bleu",
+      "luminosity": "Clair",
+      "name_type": "Concept",
+      "major_color": "Bleu",
+      "secondary_color": "Vert"
     },
     {
       "id": 3,
-      "name": "Carotte"
+      "code": "#370028",
+      "name": "Menthe",
+      "tint": "Vert",
+      "luminosity": "Foncé",
+      "name_type": "Plante",
+      "major_color": "Vert",
+      "secondary_color": "Bleu"
     },
     {
-      "id": 4,
-      "name": "Vanille"
+      "id": 4 ,
+      "code": "#efd807",
+      "name": "Jaune d'or",
+      "tint": "Jaune",
+      "luminosity": "Clair",
+      "name_type": "Materiel",
+      "major_color": "Rouge",
+      "secondary_color": "Vert"
     },
     {
-      "id": 5,
-      "name": "Vert turquoise"
-    },
-    {
-      "id": 6,
-      "name": "Bleu nuit"
-    },
-    {
-      "id": 7,
-      "name": "Aubergine"
-    },
-    {
-      "id": 8,
-      "name": "Jaune poussin"
-    },
-    {
-      "id": 9,
-      "name": "Noir"
-    },
-    {
-      "id": 10,
-      "name": "Grisgris"
+      "id":5 ,
+      "code": "#85530f",
+      "name": "Chaudron",
+      "tint": "Marron",
+      "luminosity": "Foncé",
+      "name_type": "Objet",
+      "major_color": "Rouge",
+      "secondary_color": "Vert"
     }
   ]
   
