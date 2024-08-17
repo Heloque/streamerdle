@@ -7,7 +7,7 @@
       "luminosity": "Foncé",
       "name_type": "Nourriture",
       "major_color": "Rouge",
-      "secondary_color": "Blue"
+      "secondary_color": "Bleu"
     },
     {
       "id": 2,
@@ -21,7 +21,7 @@
     },
     {
       "id": 3,
-      "code": "#370028",
+      "code": "#16b84e",
       "name": "Menthe",
       "tint": "Vert",
       "luminosity": "Foncé",
@@ -48,6 +48,137 @@
       "name_type": "Objet",
       "major_color": "Rouge",
       "secondary_color": "Vert"
-    }
+    },
+    {
+      "id":6 ,
+      "code": "#cf0a1d",
+      "name": "Groseille",
+      "tint": "Rouge",
+      "luminosity": "Foncé",
+      "name_type": "Nourriture",
+      "major_color": "Rouge",
+      "secondary_color": "Bleu"
+    },
+
+    {
+      "id": 7 ,
+      "code": "#fde9e0",
+      "name": "Coquille d'œuf",
+      "tint": "Rose",
+      "luminosity": "Clair",
+      "name_type": "Nourriture",
+      "major_color": "Rouge",
+      "secondary_color": "Vert"
+    },
+    {
+      "id": 8 ,
+      "code": "#f4661b",
+      "name": "Carotte",
+      "tint": "Orange",
+      "luminosity": "Clair",
+      "name_type": "Nourriture",
+      "major_color": "Rouge",
+      "secondary_color": "Bleu"
+    },
+    {
+      "id": 9,
+      "code": "#884da7",
+      "name": "Améthyste",
+      "tint": "Violet",
+      "luminosity": "Clair",
+      "name_type": "Materiel",
+      "major_color": "Bleu",
+      "secondary_color": "Rouge"
+    },
+    {
+      "id": 9,
+      "code": "#da70d6",
+      "name": "Orchidée",
+      "tint": "Violet",
+      "luminosity": "Clair",
+      "name_type": "Plante",
+      "major_color": "Rouge",
+      "secondary_color": "Bleu"
+    },
+    {
+      "id": 9,
+      "code": "#b666d2",
+      "name": "Lilas",
+      "tint": "Violet",
+      "luminosity": "Foncé",
+      "name_type": "Plante",
+      "major_color": "Bleu",
+      "secondary_color": "Rouge"
+    },
+    {
+      "id": 10,
+      "code": "#9583ec",
+      "name": "Lavande",
+      "tint": "Violet",
+      "luminosity": "Clair",
+      "name_type": "Plante",
+      "major_color": "Bleu",
+      "secondary_color": "Rouge"
+    },
+    {
+      "id": 11,
+      "code": "#26619c",
+      "name": "Lapis-lazuli",
+      "tint": "Bleu",
+      "luminosity": "Foncé",
+      "name_type": "Materiel",
+      "major_color": "Bleu",
+      "secondary_color": "Vert"
+    },
+    {
+      "id": 12,
+      "code": "#26c4ec",
+      "name": "Bleu céleste",
+      "tint": "Bleu",
+      "luminosity": "Clair",
+      "name_type": "Concept",
+      "major_color": "Bleu",
+      "secondary_color": "Vert"
+    },  
+    {
+      "id": 13,
+      "code": "#067790",
+      "name": "Bleu paon",
+      "tint": "Bleu",
+      "luminosity": "Foncé",
+      "name_type": "Animal",
+      "major_color": "Bleu",
+      "secondary_color": "Vert"
+    },
+    {
+      "id": 14,
+      "code": "#0f056b",
+      "name": "Bleu nuit",
+      "tint": "Bleu",
+      "luminosity": "Foncé",
+      "name_type": "Concept",
+      "major_color": "Bleu",
+      "secondary_color": "Rouge"
+    },  
+    {
+      "id": 15,
+      "code": "#26c4ec",
+      "name": "Bleu marine",
+      "tint": "Bleu",
+      "luminosity": "Foncé",
+      "name_type": "Concept",
+      "major_color": "Bleu",
+      "secondary_color": "Vert"
+    },   
+    {
+      "id": 16,
+      "code": "#25fde9",
+      "name": "Turquoise",
+      "tint": "Bleu",
+      "luminosity": "Clair",
+      "name_type": "Materiel",
+      "major_color": "Bleu",
+      "secondary_color": "Vert"
+    }               
   ]
   
