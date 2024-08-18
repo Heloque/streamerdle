@@ -74,13 +74,13 @@
           0deg,
           transparent, 
           transparent 19.5px, 
-          black 20px
+          rgba(0, 0, 0, 0.25) 20px
       ),
       repeating-linear-gradient(
           90deg,
           #EAF9EC, 
           #EAF9EC 19.5px, 
-          black 20px
+          rgba(0, 0, 0, 0.25) 20px
       );
 
 }

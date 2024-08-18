@@ -9,21 +9,43 @@
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
     margin: 0.575rem auto;
-    max-height: 2rem;
+    max-height: 2.5rem;
 }
 
 .colorBox {
     color: black;
-    width: 5rem;
-    height: 2rem;
+    width: 8rem;
+    height: 2.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 4px;
     text-align: center;
     font-weight: bold;
+    position: relative;
+    font-size: 0.9rem !important;
 }
 
 .attributeName {
     padding: 1rem;
+}
+
+.infoIcon {
+    margin-left: 0rem;
+    display: inline-flex;
+    align-items: center;
+}
+
+.tippy-box[data-theme~="custom"] {
+    border: 1px solid #333;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+    padding: 5px 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tippy-box[data-theme~="custom"] .tippy-content {
+    font-size: 0.9rem;
+    text-align: center;
 }
