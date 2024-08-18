@@ -471,7 +471,7 @@
     },
     {
       "id":46 ,
-      "code": "#884e1609421d",
+      "code": "#4e1609",
       "name": "Puce",
       "tint": "Marron",
       "luminosity": "Foncé",
@@ -551,7 +551,7 @@
     },
     {
       "id": 54 ,
-      "code": "#e7301",
+      "code": "#e73e01",
       "name": "Corail",
       "tint": "Orange",
       "luminosity": "Foncé",
@@ -650,7 +650,7 @@
       "secondary_color": "Rouge"
     },
     {
-      "id": 64 ,
+      "id": 0 ,
       "code": "#6600ff",
       "name": "Bleu persan",
       "tint": "Bleu",
