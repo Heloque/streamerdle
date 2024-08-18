@@ -76,7 +76,7 @@ const Home = ({ dailyElement }) => {
             return resultRow;
         });
 
-        const resultText = `J'ai deviné la couleur du jour sur #Colordle en ${selectedOptions.length} essais! 🕵️🔎🔄\n\n${attempts.join('\n')}\n\nJouez sur colordle.com 🎮!`;
+        const resultText = `J'ai deviné la couleur du jour sur #Colordle en ${selectedOptions.length} essais! 🕵️🔎🔄\n\n${attempts.join('\n')}\n\nJouez sur https://heloisesuat.github.io/colordle/ 🎮!`;
 
         navigator.clipboard.writeText(resultText).then(() => {
             alert('Résultats copiés dans le presse-papiers!');
