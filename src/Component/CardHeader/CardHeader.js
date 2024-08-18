@@ -38,7 +38,7 @@ const CardHeader = () => {
             <div className={styles.colorBox}>
                 <span className={styles.attributeName}>Catégorie de nom</span>
                 <Tippy
-                    content={"Référence lié au nom\n(Nourriture, Concept, Fleur, Lieu, Matériel ou Animal)"}
+                    content={"Référence liée au nom\n(Nourriture, Concept, Fleur, Lieu, Matériel ou Animal)"}
                     trigger="mouseenter"
                     theme="custom"
                 >

@@ -5,7 +5,7 @@ import './App.css';
 
 function App() {
   const currentYear = new Date().getFullYear();
-  const version = "0.0.1";
+  const version = "1.0.0";
   const dailyElement = getDailyElement();
 
   return (
@@ -18,7 +18,7 @@ function App() {
       </body>
       <footer className="footer">
       <div className="footer-content">
-        <p>© {currentYear} J-M. Bigras. All rights reserved.</p>
+        <p>© {currentYear} Louis Thomas, Quentin Roussey, Héloïse Suat. All rights reserved.</p>
         <p>Version: {version}</p>
       </div>
     </footer>
