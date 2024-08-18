@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/jm-bigras/static/css/main.3fb41fbd.css",
-    "main.js": "/jm-bigras/static/js/main.8de5e612.js",
-    "static/js/453.40f3473e.chunk.js": "/jm-bigras/static/js/453.40f3473e.chunk.js",
-    "static/media/colordle-logo.png": "/jm-bigras/static/media/colordle-logo.a61650eee8456200b7e0.png",
-    "index.html": "/jm-bigras/index.html",
-    "main.3fb41fbd.css.map": "/jm-bigras/static/css/main.3fb41fbd.css.map",
-    "main.8de5e612.js.map": "/jm-bigras/static/js/main.8de5e612.js.map",
-    "453.40f3473e.chunk.js.map": "/jm-bigras/static/js/453.40f3473e.chunk.js.map"
+    "main.css": "/colordle/static/css/main.3fb41fbd.css",
+    "main.js": "/colordle/static/js/main.9b1bc89b.js",
+    "static/js/453.40f3473e.chunk.js": "/colordle/static/js/453.40f3473e.chunk.js",
+    "static/media/colordle-logo.png": "/colordle/static/media/colordle-logo.a61650eee8456200b7e0.png",
+    "index.html": "/colordle/index.html",
+    "main.3fb41fbd.css.map": "/colordle/static/css/main.3fb41fbd.css.map",
+    "main.9b1bc89b.js.map": "/colordle/static/js/main.9b1bc89b.js.map",
+    "453.40f3473e.chunk.js.map": "/colordle/static/js/453.40f3473e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3fb41fbd.css",
-    "static/js/main.8de5e612.js"
+    "static/js/main.9b1bc89b.js"
   ]
 }
