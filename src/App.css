@@ -46,7 +46,7 @@ body {
   padding: 0;
   font-family: sans-serif;
   background-color: #f0f0f0;
-  background-image: url('./background.png');
+  background-image: url('./background.svg');
   background-size: cover; 
   background-repeat: no-repeat;
   background-attachment: fixed;

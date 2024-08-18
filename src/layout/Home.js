@@ -15,8 +15,13 @@ const Home = ({ dailyElement }) => {
 
         if (savedCards) {
             setSelectedOptions(savedCards);
-            setIsCorrect(true);
-            setShowPopup(true);
+            if (savedCards[0].value === dailyElement){
+                setIsCorrect(true);
+                setShowPopup(true);
+            } else {
+                setIsCorrect(false);
+                setShowPopup(false);
+            }
         } else {
             setIsCorrect(false);
             setShowPopup(false);
@@ -49,11 +54,11 @@ const Home = ({ dailyElement }) => {
     const handleChange = (selectedOption) => {
         const updatedOptions = [selectedOption, ...selectedOptions];
         setSelectedOptions(updatedOptions);
+        localStorage.setItem('selectedOptions', JSON.stringify(updatedOptions));
 
-        if (selectedOption.id === dailyElement) {
+        if (selectedOption.value === dailyElement) {
             setShowPopup(true);
             setIsCorrect(true);
-            localStorage.setItem('selectedOptions', JSON.stringify(updatedOptions));
         }
     };
 
