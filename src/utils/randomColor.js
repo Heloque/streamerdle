@@ -1,21 +1,29 @@
 import data from '../data.json';
 
 const getRandomElement = (array) => {
-  const randomIndex = Math.floor(Math.random() * array.length);
-  return array[randomIndex];
+  const currentIndex = localStorage.getItem('dailyElement')
+  let randomIndex;
+  do {
+    randomIndex = Math.floor(Math.random() * array.length);
+  } while (randomIndex == currentIndex)
+  return randomIndex;
 };
 
 const getDailyElement = () => {
-  const today = new Date().toISOString().split('T')[0];
-  const storedDate = localStorage.getItem('date');
-  const storedElement = JSON.parse(localStorage.getItem('dailyElement'));
+  const today = new Date();
+  const offsetMinute = - today.getTimezoneOffset();
+  const todayFrance = new Date(date.getTime() + offsetMinute * 60 * 1000).toISOString().split('T')[0];
 
-  if (storedDate === today && storedElement) {
+  const storedDate = localStorage.getItem('date');
+  const storedElement = localStorage.getItem('dailyElement');
+
+  if (storedDate === todayFrance && storedElement) {
     return storedElement;
   } else {
     const newElement = getRandomElement(data);
-    localStorage.setItem('dailyElement', JSON.stringify(newElement));
-    localStorage.setItem('date', today);
+    localStorage.clear();
+    localStorage.setItem('dailyElement', newElement);
+    localStorage.setItem('date', todayFrance);
     return newElement;
   }
 };
