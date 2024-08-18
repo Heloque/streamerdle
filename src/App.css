@@ -41,17 +41,6 @@
   }
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-  background-color: #f0f0f0;
-  background-image: url('./background.png');
-  background-size: cover; 
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
 .footer {
   flex-shrink: 0;
   background-color: #f4f4f4;
@@ -77,4 +66,21 @@ body {
   flex: 1;
   overflow-y: auto;
   padding-bottom: 20px;
+}
+
+.quadrillage {
+  background:
+      repeating-linear-gradient(
+          0deg,
+          transparent, 
+          transparent 19.5px, 
+          black 20px
+      ),
+      repeating-linear-gradient(
+          90deg,
+          #EAF9EC, 
+          #EAF9EC 19.5px, 
+          black 20px
+      );
+
 }
