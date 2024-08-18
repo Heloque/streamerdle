@@ -12,12 +12,14 @@ const Home = ({ dailyElement }) => {
 
     useEffect(() => {
         const savedCards = JSON.parse(localStorage.getItem('selectedOptions'));
-        const savedElement = JSON.parse(localStorage.getItem('dailyElement'));
 
-        if (savedCards && savedElement && savedElement.code === dailyElement.code) {
+        if (savedCards) {
             setSelectedOptions(savedCards);
             setIsCorrect(true);
             setShowPopup(true);
+        } else {
+            setIsCorrect(false);
+            setShowPopup(false);
         }
     }, [dailyElement]);
 
@@ -48,17 +50,25 @@ const Home = ({ dailyElement }) => {
         const updatedOptions = [selectedOption, ...selectedOptions];
         setSelectedOptions(updatedOptions);
 
-        if (selectedOption.code === dailyElement.code) {
+        if (selectedOption.id === dailyElement) {
             setShowPopup(true);
             setIsCorrect(true);
             localStorage.setItem('selectedOptions', JSON.stringify(updatedOptions));
-            localStorage.setItem('dailyElement', JSON.stringify(dailyElement));
         }
     };
 
     const handleCopyResults = () => {
+        const dailyColor = data.find(item => item.id === dailyElement);
+        
         const attempts = selectedOptions.map(option => {
-            return option.code === dailyElement.code ? '🟩' : '🟥';
+            const resultRow = [
+                option.tint === dailyColor.tint ? '🟩' : '🟥',
+                option.luminosity === dailyColor.luminosity ? '🟩' : '🟥',
+                option.name_type === dailyColor.name_type ? '🟩' : '🟥',
+                option.major_color === dailyColor.major_color ? '🟩' : '🟥',
+                option.secondary_color === dailyColor.secondary_color ? '🟩' : '🟥'
+            ].join('');
+            return resultRow;
         });
 
         const resultText = `J'ai deviné la couleur du jour sur #Colordle en ${selectedOptions.length} essais! 🕵️🔎🔄\n\n${attempts.join('\n')}\n\nJouez sur colordle.com 🎮!`;

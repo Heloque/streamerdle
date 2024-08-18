@@ -5,15 +5,13 @@ const getRandomElement = (array) => {
   let randomIndex;
   do {
     randomIndex = Math.floor(Math.random() * array.length);
-  } while (randomIndex == currentIndex)
+  } while (randomIndex === currentIndex)
   return randomIndex;
 };
 
 const getDailyElement = () => {
   const today = new Date();
-  const offsetMinute = - today.getTimezoneOffset();
-  const todayFrance = new Date(date.getTime() + offsetMinute * 60 * 1000).toISOString().split('T')[0];
-
+  const todayFrance = new Date(today.getTime()).toISOString().split('T')[0];
   const storedDate = localStorage.getItem('date');
   const storedElement = localStorage.getItem('dailyElement');
 

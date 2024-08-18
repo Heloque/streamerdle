@@ -13,7 +13,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
       </header>
-      <Home dailyElement={dailyElement}/>
+      <body>
+        <Home dailyElement={dailyElement}/>
+      </body>
       <footer className="footer">
       <div className="footer-content">
         <p>© {currentYear} J-M. Bigras. All rights reserved.</p>
