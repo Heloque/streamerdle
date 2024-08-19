@@ -129,4 +129,8 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
+# Ignore MacOS file
 .DS_Store
+
+# Ignore build directory
+build/
