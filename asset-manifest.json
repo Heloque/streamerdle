@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/colordle/static/css/main.3fb41fbd.css",
-    "main.js": "/colordle/static/js/main.db884438.js",
+    "main.css": "/colordle/static/css/main.e9a4e51d.css",
+    "main.js": "/colordle/static/js/main.3c9fe93e.js",
     "static/js/453.40f3473e.chunk.js": "/colordle/static/js/453.40f3473e.chunk.js",
     "static/media/colordle-logo.png": "/colordle/static/media/colordle-logo.a61650eee8456200b7e0.png",
     "index.html": "/colordle/index.html",
-    "main.3fb41fbd.css.map": "/colordle/static/css/main.3fb41fbd.css.map",
-    "main.db884438.js.map": "/colordle/static/js/main.db884438.js.map",
+    "main.e9a4e51d.css.map": "/colordle/static/css/main.e9a4e51d.css.map",
+    "main.3c9fe93e.js.map": "/colordle/static/js/main.3c9fe93e.js.map",
     "453.40f3473e.chunk.js.map": "/colordle/static/js/453.40f3473e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3fb41fbd.css",
-    "static/js/main.db884438.js"
+    "static/css/main.e9a4e51d.css",
+    "static/js/main.3c9fe93e.js"
   ]
 }
