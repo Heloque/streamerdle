@@ -331,17 +331,17 @@
     },
     {
       "id": 30 ,
-      "code": "#faea73",
-      "name": "Topaze",
+      "code": "#e8d630",
+      "name": "Blé",
       "tint": "Jaune",
-      "luminosity": "Clair",
-      "name_type": "Materiel",
+      "luminosity": "Foncé",
+      "name_type": "Nourriture",
       "major_color": "Rouge",
       "secondary_color": "Vert"
     },
     {
       "id": 31 ,
-      "code": "#e8d630",
+      "code": "#ffcb60",
       "name": "Aurore",
       "tint": "Jaune",
       "luminosity": "Clair",

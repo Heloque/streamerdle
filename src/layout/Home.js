@@ -44,10 +44,18 @@ const Home = ({ dailyElement }) => {
             ...provided,
             backgroundColor: state.data.code,
             color: '#fff',
+            textAlign: 'center',
         }),
         singleValue: (provided, state) => ({
             ...provided,
             color: state.data.code,
+            textAlign: 'center',
+            width: '100%',
+        }),
+        control: (provided) => ({
+            ...provided,
+            textAlign: 'center', 
+            justifyContent: 'center',
         }),
     };
 
