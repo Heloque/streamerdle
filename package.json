@@ -1,7 +1,7 @@
 {
   "name": "colordle",
   "homepage": "https://heloisesuat.github.io/colordle",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.4.2",

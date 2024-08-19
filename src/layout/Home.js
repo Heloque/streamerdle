@@ -95,7 +95,7 @@ const Home = ({ dailyElement }) => {
         <div className={styles.container}>
             <div className={styles.selectorContainer}>
                 <div className={styles.title}>
-                    Guess the color of the day!
+                    Devine la couleur du jour!
                 </div>
                 <Select
                     options={options}
@@ -126,11 +126,11 @@ const Home = ({ dailyElement }) => {
                 <>
                     <div className={styles.overlay}></div>
                     <div className={styles.popup}>
-                        <h2>Congratulations!</h2>
-                        <p>You guessed the color of the day!</p>
+                        <h2>Félicitations!</h2>
+                        <p>Tu as deviné la couleur du jour!</p>
                         <div className={styles['button-container']}>
-                            <button onClick={handleCopyResults}>Copy Results</button>
-                            <button onClick={() => setShowPopup(false)}>Close</button>
+                            <button onClick={handleCopyResults}>Copier le résultat</button>
+                            <button onClick={() => setShowPopup(false)}>Fermer</button>
                         </div>
                     </div>
                 </>            
