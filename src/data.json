@@ -6,428 +6,378 @@
     "most_stream_game": ["Elden Ring", "Just Chatting", "Minecraft"],
     "average_viewer": 6400,
     "zevent": true,
-    "age": 28,
+    "date_birth": "1996/08/02",
     "date_created": 2015
   },
   {
     "id": 1,
     "name": "KAMET0",
-    "picture_url": "./pictures/kameto.png",
-    "most_stream_game": ["", "", ""],
-    "average_viewer": 0,
-    "zevent": null,
-    "age": 0,
-    "date_created": 0
+    "picture_url": "./pictures/kameto.jpg",
+    "most_stream_game": ["Garry's Mod", "League of Legends", "Just Chatting"],
+    "average_viewer": 21700,
+    "zevent": true,
+    "date_birth": "1995/06/27",
+    "date_created": 2011
   },
   {
     "id": 2,
     "name": "JLTOMY",
     "picture_url": "./pictures/jltomy.png",
-    "most_stream_game": ["", "", ""],
-    "average_viewer": 0,
-    "zevent": null,
-    "age": 0,
-    "date_created": 0
+    "most_stream_game": ["Grand Theft Auto V", "Just Chatting", "VALORANT"],
+    "average_viewer": 13100,
+    "zevent": true,
+    "date_birth": "1996/12/17",
+    "date_created": 2017
   },
   {
     "id": 3,
     "name": "SQUEEZIE",
     "picture_url": "./pictures/squeezie.png",
-    "most_stream_game": ["", "", ""],
-    "average_viewer": 0,
-    "zevent": null,
-    "age": 0,
-    "date_created": 0
+    "most_stream_game": ["VALORANT", "Red Dead Redemption 2", "Just Chatting"],
+    "average_viewer": 27700,
+    "zevent": true,
+    "date_birth": "1996/01/27",
+    "date_created": 2013
   },
   {
     "id": 4,
     "name": "ZERATOR",
     "picture_url": "./pictures/zerator.png",
-    "most_stream_game": ["", "", ""],
-    "average_viewer": 0,
-    "zevent": null,
-    "age": 0,
-    "date_created": 0
+    "most_stream_game": ["World of Warcraft", "VALORANT", "Just Chatting"],
+    "average_viewer": 14500,
+    "zevent": true,
+    "date_birth": "1990/03/01",
+    "date_created": 2013
   },
   {
     "id": 5,
     "name": "GOTAGA",
     "picture_url": "./pictures/gotaga.png",
-    "most_stream_game": ["", "", ""],
-    "average_viewer": 0,
-    "zevent": null,
-    "age": 0,
-    "date_created": 0
+    "most_stream_game": ["Teamfight Tactics", "VALORANT", "Rocket League"],
+    "average_viewer": 13600,
+    "zevent": true,
+    "date_birth": "1993/09/07",
+    "date_created": 2011
   },
   {
     "id": 6,
     "name": "NIKOF",
     "picture_url": "./pictures/nikof.png",
-    "most_stream_game": ["", "", ""],
-    "average_viewer": 0,
-    "zevent": null,
-    "age": 0,
-    "date_created": 0
+    "most_stream_game": ["Fortnite", "Rocket League", "Just Chatting"],
+    "average_viewer": 9900,
+    "zevent": false,
+    "date_birth": "2000/02/04",
+    "date_created": 2015
   },
   {
     "id": 7,
     "name": "LOCKLEAR",
     "picture_url": "./pictures/locklear.png",
-    "most_stream_game": ["", "", ""],
-    "average_viewer": 0,
-    "zevent": null,
-    "age": 0,
-    "date_created": 0
+    "most_stream_game": ["Just Chatting", "Grand Theft Auto V", "Delta Force"],
+    "average_viewer": 7400,
+    "zevent": true,
+    "date_birth": "1990/10/05",
+    "date_created": 2016
   },
   {
     "id": 8,
     "name": "JOUEUR_DU_GRENIER",
     "picture_url": "./pictures/jdg.png",
-    "most_stream_game": ["", "", ""],
-    "average_viewer": 0,
-    "zevent": null,
-    "age": 0,
-    "date_created": 0
+    "most_stream_game": ["Just Chatting", "Lethal Company", "FINAL FANTASY VII REBIRTH"],
+    "average_viewer": 8600,
+    "zevent": true,
+    "date_birth": "1982/11/26",
+    "date_created": 2014
   },
   {
     "id": 9,
-    "name": "WANKILSTUDIO",
-    "picture_url": "./pictures/wankil.png",
-    "most_stream_game": ["", "", ""],
-    "average_viewer": 0,
-    "zevent": null,
-    "age": 0,
-    "date_created": 0
+    "name": "LAINK",
+    "picture_url": "./pictures/laink.png",
+    "most_stream_game": ["Islands of Insight", "Just Chatting", "7 Days to Die"],
+    "average_viewer": 1900,
+    "zevent": true,
+    "date_birth": "1992/01/08",
+    "date_created": 2015
   },
   {
     "id": 10,
     "name": "MISTERMV",
     "picture_url": "./pictures/mistermv.png",
-    "most_stream_game": ["", "", ""],
-    "average_viewer": 0,
-    "zevent": null,
-    "age": 0,
-    "date_created": 0
+    "most_stream_game": ["Special Events", "The Binding of Isaac: Repentance", "Teamfight Tactics"],
+    "average_viewer": 10900,
+    "zevent": true,
+    "date_birth": "1980/08/26",
+    "date_created": 2012
   },
   {
     "id": 11,
     "name": "SHISHEYU",
     "picture_url": "./pictures/shisheyu.png",
-    "most_stream_game": ["", "", ""],
-    "average_viewer": 0,
-    "zevent": null,
-    "age": 0,
-    "date_created": 0
+    "most_stream_game": ["The Binding of Isaac: Repentance", "Fallout 4", "Dragon's Dogma II"],
+    "average_viewer": 3400,
+    "zevent": true,
+    "date_birth": "1994/08/08",
+    "date_created": 2014
   },
   {
     "id": 12,
     "name": "SAMUELETIENNE",
     "picture_url": "./pictures/samueletienne.png",
-    "most_stream_game": ["", "", ""],
-    "average_viewer": 0,
-    "zevent": null,
-    "age": 0,
-    "date_created": 0
+    "most_stream_game": ["VALORANT", "Just Chatting", "ELDEN RING"],
+    "average_viewer": 3900,
+    "zevent": false,
+    "date_birth": "1971/05/20",
+    "date_created": 2020
   },
   {
     "id": 13,
     "name": "DOMINGO",
     "picture_url": "./pictures/domingo.png",
-    "most_stream_game": ["", "", ""],
-    "average_viewer": 0,
-    "zevent": null,
-    "age": 0,
-    "date_created": 0
+    "most_stream_game": ["Just Chatting", "Football Manager 2024", "Talk Shows & Podcasts"],
+    "average_viewer": 11600,
+    "zevent": true,
+    "date_birth": "1994/07/12",
+    "date_created": 2013
   },
   {
     "id": 14,
-    "name": "Ponce",
+    "name": "PONCE",
     "picture_url": "./pictures/ponce.png",
-    "most_stream_game": ["", "", ""],
-    "average_viewer": 0,
-    "zevent": null,
-    "age": 0,
-    "date_created": 0
+    "most_stream_game": ["Just Chatting", "Maitre des Fleurs", "Baldur's Gate 3"],
+    "average_viewer": 3600,
+    "zevent": true,
+    "date_birth": "1991/09/21",
+    "date_created": 2013
   },
   {
     "id": 15,
     "name": "ANTOINEDANIEL",
     "picture_url": "./pictures/antoinedaniel.png",
-    "most_stream_game": ["", "", ""],
-    "average_viewer": 0,
-    "zevent": null,
-    "age": 0,
-    "date_created": 0
+    "most_stream_game": ["Apollo Justice: Ace Attorney Trilogy", "VALORANT", "Just Chatting"],
+    "average_viewer": 9900,
+    "zevent": true,
+    "date_birth": "1989/04/23",
+    "date_created": 2016
   },
   {
     "id": 16,
     "name": "TONTON",
     "picture_url": "./pictures/tonton.png",
-    "most_stream_game": ["", "", ""],
-    "average_viewer": 0,
-    "zevent": null,
-    "age": 0,
-    "date_created": 0
+    "most_stream_game": ["Just Chatting", "ELDEN RING", "FINAL FANTASY VII REBIRTH"],
+    "average_viewer": 2900,
+    "zevent": true,
+    "date_birth": "1986/06/02",
+    "date_created": 2014
   },
   {
     "id": 17,
     "name": "MOMAN",
     "picture_url": "./pictures/moman.png",
-    "most_stream_game": ["", "", ""],
-    "average_viewer": 0,
-    "zevent": null,
-    "age": 0,
-    "date_created": 0
+    "most_stream_game": ["Escape from Tarkov", "Grand Theft Auto V", "VALORANT"],
+    "average_viewer": 709,
+    "zevent": true,
+    "date_birth": "1982/12/27",
+    "date_created": 2010
   },
   {
     "id": 18,
     "name": "LAPI",
     "picture_url": "./pictures/lapi.png",
-    "most_stream_game": ["", "", ""],
-    "average_viewer": 0,
-    "zevent": null,
-    "age": 0,
-    "date_created": 0
+    "most_stream_game": ["World of Warcraft", "Last Epoch", "Monster Hunter: World"],
+    "average_viewer": 858,
+    "zevent": true,
+    "date_birth": "1992/05/05",
+    "date_created": 2013
   },
   {
     "id": 19,
     "name": "MASTERSNAKOU",
     "picture_url": "./pictures/mastersnakou.png",
-    "most_stream_game": ["", "", ""],
-    "average_viewer": 0,
-    "zevent": null,
-    "age": 0,
-    "date_created": 0
+    "most_stream_game": ["Grand Theft Auto V", "Just Chatting", "Pacific Drive"],
+    "average_viewer": 6700,
+    "zevent": true,
+    "date_birth": "1988/11/10",
+    "date_created": 2013
   },
   {
     "id": 20,
     "name": "GOBGG",
     "picture_url": "./pictures/gobgg.png",
-    "most_stream_game": ["", "", ""],
-    "average_viewer": 0,
-    "zevent": null,
-    "age": 0,
-    "date_created": 0
+    "most_stream_game": ["League of Legends", "Mount & Blade II: Bannerlord", "7 Days to Die"],
+    "average_viewer": 1300,
+    "zevent": true,
+    "date_birth": "1993/10/21",
+    "date_created": 2013
   },
   {
     "id": 21,
     "name": "SHAUNZ",
     "picture_url": "./pictures/shaunz.png",
-    "most_stream_game": ["", "", ""],
-    "average_viewer": 0,
-    "zevent": null,
-    "age": 0,
-    "date_created": 0
+    "most_stream_game": ["Teamfight Tactics", "Just Chatting", "League of Legends"],
+    "average_viewer": 1600,
+    "zevent": true,
+    "date_birth": "1991/12/02",
+    "date_created": 2013
   },
   {
     "id": 22,
     "name": "DOIGBY",
     "picture_url": "./pictures/doigby.png",
-    "most_stream_game": ["", "", ""],
-    "average_viewer": 0,
-    "zevent": null,
-    "age": 0,
-    "date_created": 0
+    "most_stream_game": ["League of Legends", "Special Events", "Zenless Zone Zero"],
+    "average_viewer": 5600,
+    "zevent": true,
+    "date_birth": "1992/12/09",
+    "date_created": 2011
   },
   {
     "id": 23,
     "name": "MICKALOW",
     "picture_url": "./pictures/mickalow.png",
-    "most_stream_game": ["", "", ""],
-    "average_viewer": 0,
-    "zevent": null,
-    "age": 0,
-    "date_created": 0
+    "most_stream_game": ["VALORANT", "Apex Legends", "Delta Force"],
+    "average_viewer": 705,
+    "zevent": true,
+    "date_birth": "1993/08/08",
+    "date_created": 2012
   },
   {
     "id": 24,
     "name": "CHOWH1",
     "picture_url": "./pictures/chowh1.png",
-    "most_stream_game": ["", "", ""],
-    "average_viewer": 0,
-    "zevent": null,
-    "age": 0,
-    "date_created": 0
+    "most_stream_game": ["Call of Duty: Warzone", "Special Events", "Tom Clancy's Rainbow Six Siege"],
+    "average_viewer": 5200,
+    "zevent": true,
+    "date_birth": "1992/08/21",
+    "date_created": 2016
   },
   {
     "id": 25,
     "name": "LEBOUSEUH",
     "picture_url": "./pictures/lebouseuh.png",
-    "most_stream_game": ["", "", ""],
-    "average_viewer": 0,
-    "zevent": null,
-    "age": 0,
-    "date_created": 0
+    "most_stream_game": ["Just Chatting", "Rocket League", "Supermarket Simulator"],
+    "average_viewer": 2000,
+    "zevent": true,
+    "date_birth": "1994/07/26",
+    "date_created": 2015
   },
   {
     "id": 26,
     "name": "SKYYART",
     "picture_url": "./pictures/skyyart.png",
-    "most_stream_game": ["", "", ""],
-    "average_viewer": 0,
-    "zevent": null,
-    "age": 0,
-    "date_created": 0
+    "most_stream_game": ["League of Legends", "Just Chatting", "Grand Theft Auto V"],
+    "average_viewer": 2900,
+    "zevent": true,
+    "date_birth": "1988/07/19",
+    "date_created": 2014
   },
   {
     "id": 27,
     "name": "LITTLEBIGWHALE",
     "picture_url": "./pictures/littlebigwhale.png",
-    "most_stream_game": ["", "", ""],
-    "average_viewer": 0,
-    "zevent": null,
-    "age": 0,
-    "date_created": 0
+    "most_stream_game": ["PUBG: BATTLEGROUNDS", "Just Chatting", "VALORANT"],
+    "average_viewer": 1600,
+    "zevent": true,
+    "date_birth": "1994/11/13",
+    "date_created": 2016
   },
   {
     "id": 28,
     "name": "MAGHLA",
     "picture_url": "./pictures/maghla.png",
-    "most_stream_game": ["", "", ""],
-    "average_viewer": 0,
-    "zevent": null,
-    "age": 0,
-    "date_created": 0
+    "most_stream_game": ["Just Chatting", "Grand Theft Auto V", "Special Events"],
+    "average_viewer": 4500,
+    "zevent": true,
+    "date_birth": "1993/11/08",
+    "date_created": 2016
   },
   {
     "id": 29,
     "name": "FANTABOBSHOW",
-    "picture_url": "./pictures/fantabobshow.png",
-    "most_stream_game": ["", "", ""],
-    "average_viewer": 0,
-    "zevent": null,
-    "age": 0,
-    "date_created": 0
+    "picture_url": "./pictures/fantabobshow.jpg",
+    "most_stream_game": ["Dragon's Dogma II", "Astral Ascent", "XCOM 2"],
+    "average_viewer": 1100,
+    "zevent": true,
+    "date_birth": "1987/04/03",
+    "date_created": 2012
   },
   {
     "id": 30,
     "name": "MRBBOY45",
     "picture_url": "./pictures/mrbboy45.png",
-    "most_stream_game": ["", "", ""],
-    "average_viewer": 0,
-    "zevent": null,
-    "age": 0,
-    "date_created": 0
+    "most_stream_game": ["Grand Theft Auto V", "Just Chatting", "VALORANT"],
+    "average_viewer": 729,
+    "zevent": false,
+    "date_birth": "1989/08/31",
+    "date_created": 2011
   },
   {
     "id": 31,
     "name": "XARI",
-    "picture_url": "./pictures/xari.png",
-    "most_stream_game": ["", "", ""],
-    "average_viewer": 0,
-    "zevent": null,
-    "age": 0,
-    "date_created": 0
+    "picture_url": "./pictures/xari.jpeg",
+    "most_stream_game": ["Just Chatting", "League of Legends", "TopSpin 2K25"],
+    "average_viewer": 2300,
+    "zevent": true,
+    "date_birth": "1992/05/27",
+    "date_created": 2015
   },
   {
     "id": 32,
     "name": "RHOBALAS_LOL",
     "picture_url": "./pictures/rhobalas_lol.png",
-    "most_stream_game": ["", "", ""],
-    "average_viewer": 0,
-    "zevent": null,
-    "age": 0,
-    "date_created": 0
+    "most_stream_game": ["League of Legends", "I'm Only Sleeping", "FINAL FANTASY XIV ONLINE"],
+    "average_viewer": 980,
+    "zevent": false,
+    "date_birth": "1994/09/23",
+    "date_created": 2017
   },
   {
     "id": 33,
     "name": "GIUS",
     "picture_url": "./pictures/gius.png",
-    "most_stream_game": ["", "", ""],
-    "average_viewer": 0,
-    "zevent": null,
-    "age": 0,
-    "date_created": 0
+    "most_stream_game": ["Just Chatting", "HELLDIVERS 2", "World of Warcraft"],
+    "average_viewer": 566,
+    "zevent": true,
+    "date_birth": "1988/09/04",
+    "date_created": 2014
   },
   {
     "id": 34,
     "name": "KAYDOP",
     "picture_url": "./pictures/kaydop.png",
-    "most_stream_game": ["", "", ""],
-    "average_viewer": 0,
-    "zevent": null,
-    "age": 0,
-    "date_created": 0
+    "most_stream_game": ["Rocket League", "ELDEN RING", "Business Tour"],
+    "average_viewer": 2600,
+    "zevent": false,
+    "date_birth": "1998/05/22",
+    "date_created": 2014
   },
   {
     "id": 35,
     "name": "DRFEELGOOD",
     "picture_url": "./pictures/drfeelgood.png",
-    "most_stream_game": ["", "", ""],
-    "average_viewer": 0,
-    "zevent": null,
-    "age": 0,
-    "date_created": 0
+    "most_stream_game": ["PokéRogue", "Stardew Valley", "League of Legends"],
+    "average_viewer": 1000,
+    "zevent": true,
+    "date_birth": "1995/01/25",
+    "date_created": 2012
   },
   {
     "id": 36,
     "name": "ALEXCLICK",
     "picture_url": "./pictures/alexclick.png",
-    "most_stream_game": ["", "", ""],
-    "average_viewer": 0,
-    "zevent": null,
-    "age": 0,
-    "date_created": 0
+    "most_stream_game": ["Grand Theft Auto V", "Once Human", "PowerWash Simulator"],
+    "average_viewer": 2700,
+    "zevent": true,
+    "date_birth": "1986/12/20",
+    "date_created": 2015
   },
   {
     "id": 37,
     "name": "ULTIA",
     "picture_url": "./pictures/ultia.png",
-    "most_stream_game": ["", "", ""],
-    "average_viewer": 0,
-    "zevent": null,
-    "age": 0,
-    "date_created": 0
-  },
-  {
-    "id": 38,
-    "name": "",
-    "picture_url": "./pictures/.png",
-    "most_stream_game": ["", "", ""],
-    "average_viewer": 0,
-    "zevent": null,
-    "age": 0,
-    "date_created": 0
-  },
-  {
-    "id": 39,
-    "name": "",
-    "picture_url": "./pictures/.png",
-    "most_stream_game": ["", "", ""],
-    "average_viewer": 0,
-    "zevent": null,
-    "age": 0,
-    "date_created": 0
-  },
-  {
-    "id": 40,
-    "name": "",
-    "picture_url": "./pictures/.png",
-    "most_stream_game": ["", "", ""],
-    "average_viewer": 0,
-    "zevent": null,
-    "age": 0,
-    "date_created": 0
-  },
-  {
-    "id": 41,
-    "name": "",
-    "picture_url": "./pictures/.png",
-    "most_stream_game": ["", "", ""],
-    "average_viewer": 0,
-    "zevent": null,
-    "age": 0,
-    "date_created": 0
-  },
-  {
-    "id": 42,
-    "name": "",
-    "picture_url": "./pictures/.png",
-    "most_stream_game": ["", "", ""],
-    "average_viewer": 0,
-    "zevent": null,
-    "age": 0,
-    "date_created": 0
+    "most_stream_game": ["Just Chatting", "Cyberpunk 2077", "Stardew Valley"],
+    "average_viewer": 1000,
+    "zevent": true,
+    "date_birth": "1995/09/11",
+    "date_created": 2014
   }
   ]
   
