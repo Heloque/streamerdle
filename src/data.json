@@ -7,7 +7,7 @@
     "average_viewer": 6400,
     "zevent": true,
     "date_birth": "1996/08/02",
-    "first_stream_year": 2015
+    "creation_date": 2015
   },
   {
     "id": 1,
@@ -17,7 +17,7 @@
     "average_viewer": 21700,
     "zevent": true,
     "date_birth": "1995/06/27",
-    "first_stream_year": 2011
+    "creation_date": 2011
   },
   {
     "id": 2,
@@ -27,7 +27,7 @@
     "average_viewer": 13100,
     "zevent": true,
     "date_birth": "1996/12/17",
-    "first_stream_year": 2017
+    "creation_date": 2017
   },
   {
     "id": 3,
@@ -37,7 +37,7 @@
     "average_viewer": 27700,
     "zevent": true,
     "date_birth": "1996/01/27",
-    "first_stream_year": 2013
+    "creation_date": 2013
   },
   {
     "id": 4,
@@ -47,7 +47,7 @@
     "average_viewer": 14500,
     "zevent": true,
     "date_birth": "1990/03/01",
-    "first_stream_year": 2013
+    "creation_date": 2013
   },
   {
     "id": 5,
@@ -57,7 +57,7 @@
     "average_viewer": 13600,
     "zevent": true,
     "date_birth": "1993/09/07",
-    "first_stream_year": 2011
+    "creation_date": 2011
   },
   {
     "id": 6,
@@ -67,7 +67,7 @@
     "average_viewer": 9900,
     "zevent": false,
     "date_birth": "2000/02/04",
-    "first_stream_year": 2015
+    "creation_date": 2015
   },
   {
     "id": 7,
@@ -77,7 +77,7 @@
     "average_viewer": 7400,
     "zevent": true,
     "date_birth": "1990/10/05",
-    "first_stream_year": 2016
+    "creation_date": 2016
   },
   {
     "id": 8,
@@ -87,7 +87,7 @@
     "average_viewer": 8600,
     "zevent": true,
     "date_birth": "1982/11/26",
-    "first_stream_year": 2014
+    "creation_date": 2014
   },
   {
     "id": 9,
@@ -97,7 +97,7 @@
     "average_viewer": 1900,
     "zevent": true,
     "date_birth": "1992/01/08",
-    "first_stream_year": 2015
+    "creation_date": 2015
   },
   {
     "id": 10,
@@ -107,7 +107,7 @@
     "average_viewer": 10900,
     "zevent": true,
     "date_birth": "1980/08/26",
-    "first_stream_year": 2012
+    "creation_date": 2012
   },
   {
     "id": 11,
@@ -117,7 +117,7 @@
     "average_viewer": 3400,
     "zevent": true,
     "date_birth": "1994/08/08",
-    "first_stream_year": 2014
+    "creation_date": 2014
   },
   {
     "id": 12,
@@ -127,7 +127,7 @@
     "average_viewer": 3900,
     "zevent": false,
     "date_birth": "1971/05/20",
-    "first_stream_year": 2020
+    "creation_date": 2020
   },
   {
     "id": 13,
@@ -137,7 +137,7 @@
     "average_viewer": 11600,
     "zevent": true,
     "date_birth": "1994/07/12",
-    "first_stream_year": 2013
+    "creation_date": 2013
   },
   {
     "id": 14,
@@ -147,7 +147,7 @@
     "average_viewer": 3600,
     "zevent": true,
     "date_birth": "1991/09/21",
-    "first_stream_year": 2013
+    "creation_date": 2013
   },
   {
     "id": 15,
@@ -157,7 +157,7 @@
     "average_viewer": 9900,
     "zevent": true,
     "date_birth": "1989/04/23",
-    "first_stream_year": 2016
+    "creation_date": 2016
   },
   {
     "id": 16,
@@ -167,7 +167,7 @@
     "average_viewer": 2900,
     "zevent": true,
     "date_birth": "1986/06/02",
-    "first_stream_year": 2014
+    "creation_date": 2014
   },
   {
     "id": 17,
@@ -177,7 +177,7 @@
     "average_viewer": 709,
     "zevent": true,
     "date_birth": "1982/12/27",
-    "first_stream_year": 2010
+    "creation_date": 2010
   },
   {
     "id": 18,
@@ -187,7 +187,7 @@
     "average_viewer": 858,
     "zevent": true,
     "date_birth": "1992/05/05",
-    "first_stream_year": 2013
+    "creation_date": 2013
   },
   {
     "id": 19,
@@ -197,7 +197,7 @@
     "average_viewer": 6700,
     "zevent": true,
     "date_birth": "1988/11/10",
-    "first_stream_year": 2013
+    "creation_date": 2013
   },
   {
     "id": 20,
@@ -207,7 +207,7 @@
     "average_viewer": 1300,
     "zevent": true,
     "date_birth": "1993/10/21",
-    "first_stream_year": 2013
+    "creation_date": 2013
   },
   {
     "id": 21,
@@ -217,7 +217,7 @@
     "average_viewer": 1600,
     "zevent": true,
     "date_birth": "1991/12/02",
-    "first_stream_year": 2013
+    "creation_date": 2013
   },
   {
     "id": 22,
@@ -227,7 +227,7 @@
     "average_viewer": 5600,
     "zevent": true,
     "date_birth": "1992/12/09",
-    "first_stream_year": 2011
+    "creation_date": 2011
   },
   {
     "id": 23,
@@ -237,7 +237,7 @@
     "average_viewer": 705,
     "zevent": true,
     "date_birth": "1993/08/08",
-    "first_stream_year": 2012
+    "creation_date": 2012
   },
   {
     "id": 24,
@@ -247,7 +247,7 @@
     "average_viewer": 5200,
     "zevent": true,
     "date_birth": "1992/08/21",
-    "first_stream_year": 2016
+    "creation_date": 2016
   },
   {
     "id": 25,
@@ -257,7 +257,7 @@
     "average_viewer": 2000,
     "zevent": true,
     "date_birth": "1994/07/26",
-    "first_stream_year": 2015
+    "creation_date": 2015
   },
   {
     "id": 26,
@@ -267,7 +267,7 @@
     "average_viewer": 2900,
     "zevent": true,
     "date_birth": "1988/07/19",
-    "first_stream_year": 2014
+    "creation_date": 2014
   },
   {
     "id": 27,
@@ -277,7 +277,7 @@
     "average_viewer": 1600,
     "zevent": true,
     "date_birth": "1994/11/13",
-    "first_stream_year": 2016
+    "creation_date": 2016
   },
   {
     "id": 28,
@@ -287,7 +287,7 @@
     "average_viewer": 4500,
     "zevent": true,
     "date_birth": "1993/11/08",
-    "first_stream_year": 2016
+    "creation_date": 2016
   },
   {
     "id": 29,
@@ -297,7 +297,7 @@
     "average_viewer": 1100,
     "zevent": true,
     "date_birth": "1987/04/03",
-    "first_stream_year": 2012
+    "creation_date": 2012
   },
   {
     "id": 30,
@@ -307,7 +307,7 @@
     "average_viewer": 729,
     "zevent": false,
     "date_birth": "1989/08/31",
-    "first_stream_year": 2011
+    "creation_date": 2011
   },
   {
     "id": 31,
@@ -317,7 +317,7 @@
     "average_viewer": 2300,
     "zevent": true,
     "date_birth": "1992/05/27",
-    "first_stream_year": 2015
+    "creation_date": 2015
   },
   {
     "id": 32,
@@ -327,7 +327,7 @@
     "average_viewer": 980,
     "zevent": false,
     "date_birth": "1994/09/23",
-    "first_stream_year": 2017
+    "creation_date": 2017
   },
   {
     "id": 33,
@@ -337,7 +337,7 @@
     "average_viewer": 566,
     "zevent": true,
     "date_birth": "1988/09/04",
-    "first_stream_year": 2014
+    "creation_date": 2014
   },
   {
     "id": 34,
@@ -347,7 +347,7 @@
     "average_viewer": 2600,
     "zevent": false,
     "date_birth": "1998/05/22",
-    "first_stream_year": 2014
+    "creation_date": 2014
   },
   {
     "id": 35,
@@ -357,7 +357,7 @@
     "average_viewer": 1000,
     "zevent": true,
     "date_birth": "1995/01/25",
-    "first_stream_year": 2012
+    "creation_date": 2012
   },
   {
     "id": 36,
@@ -367,7 +367,7 @@
     "average_viewer": 2700,
     "zevent": true,
     "date_birth": "1986/12/20",
-    "first_stream_year": 2015
+    "creation_date": 2015
   },
   {
     "id": 37,
@@ -377,7 +377,7 @@
     "average_viewer": 1000,
     "zevent": true,
     "date_birth": "1995/09/11",
-    "first_stream_year": 2014
+    "creation_date": 2014
   }
   ]
   
