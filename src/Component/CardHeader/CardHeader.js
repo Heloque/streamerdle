@@ -10,10 +10,10 @@ const CardHeader = () => {
         <div className={styles.container}>
             <div className={styles.card}>
                 <div className={styles.colorBox}>
-                    Couleur
+                    Streamer
                 </div>
                 <div className={styles.colorBox}>
-                    <span className={styles.attributeName}>Teinte</span>
+                    <span className={styles.attributeName}>Jeux les plus streamés</span>
                     <Tippy
                         content={"Couleur perçue\n(Rouge, Vert, Bleu, Jaune, Violet, Marron, Rose ou Orange)"}
                         trigger="mouseenter"
@@ -25,7 +25,7 @@ const CardHeader = () => {
                     </Tippy>
                 </div>
                 <div className={styles.colorBox}>
-                    <span className={styles.attributeName}>Luminosité</span>
+                    <span className={styles.attributeName}>Nombre de viewers moyen</span>
                     <Tippy
                         content={"Puissance lumineuse\n(Foncé ou Clair)"}
                         trigger="mouseenter"
@@ -37,7 +37,7 @@ const CardHeader = () => {
                     </Tippy>
                 </div>
                 <div className={styles.colorBox}>
-                    <span className={styles.attributeName}>Catégorie de nom</span>
+                    <span className={styles.attributeName}>À participé au ZEvent</span>
                     <Tippy
                         content={"Référence liée au nom\n(Nourriture, Concept, Fleur, Lieu, Matériel ou Animal)"}
                         trigger="mouseenter"
@@ -49,7 +49,7 @@ const CardHeader = () => {
                     </Tippy>
                 </div>
                 <div className={styles.colorBox}>
-                    <span className={styles.attributeName}>Couleur dominante</span>
+                    <span className={styles.attributeName}>Âge</span>
                     <Tippy
                         content={"Couleur dominante dans le code RGB\n(Rouge, Vert ou Bleu)"}
                         trigger="mouseenter"
@@ -61,7 +61,7 @@ const CardHeader = () => {
                     </Tippy>
                 </div>
                 <div className={styles.colorBox}>
-                    <span className={styles.attributeName}>Couleur secondaire</span>
+                    <span className={styles.attributeName}>Création de la chaîne</span>
                     <Tippy
                         content={"Couleur secondaire dans le code RGB\n(Rouge, Vert ou Bleu)"}
                         trigger="mouseenter"

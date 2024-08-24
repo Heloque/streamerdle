@@ -28,27 +28,24 @@ const Home = ({ dailyElement }) => {
         }
     }, [dailyElement]);
 
-    const options = data.map(({ id, name, code, tint, luminosity, name_type, major_color, secondary_color }) => ({
+    const options = data.map(({ id, name, picture_url, most_stream_game, average_viewer, zevent, date_birth, date_created }) => ({
         value: id,
         label: name,
-        code,
-        tint,
-        luminosity,
-        name_type,
-        major_color,
-        secondary_color
+        picture_url,
+        most_stream_game,
+        average_viewer,
+        zevent,
+        date_birth,
+        date_created
     }));
 
     const customStyles = {
         option: (provided, state) => ({
             ...provided,
-            backgroundColor: state.data.code,
-            color: '#fff',
             textAlign: 'center',
         }),
         singleValue: (provided, state) => ({
             ...provided,
-            color: state.data.code,
             textAlign: 'center',
             width: '100%',
         }),
@@ -75,11 +72,11 @@ const Home = ({ dailyElement }) => {
         
         const attempts = selectedOptions.map(option => {
             const resultRow = [
-                option.tint === dailyColor.tint ? '🟩' : '🟥',
-                option.luminosity === dailyColor.luminosity ? '🟩' : '🟥',
-                option.name_type === dailyColor.name_type ? '🟩' : '🟥',
-                option.major_color === dailyColor.major_color ? '🟩' : '🟥',
-                option.secondary_color === dailyColor.secondary_color ? '🟩' : '🟥'
+                option.most_stream_game === dailyColor.most_stream_game ? '🟩' : '🟥',
+                option.average_viewer === dailyColor.average_viewer ? '🟩' : '🟥',
+                option.zevent === dailyColor.zevent ? '🟩' : '🟥',
+                option.date_birth === dailyColor.date_birth ? '🟩' : '🟥',
+                option.date_created === dailyColor.date_created ? '🟩' : '🟥'
             ].join('');
             return resultRow;
         });
@@ -113,12 +110,12 @@ const Home = ({ dailyElement }) => {
                         key={index}
                         dailyElement={dailyElement}
                         name={option.label}
-                        code={option.code}
-                        tint={option.tint}
-                        luminosity={option.luminosity}
-                        name_type={option.name_type}
-                        major_color={option.major_color}
-                        secondary_color={option.secondary_color}
+                        picture_url={option.picture_url}
+                        most_stream_game={option.most_stream_game}
+                        average_viewer={option.average_viewer}
+                        zevent={option.zevent}
+                        date_birth={option.date_birth}
+                        date_created={option.date_created}
                     />
                 ))}
             </div>
