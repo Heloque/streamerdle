@@ -28,7 +28,7 @@ const Home = ({ dailyElement }) => {
         }
     }, [dailyElement]);
 
-    const options = data.map(({ id, name, picture_url, most_stream_game, average_viewer, zevent, date_birth, date_created }) => ({
+    const options = data.map(({ id, name, picture_url, most_stream_game, average_viewer, zevent, date_birth, creation_date }) => ({
         value: id,
         label: name,
         picture_url,
@@ -36,7 +36,7 @@ const Home = ({ dailyElement }) => {
         average_viewer,
         zevent,
         date_birth,
-        date_created
+        creation_date
     }));
 
     const customStyles = {
@@ -76,12 +76,12 @@ const Home = ({ dailyElement }) => {
                 option.average_viewer === dailyColor.average_viewer ? '🟩' : '🟥',
                 option.zevent === dailyColor.zevent ? '🟩' : '🟥',
                 option.date_birth === dailyColor.date_birth ? '🟩' : '🟥',
-                option.date_created === dailyColor.date_created ? '🟩' : '🟥'
+                option.creation_date === dailyColor.creation_date ? '🟩' : '🟥'
             ].join('');
             return resultRow;
         });
 
-        const resultText = `J'ai deviné la couleur du jour sur #Colordle en ${selectedOptions.length} essais! 🕵️🔎🔄\n\n${attempts.join('\n')}\n\nJouez sur https://colordle.fr 🎮!`;
+        const resultText = `J'ai deviné le streamer du jour sur #Streamerdle en ${selectedOptions.length} essai(s)! 🕵️🔎🔄\n\n${attempts.join('\n')}\n\nJouez sur https://streamerdle.fr 🎮!`;
 
         navigator.clipboard.writeText(resultText).then(() => {
             alert('Résultats copiés dans le presse-papiers!');
@@ -91,9 +91,6 @@ const Home = ({ dailyElement }) => {
     return (
         <div className={styles.container}>
             <div className={styles.selectorContainer}>
-                <div className={styles.title}>
-                    Devine la couleur du jour!
-                </div>
                 <Select
                     options={options}
                     styles={customStyles}
@@ -115,7 +112,7 @@ const Home = ({ dailyElement }) => {
                         average_viewer={option.average_viewer}
                         zevent={option.zevent}
                         date_birth={option.date_birth}
-                        date_created={option.date_created}
+                        creation_date={option.creation_date}
                     />
                 ))}
             </div>

@@ -10,19 +10,20 @@
     gap: 4.5vw;
     align-items: center;
     padding: 0.75rem;
-    background-color: #f9f9f9;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    background-color: #FFFFEF;
     border-radius: 8px;
     margin: 0.575rem auto;
-    height: 8vh;
+    height: 15vh;
     width: 90vw;
+    border: 1.5px solid rgb(16, 137, 16, 0.5);
 }
 
 .colorBox {
     color: white;
     width: 10vw;
-    height: 8vh;
+    height: 15vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 4px;
@@ -31,12 +32,29 @@
     font-size: clamp(8px, 1.4vw, 16px);
 }
 
+.colorBox img {
+    width: 10vh;
+    height: 10vh;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.colorBox p {
+    margin-top: 1vh;
+    font-size: clamp(8px, 1.4vw, 16px);
+    color: #333;
+}
+
 .attributeName {
     padding: 1vw;
 }
 
-img {
-    width: 10vh;
-    height: 10vh;
-    object-fit: cover;
-  }
+.gameItem {
+    padding: 0.575vh 0.575vh;
+    border-bottom: 1px solid #ccc;
+}
+  
+.gameItem:last-child {
+    border-bottom: none;
+}

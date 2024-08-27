@@ -20,9 +20,10 @@ const EnhancedCard = ({dailyElement, date_birth, ...props}) => {
     };
 
     const age = calculateAge(date_birth);
-  
+    const dailyAge = calculateAge(dailyElementFull.date_birth);
+
     return (
-        <Card dailyElementFull={dailyElementFull} age={age} {...props} />
+        <Card dailyElementFull={dailyElementFull} age={age} dailyAge={dailyAge} {...props} />
     );
 };
 
