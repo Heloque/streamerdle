@@ -1,52 +1,39 @@
 import logo from './streamerdle_logo.png';
+import Game from './layout/Game.js';
 import Home from './layout/Home.js';
 import getDailyElement from './utils/elementGetter.js';
 import getRandomElement from './utils/elementGetter.js';
 import './App.css';
-
-const Display = {
-	Home: 0,
-	Daily: 1,
-	Infinite: 2,
-}
-
-currentDisplay = Display.Daily;
-
-function ChoseDisplay() {
-  switch (currentDisplay) {
-    case Display.Home:
-      return;
-
-    case Display.Daily:
-      const dailyElement = getDailyElement();
-      return <Home dailyElement={dailyElement}/>
-
-    case Display.Infinite:
-      const randomElement = getRandomElement();
-      return <Home dailyElement={randomElement}/>
-  
-    default:
-      return;
-  }
-}
+import React, { useState, useEffect } from 'react';
 
 function App() {
   
-  const currentYear = new Date().getFullYear();
-  const version = "1.0.0";
-  
+  const [mod, setMod] = useState("home");
+  const currentYear = 2024;
+  const version = "1.0.0";  
 
   return (
     <div className="App quadrillage">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <span style={{fontWeight: "bold"}}>STREAMERDLE #{1}</span>
+        <span style={{fontWeight: "bold"}}>STREAMERDLE</span>
         <a href="https://colordle.fr" target="_blank" rel="noopener noreferrer" className="play-button">Jouer à Colordle</a>
       </header>
       <main>
-        
-        <ChoseDisplay/>
-        
+        {mod === "home" && (
+          <Home setMod={setMod}/>
+          )
+        }
+        {mod === "daily" && (
+          <Game chosenElement={getDailyElement()} mod={mod} setMod={setMod}/>
+          )
+        }
+        {mod === "infinite" && (
+          <Game chosenElement={getRandomElement()} mod={mod} setMod={setMod}/>
+          )
+        }
+                  
+
       </main>
       <footer className="footer">
       <div className="footer-content">
