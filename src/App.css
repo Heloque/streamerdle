@@ -4,11 +4,6 @@
   min-height: 100vh;
 }
 
-.App-logo {
-  height: 15vmin;
-  pointer-events: none;
-}
-
 /* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -21,12 +16,13 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  background-color: #FFFFEF;
-  margin-bottom: 1rem;
-  border-bottom: 1.5px solid rgb(16, 137, 16, 0.5);
+  background-color: #1f1f1c;
+  margin-bottom: 3rem;
+  border-bottom: 1.5px solid rgb(159, 193, 49, 0.5);
   position: sticky; 
   top: 0;
   z-index: 1000;
+  color: white;
 }
 
 .App-logo {
@@ -36,6 +32,26 @@
   width: 13vh;
 }
 
+.play-button {
+  position: absolute;
+  right: 2vw;
+  height: 3vh;
+  width: 9vw;
+  padding: 0.5rem 1rem;
+  background-color: #1f1f1c;
+  border: 1.5px solid #9FC131;
+  color: #9FC131;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+  font-size: clamp(8px, 1.4vw, 16px);
+}
+
+.play-button:hover {
+  box-shadow: 0 0 10px #9FC131;
+}
 
 @keyframes App-logo-spin {
   from {
@@ -53,17 +69,28 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #FFFFEF;
+  background-color: #1f1f1c;
   bottom: 0;
   width: 100vw;
-  border-top: 1.5px solid rgb(16, 137, 16, 0.5);
+  border-top: 1.5px solid rgb(159, 193, 49, 0.5);
 }
 
 .footer-content {
   display: flex;
   justify-content: space-between;
   font-size: 0.675rem;
-  color: #333;
+  color: white;
+}
+
+.footer-link {
+  font-weight: bold;
+  color: #9FC131;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
 }
 
 .main-content {
@@ -73,10 +100,10 @@
 }
 
 .quadrillage {
-  background-color: #cae6ca;
+  background-color: #0b1c0a;
   background-image:
-    radial-gradient(circle, rgb(103, 121, 87, 0.5) 1px, transparent 1px),
-    radial-gradient(circle, rgb(103, 121, 87, 0.5) 1px, transparent 1px);
+    radial-gradient(circle, rgb(159, 193, 49, 0.15) 1px, transparent 1px),
+    radial-gradient(circle, rgb(159, 193, 49, 0.15) 1px, transparent 1px);
   background-size: 20px 20px;
   background-position: 0 0, 10px 10px;
 }

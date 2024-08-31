@@ -37,7 +37,7 @@ const CardHeader = () => {
                     </Tippy>
                 </div>
                 <div className={styles.colorBox}>
-                    <span className={styles.attributeName}>À participé au ZEvent</span>
+                    <span className={styles.attributeName}>A déjà été banni</span>
                     <Tippy
                         content={"Référence liée au nom\n(Nourriture, Concept, Fleur, Lieu, Matériel ou Animal)"}
                         trigger="mouseenter"

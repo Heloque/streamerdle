@@ -2,11 +2,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
 }
 
 .selectorContainer {
     width: 90vw;
+    margin-bottom: 3rem;
 }
 
 .title {
@@ -17,9 +17,9 @@
 
 .cardContainer {
     width: 100%;
-    margin-top: 1rem;
     display: flex;
     flex-direction: column;
+    margin-bottom: 3rem;
 }
 
 .popup {

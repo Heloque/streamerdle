@@ -28,13 +28,13 @@ const Home = ({ dailyElement }) => {
         }
     }, [dailyElement]);
 
-    const options = data.map(({ id, name, picture_url, most_stream_game, average_viewer, zevent, date_birth, creation_date }) => ({
+    const options = data.map(({ id, name, picture_url, most_stream_game, average_viewer, banned, date_birth, creation_date }) => ({
         value: id,
         label: name,
         picture_url,
         most_stream_game,
         average_viewer,
-        zevent,
+        banned,
         date_birth,
         creation_date
     }));
@@ -74,7 +74,7 @@ const Home = ({ dailyElement }) => {
             const resultRow = [
                 option.most_stream_game === dailyColor.most_stream_game ? '🟩' : '🟥',
                 option.average_viewer === dailyColor.average_viewer ? '🟩' : '🟥',
-                option.zevent === dailyColor.zevent ? '🟩' : '🟥',
+                option.banned === dailyColor.banned ? '🟩' : '🟥',
                 option.date_birth === dailyColor.date_birth ? '🟩' : '🟥',
                 option.creation_date === dailyColor.creation_date ? '🟩' : '🟥'
             ].join('');
@@ -110,7 +110,7 @@ const Home = ({ dailyElement }) => {
                         picture_url={option.picture_url}
                         most_stream_game={option.most_stream_game}
                         average_viewer={option.average_viewer}
-                        zevent={option.zevent}
+                        banned={option.banned}
                         date_birth={option.date_birth}
                         creation_date={option.creation_date}
                     />

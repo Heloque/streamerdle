@@ -34,7 +34,7 @@ const determineArrowStyle = (dailyAverage, viewerAverage) => {
   };
 };
 
-const Card = ({ dailyElementFull, dailyAge, name, picture_url, most_stream_game, average_viewer, zevent, age, creation_date }) => {
+const Card = ({ dailyElementFull, dailyAge, name, picture_url, most_stream_game, average_viewer, banned, age, creation_date }) => {
   
   const mostStreamGameBg = determineMostStreamGameBg(dailyElementFull.most_stream_game, most_stream_game);
 
@@ -60,8 +60,8 @@ const Card = ({ dailyElementFull, dailyAge, name, picture_url, most_stream_game,
         <div className={styles.colorBox} style={determineArrowStyle(dailyElementFull.average_viewer, average_viewer)}>
           <span className={styles.attributeName}>{average_viewer}</span>
         </div>
-        <div className={styles.colorBox} style={{ backgroundColor: dailyElementFull.zevent === zevent ? "#108910" : "#D42D2D" }}>
-          <span className={styles.attributeName}>{zevent ? "Oui" : "Non"}</span>
+        <div className={styles.colorBox} style={{ backgroundColor: dailyElementFull.banned === banned ? "#108910" : "#D42D2D" }}>
+          <span className={styles.attributeName}>{banned ? "Oui" : "Non"}</span>
         </div>
         <div className={styles.colorBox} style={determineArrowStyle(dailyAge, age)}>
           <span className={styles.attributeName}>{age} ans</span>
