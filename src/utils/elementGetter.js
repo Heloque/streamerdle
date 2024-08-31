@@ -32,7 +32,7 @@ function hashDate(date, plafond) {
   return Math.floor(uniformHash);
 };
 
-const getDailyElement = () => {
+export const getDailyElement = () => {
   const today = new Date();
   const todayFrance = new Date(today.getTime()).toISOString().split('T')[0];
   const storedDate = localStorage.getItem('date');
@@ -44,4 +44,8 @@ const getDailyElement = () => {
   return hashDate(todayFrance, data.length);
 };
 
-export default getDailyElement;
+export const getRandomElement = () => {
+  return Math.floor(Math.random() * (data.length + 1));
+};
+
+

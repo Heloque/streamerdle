@@ -1,12 +1,40 @@
 import logo from './streamerdle_logo.png';
 import Home from './layout/Home.js';
-import getDailyElement from './utils/randomColor';
+import getDailyElement from './utils/elementGetter.js';
+import getRandomElement from './utils/elementGetter.js';
 import './App.css';
 
+const Display = {
+	Home: 0,
+	Daily: 1,
+	Infinite: 2,
+}
+
+currentDisplay = Display.Daily;
+
+function ChoseDisplay() {
+  switch (currentDisplay) {
+    case Display.Home:
+      return;
+
+    case Display.Daily:
+      const dailyElement = getDailyElement();
+      return <Home dailyElement={dailyElement}/>
+
+    case Display.Infinite:
+      const randomElement = getRandomElement();
+      return <Home dailyElement={randomElement}/>
+  
+    default:
+      return;
+  }
+}
+
 function App() {
+  
   const currentYear = new Date().getFullYear();
   const version = "1.0.0";
-  const dailyElement = getDailyElement();
+  
 
   return (
     <div className="App quadrillage">
@@ -16,7 +44,9 @@ function App() {
         <a href="https://colordle.fr" target="_blank" rel="noopener noreferrer" className="play-button">Jouer à Colordle</a>
       </header>
       <main>
-        <Home dailyElement={dailyElement}/>
+        
+        <ChoseDisplay/>
+        
       </main>
       <footer className="footer">
       <div className="footer-content">
