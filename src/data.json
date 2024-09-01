@@ -1,153 +1,53 @@
 [
   {
-    "id": 0,
-    "name": "Etoiles",
-    "picture_url": "/Pictures/etoiles.png",
-    "most_stream_game": ["ELDEN RING", "Just Chatting", "Minecraft"],
-    "average_viewer": 6400,
-    "banned": false,
-    "date_birth": "1996/08/02",
-    "creation_date": 2015
-  },
-  {
-    "id": 1,
-    "name": "Kamet0",
-    "picture_url": "/Pictures/kameto.jpg",
-    "most_stream_game": ["Garry's Mod", "League of Legends", "Just Chatting"],
-    "average_viewer": 21700,
-    "banned": false,
-    "date_birth": "1995/06/27",
-    "creation_date": 2011
-  },
-  {
-    "id": 2,
-    "name": "JLTomy",
-    "picture_url": "/Pictures/jltomy.png",
-    "most_stream_game": ["Grand Theft Auto V", "Just Chatting", "VALORANT"],
-    "average_viewer": 13100,
-    "banned": true,
-    "date_birth": "1996/12/17",
-    "creation_date": 2017
-  },
-  {
-    "id": 3,
-    "name": "Squeezie",
-    "picture_url": "/Pictures/squeezie.png",
-    "most_stream_game": ["VALORANT", "Red Dead Redemption 2", "Just Chatting"],
-    "average_viewer": 27700,
-    "banned": false,
-    "date_birth": "1996/01/27",
-    "creation_date": 2013
-  },
-  {
-    "id": 4,
-    "name": "ZeratoR",
-    "picture_url": "/Pictures/zerator.png",
-    "most_stream_game": ["World of Warcraft", "VALORANT", "Just Chatting"],
-    "average_viewer": 14500,
-    "banned": false,
-    "date_birth": "1990/03/01",
-    "creation_date": 2013
-  },
-  {
-    "id": 5,
-    "name": "Gotaga",
-    "picture_url": "/Pictures/gotaga.png",
-    "most_stream_game": ["Teamfight Tactics", "VALORANT", "Rocket League"],
-    "average_viewer": 13600,
-    "banned": true,
-    "date_birth": "1993/09/07",
-    "creation_date": 2011
-  },
-  {
-    "id": 6,
-    "name": "Nikof",
-    "picture_url": "/Pictures/nikof.png",
-    "most_stream_game": ["Fortnite", "Rocket League", "Just Chatting"],
-    "average_viewer": 9900,
-    "banned": false,
-    "date_birth": "2000/02/04",
-    "creation_date": 2015
-  },
-  {
-    "id": 7,
-    "name": "Locklear",
-    "picture_url": "/Pictures/locklear.png",
-    "most_stream_game": ["Just Chatting", "Grand Theft Auto V", "Delta Force"],
-    "average_viewer": 7400,
-    "banned": false,
-    "date_birth": "1990/10/05",
-    "creation_date": 2016
-  },
-  {
-    "id": 8,
-    "name": "Joueur_du_Grenier",
-    "picture_url": "/Pictures/jdg.png",
-    "most_stream_game": ["Just Chatting", "Lethal Company", "FINAL FANTASY VII REBIRTH"],
-    "average_viewer": 8600,
-    "banned": true,
-    "date_birth": "1982/11/26",
-    "creation_date": 2014
-  },
-  {
-    "id": 9,
-    "name": "Laink",
-    "picture_url": "/Pictures/laink.png",
-    "most_stream_game": ["Islands of Insight", "Just Chatting", "7 Days to Die"],
-    "average_viewer": 1900,
-    "banned": false,
-    "date_birth": "1992/01/08",
-    "creation_date": 2015
-  },
-  {
-    "id": 10,
-    "name": "mistermv",
-    "picture_url": "/Pictures/mistermv.png",
-    "most_stream_game": ["Special Events", "The Binding of Isaac: Repentance", "Teamfight Tactics"],
-    "average_viewer": 10900,
-    "banned": false,
-    "date_birth": "1980/08/26",
-    "creation_date": 2012
-  },
-  {
-    "id": 11,
-    "name": "Shisheyu",
-    "picture_url": "/Pictures/shisheyu.png",
-    "most_stream_game": ["The Binding of Isaac: Repentance", "Fallout 4", "Dragon's Dogma II"],
+    "id": 76,
+    "name": "Alderiate",
+    "picture_url": "/Pictures/Alderiate.png",
+    "most_stream_game": ["League of Legends", "he Elder Scrolls V: Skyrim - Special Edition", "Deep Rock Galactic: Survivor"],
     "average_viewer": 3400,
     "banned": false,
-    "date_birth": "1994/08/08",
+    "date_birth": "1994/10/07",
     "creation_date": 2014
   },
   {
-    "id": 12,
-    "name": "samueletienne",
-    "picture_url": "/Pictures/samueletienne.png",
-    "most_stream_game": ["VALORANT", "Just Chatting", "Elden Ring"],
-    "average_viewer": 3900,
-    "banned": true,
-    "date_birth": "1971/05/20",
-    "creation_date": 2020
-  },
-  {
-    "id": 13,
-    "name": "Domingo",
-    "picture_url": "/Pictures/domingo.png",
-    "most_stream_game": ["Just Chatting", "Football Manager 2024", "Talk Shows & Podcasts"],
-    "average_viewer": 11600,
+    "id": 36,
+    "name": "Alexclick",
+    "picture_url": "/Pictures/alexclick.png",
+    "most_stream_game": ["Grand Theft Auto V", "Once Human", "PowerWash Simulator"],
+    "average_viewer": 2700,
     "banned": false,
-    "date_birth": "1994/07/12",
-    "creation_date": 2013
+    "date_birth": "1986/12/20",
+    "creation_date": 2015
   },
   {
-    "id": 14,
-    "name": "Ponce",
-    "picture_url": "/Pictures/ponce.png",
-    "most_stream_game": ["Just Chatting", "Maitre des Fleurs", "Baldur's Gate 3"],
-    "average_viewer": 3600,
+    "id": 74,
+    "name": "AlphaCast",
+    "picture_url": "/Pictures/AlphaCast.png",
+    "most_stream_game": ["Just Chatting", "Baldur's Gate 3", "HELLDIVERS 2"],
+    "average_viewer": 2600,
+    "banned": false,
+    "date_birth": "1990/10/31",
+    "creation_date": 2015
+  },
+  {
+    "id": 41,
+    "name": "aminematue",
+    "picture_url": "/Pictures/aminematue.png",
+    "most_stream_game": ["Grand Theft Auto V", "Just Chatting", "Kings League"],
+    "average_viewer": 39000,
     "banned": true,
-    "date_birth": "1991/09/21",
-    "creation_date": 2013
+    "date_birth": "1994/07/21",
+    "creation_date": 2019
+  },
+  {
+    "id": 68,
+    "name": "AngleDroit",
+    "picture_url": "/Pictures/AngleDroit.png",
+    "most_stream_game": ["Just Chatting", "VALORANT", "Baldur's Gate 3"],
+    "average_viewer": 1800,
+    "banned": false,
+    "date_birth": "1993/12/19",
+    "creation_date": 2017
   },
   {
     "id": 15,
@@ -160,63 +60,83 @@
     "creation_date": 2016
   },
   {
-    "id": 16,
-    "name": "Tonton",
-    "picture_url": "/Pictures/tonton.png",
-    "most_stream_game": ["Just Chatting", "ELDEN RING", "FINAL FANTASY VII REBIRTH"],
-    "average_viewer": 2900,
+    "id": 56,
+    "name": "AVAMind",
+    "picture_url": "/Pictures/AVAMind.png",
+    "most_stream_game": ["Just Chatting", "Baldur's Gate 3", "ELDEN RING"],
+    "average_viewer": 1500,
+    "banned": true,
+    "date_birth": "1992/03/01",
+    "creation_date": 2018
+  },
+  {
+    "id": 38,
+    "name": "aypierre",
+    "picture_url": "/Pictures/aypierre.jpg",
+    "most_stream_game": ["Minecraft", "Stardew Valley", "ELDEN RING"],
+    "average_viewer": 1800,
     "banned": false,
-    "date_birth": "1986/06/02",
+    "date_birth": "1987/01/20",
+    "creation_date": 2012
+  },
+  {
+    "id": 57,
+    "name": "BagheraJones",
+    "picture_url": "/Pictures/BagheraJones.png",
+    "most_stream_game": ["Just Chatting", "VALORANT", "Special Events"],
+    "average_viewer": 2800,
+    "banned": false,
+    "date_birth": "1996/01/06",
+    "creation_date": 2015
+  },
+  {
+    "id": 69,
+    "name": "BastiUi",
+    "picture_url": "/Pictures/BastiUi.png",
+    "most_stream_game": ["Just Chatting", "Special Events", "Fall Guys"],
+    "average_viewer": 500,
+    "banned": false,
+    "date_birth": "1991/10/28",
+    "creation_date": 2017
+  },
+  {
+    "id": 24,
+    "name": "chowh1",
+    "picture_url": "/Pictures/chowh1.png",
+    "most_stream_game": ["Call of Duty: Warzone", "Special Events", "Tom Clancy's Rainbow Six Siege"],
+    "average_viewer": 5200,
+    "banned": false,
+    "date_birth": "1992/08/21",
+    "creation_date": 2016
+  },
+  {
+    "id": 42,
+    "name": "CrocodyleTV",
+    "picture_url": "/Pictures/CrocodyleTV.png",
+    "most_stream_game": ["ELDEN RING", "Celeste", "Hollow Knight"],
+    "average_viewer": 1400,
+    "banned": true,
+    "date_birth": "1991/08/29",
+    "creation_date": 2015
+  },
+  {
+    "id": 54,
+    "name": "Cruelladk",
+    "picture_url": "/Pictures/Cruelladk.png",
+    "most_stream_game": ["World of Warcraft", "Celeste", "I'm Only Sleeping"],
+    "average_viewer": 600,
+    "banned": false,
+    "date_birth": "1998/04/12",
     "creation_date": 2014
   },
   {
-    "id": 17,
-    "name": "MoMaN",
-    "picture_url": "/Pictures/moman.png",
-    "most_stream_game": ["Escape from Tarkov", "Grand Theft Auto V", "VALORANT"],
-    "average_viewer": 700,
-    "banned": false,
-    "date_birth": "1982/12/27",
-    "creation_date": 2010
-  },
-  {
-    "id": 18,
-    "name": "Lapi",
-    "picture_url": "/Pictures/lapi.png",
-    "most_stream_game": ["World of Warcraft", "Last Epoch", "Monster Hunter: World"],
+    "id": 53,
+    "name": "DamDamLive",
+    "picture_url": "/Pictures/DamDamLive.png",
+    "most_stream_game": ["Just Chatting", "ELDEN RING", "Genshin Impact"],
     "average_viewer": 900,
     "banned": false,
-    "date_birth": "1992/05/05",
-    "creation_date": 2013
-  },
-  {
-    "id": 19,
-    "name": "MasterSnakou",
-    "picture_url": "/Pictures/mastersnakou.png",
-    "most_stream_game": ["Grand Theft Auto V", "Just Chatting", "Pacific Drive"],
-    "average_viewer": 6700,
-    "banned": false,
-    "date_birth": "1988/11/10",
-    "creation_date": 2013
-  },
-  {
-    "id": 20,
-    "name": "GoBGG",
-    "picture_url": "/Pictures/gobgg.png",
-    "most_stream_game": ["League of Legends", "Mount & Blade II: Bannerlord", "7 Days to Die"],
-    "average_viewer": 1300,
-    "banned": false,
-    "date_birth": "1993/10/21",
-    "creation_date": 2013
-  },
-  {
-    "id": 21,
-    "name": "Shaunz",
-    "picture_url": "/Pictures/shaunz.png",
-    "most_stream_game": ["Teamfight Tactics", "Just Chatting", "League of Legends"],
-    "average_viewer": 1600,
-    "banned": false,
-    "date_birth": "1991/12/02",
+    "date_birth": "1984/12/17",
     "creation_date": 2013
   },
   {
@@ -230,124 +150,14 @@
     "creation_date": 2011
   },
   {
-    "id": 23,
-    "name": "Mickalow",
-    "picture_url": "/Pictures/mickalow.png",
-    "most_stream_game": ["VALORANT", "Apex Legends", "Delta Force"],
-    "average_viewer": 705,
-    "banned": true,
-    "date_birth": "1993/08/08",
-    "creation_date": 2012
-  },
-  {
-    "id": 24,
-    "name": "chowh1",
-    "picture_url": "/Pictures/chowh1.png",
-    "most_stream_game": ["Call of Duty: Warzone", "Special Events", "Tom Clancy's Rainbow Six Siege"],
-    "average_viewer": 5200,
+    "id": 13,
+    "name": "Domingo",
+    "picture_url": "/Pictures/domingo.png",
+    "most_stream_game": ["Just Chatting", "Football Manager 2024", "Talk Shows & Podcasts"],
+    "average_viewer": 11600,
     "banned": false,
-    "date_birth": "1992/08/21",
-    "creation_date": 2016
-  },
-  {
-    "id": 25,
-    "name": "LeBouseuh",
-    "picture_url": "/Pictures/lebouseuh.png",
-    "most_stream_game": ["Just Chatting", "Rocket League", "Supermarket Simulator"],
-    "average_viewer": 2000,
-    "banned": false,
-    "date_birth": "1994/07/26",
-    "creation_date": 2015
-  },
-  {
-    "id": 26,
-    "name": "Skyyart",
-    "picture_url": "/Pictures/skyyart.png",
-    "most_stream_game": ["League of Legends", "Just Chatting", "Grand Theft Auto V"],
-    "average_viewer": 2900,
-    "banned": true,
-    "date_birth": "1988/07/19",
-    "creation_date": 2014
-  },
-  {
-    "id": 27,
-    "name": "LittleBigWhale",
-    "picture_url": "/Pictures/littlebigwhale.png",
-    "most_stream_game": ["PUBG: BATTLEGROUNDS", "Just Chatting", "VALORANT"],
-    "average_viewer": 1600,
-    "banned": false,
-    "date_birth": "1994/11/13",
-    "creation_date": 2016
-  },
-  {
-    "id": 28,
-    "name": "Maghla",
-    "picture_url": "/Pictures/maghla.png",
-    "most_stream_game": ["Just Chatting", "Grand Theft Auto V", "Special Events"],
-    "average_viewer": 4500,
-    "banned": false,
-    "date_birth": "1993/11/08",
-    "creation_date": 2016
-  },
-  {
-    "id": 29,
-    "name": "FantaBobShow",
-    "picture_url": "/Pictures/fantabobshow.jpg",
-    "most_stream_game": ["Dragon's Dogma II", "Astral Ascent", "XCOM 2"],
-    "average_viewer": 1100,
-    "banned": true,
-    "date_birth": "1987/04/03",
-    "creation_date": 2012
-  },
-  {
-    "id": 30,
-    "name": "MrBboy45",
-    "picture_url": "/Pictures/mrbboy45.png",
-    "most_stream_game": ["Grand Theft Auto V", "Just Chatting", "VALORANT"],
-    "average_viewer": 729,
-    "banned": false,
-    "date_birth": "1989/08/31",
-    "creation_date": 2011
-  },
-  {
-    "id": 31,
-    "name": "Xari",
-    "picture_url": "/Pictures/xari.jpeg",
-    "most_stream_game": ["Just Chatting", "League of Legends", "TopSpin 2K25"],
-    "average_viewer": 2300,
-    "banned": false,
-    "date_birth": "1992/05/27",
-    "creation_date": 2015
-  },
-  {
-    "id": 32,
-    "name": "rhobalas_lol",
-    "picture_url": "/Pictures/rhobalas_lol.png",
-    "most_stream_game": ["League of Legends", "I'm Only Sleeping", "FINAL FANTASY XIV ONLINE"],
-    "average_viewer": 980,
-    "banned": false,
-    "date_birth": "1994/09/23",
-    "creation_date": 2017
-  },
-  {
-    "id": 33,
-    "name": "Gius",
-    "picture_url": "/Pictures/gius.png",
-    "most_stream_game": ["Just Chatting", "HELLDIVERS 2", "World of Warcraft"],
-    "average_viewer": 566,
-    "banned": false,
-    "date_birth": "1988/09/04",
-    "creation_date": 2014
-  },
-  {
-    "id": 34,
-    "name": "Kaydop",
-    "picture_url": "/Pictures/kaydop.png",
-    "most_stream_game": ["Rocket League", "ELDEN RING", "Business Tour"],
-    "average_viewer": 2600,
-    "banned": false,
-    "date_birth": "1998/05/22",
-    "creation_date": 2014
+    "date_birth": "1994/07/12",
+    "creation_date": 2013
   },
   {
     "id": 35,
@@ -360,154 +170,64 @@
     "creation_date": 2012
   },
   {
-    "id": 36,
-    "name": "Alexclick",
-    "picture_url": "/Pictures/alexclick.png",
-    "most_stream_game": ["Grand Theft Auto V", "Once Human", "PowerWash Simulator"],
-    "average_viewer": 2700,
+    "id": 0,
+    "name": "Etoiles",
+    "picture_url": "/Pictures/etoiles.png",
+    "most_stream_game": ["ELDEN RING", "Just Chatting", "Minecraft"],
+    "average_viewer": 6400,
     "banned": false,
-    "date_birth": "1986/12/20",
+    "date_birth": "1996/08/02",
     "creation_date": 2015
   },
   {
-    "id": 37,
-    "name": "Ultia",
-    "picture_url": "/Pictures/ultia.png",
-    "most_stream_game": ["Just Chatting", "Cyberpunk 2077", "Stardew Valley"],
-    "average_viewer": 1000,
-    "banned": false,
-    "date_birth": "1995/09/11",
+    "id": 29,
+    "name": "FantaBobShow",
+    "picture_url": "/Pictures/fantabobshow.jpg",
+    "most_stream_game": ["Dragon's Dogma II", "Astral Ascent", "XCOM 2"],
+    "average_viewer": 1100,
+    "banned": true,
+    "date_birth": "1987/04/03",
+    "creation_date": 2012
+  },
+  {
+    "id": 73,
+    "name": "Flamby",
+    "picture_url": "/Pictures/Flamby.png",
+    "most_stream_game": ["Just Chatting", "VALORANT", "Grand Theft Auto V"],
+    "average_viewer": 2100,
+    "banned": true,
+    "date_birth": "2001/09/10",
     "creation_date": 2014
   },
   {
-    "id": 38,
-    "name": "aypierre",
-    "picture_url": "/Pictures/aypierre.jpg",
-    "most_stream_game": ["Minecraft", "Stardew Valley", "ELDEN RING"],
-    "average_viewer": 1800,
+    "id": 71,
+    "name": "fugu_fps",
+    "picture_url": "/Pictures/fugu_fps.png",
+    "most_stream_game": ["VALORANT", "Apex Legends", "Escape the Backrooms"],
+    "average_viewer": 4300,
     "banned": false,
-    "date_birth": "1987/01/20",
-    "creation_date": 2012
-  },
-  {
-    "id": 39,
-    "name": "ImSoFresh",
-    "picture_url": "/Pictures/ImSoFresh.png",
-    "most_stream_game": ["Teamfight Tactics", "Baldur's Gate 3", "League of Legends"],
-    "average_viewer": 1500,
-    "banned": false,
-    "date_birth": "1992/07/29",
-    "creation_date": 2013
-  },
-  {
-    "id": 40,
-    "name": "KennyStream",
-    "picture_url": "/Pictures/KennyStream.png",
-    "most_stream_game": ["Rocket League", "Minecraft", "Celeste"],
-    "average_viewer": 1400,
-    "banned": false,
-    "date_birth": "1997/04/06",
-    "creation_date": 2012
-  },
-  {
-    "id": 41,
-    "name": "aminematue",
-    "picture_url": "/Pictures/aminematue.png",
-    "most_stream_game": ["Grand Theft Auto V", "Just Chatting", "Kings League"],
-    "average_viewer": 39000,
-    "banned": true,
-    "date_birth": "1994/07/21",
-    "creation_date": 2019
-  },
-  {
-    "id": 42,
-    "name": "CrocodyleTV",
-    "picture_url": "/Pictures/CrocodyleTV.png",
-    "most_stream_game": ["ELDEN RING", "Celeste", "Hollow Knight"],
-    "average_viewer": 1400,
-    "banned": true,
-    "date_birth": "1991/08/29",
-    "creation_date": 2015
-  },
-  {
-    "id": 43,
-    "name": "TheGuill84",
-    "picture_url": "/Pictures/TheGuill84.png",
-    "most_stream_game": ["Minecraft", "Special Events", "Celeste"],
-    "average_viewer": 1500,
-    "banned": false,
-    "date_birth": "1998/12/11",
-    "creation_date": 2012
-  },
-  {
-    "id": 44,
-    "name": "Trinity",
-    "picture_url": "/Pictures/Trinity.png",
-    "most_stream_game": ["Just Chatting", "IRL", "Food & Drink"],
-    "average_viewer": 1100,
-    "banned": false,
-    "date_birth": "1990/09/08",
-    "creation_date": 2013
-  },
-  {
-    "id": 45,
-    "name": "Rivenzi",
-    "picture_url": "/Pictures/Rivenzi.png",
-    "most_stream_game": ["Just Chatting", "Baldur's Gate 3", "Hearts of Iron IV"],
-    "average_viewer": 1300,
-    "banned": false,
-    "date_birth": "1995/07/26",
-    "creation_date": 2012
-  },
-  {
-    "id": 46,
-    "name": "Low4n",
-    "picture_url": "/Pictures/Low4n.png",
-    "most_stream_game": ["Call of Duty: Warzone", "XDefiant", "Just Chatting"],
-    "average_viewer": 1000,
-    "banned": false,
-    "date_birth": "1994/06/04",
-    "creation_date": 2012
-  },
-  {
-    "id": 47,
-    "name": "Terracid",
-    "picture_url": "/Pictures/Terracid.jpeg",
-    "most_stream_game": ["Just Chatting", "7 Days to Die", "Grand Theft Auto V"],
-    "average_viewer": 3000,
-    "banned": true,
-    "date_birth": "1992/08/07",
-    "creation_date": 2015
-  },
-  {
-    "id": 48,
-    "name": "JeanMassiet",
-    "picture_url": "/Pictures/JeanMassiet.png",
-    "most_stream_game": ["Talk Shows & Podcasts", "Just Chatting", "Microsoft Flight Simulator"],
-    "average_viewer": 6700,
-    "banned": false,
-    "date_birth": "1988/10/01",
+    "date_birth": "1999/07/03",
     "creation_date": 2016
   },
   {
-    "id": 49,
-    "name": "Jirayalecochon",
-    "picture_url": "/Pictures/Jirayalecochon.png",
-    "most_stream_game": ["Just Chatting", "Pokémon FireRed/LeafGreen", "Pokémon Omega Ruby/Alpha Sapphire"],
-    "average_viewer": 1600,
-    "banned": true,
-    "date_birth": "1991/12/27",
-    "creation_date": 2011
+    "id": 33,
+    "name": "Gius",
+    "picture_url": "/Pictures/gius.png",
+    "most_stream_game": ["Just Chatting", "HELLDIVERS 2", "World of Warcraft"],
+    "average_viewer": 566,
+    "banned": false,
+    "date_birth": "1988/09/04",
+    "creation_date": 2014
   },
   {
-    "id": 50,
-    "name": "RebeuDeter",
-    "picture_url": "/Pictures/RebeuDeter.png",
-    "most_stream_game": ["Just Chatting", "League of Legends", "Grand Theft Auto V"],
-    "average_viewer": 9800,
+    "id": 20,
+    "name": "GoBGG",
+    "picture_url": "/Pictures/gobgg.png",
+    "most_stream_game": ["League of Legends", "Mount & Blade II: Bannerlord", "7 Days to Die"],
+    "average_viewer": 1300,
     "banned": false,
-    "date_birth": "1997/04/28",
-    "creation_date": 2019
+    "date_birth": "1993/10/21",
+    "creation_date": 2013
   },
   {
     "id": 51,
@@ -520,114 +240,34 @@
     "creation_date": 2017
   },
   {
-    "id": 52,
-    "name": "Mynthos",
-    "picture_url": "/Pictures/Mynthos.png",
-    "most_stream_game": ["Euro Truck Simulator 2", "Stardew Valley", "Lethal Company"],
-    "average_viewer": 2800,
-    "banned": false,
-    "date_birth": "1990/06/20",
-    "creation_date": 2012
-  },
-  {
-    "id": 53,
-    "name": "DamDamLive",
-    "picture_url": "/Pictures/DamDamLive.png",
-    "most_stream_game": ["Just Chatting", "ELDEN RING", "Genshin Impact"],
-    "average_viewer": 900,
-    "banned": false,
-    "date_birth": "1984/12/17",
-    "creation_date": 2013
-  },
-  {
-    "id": 54,
-    "name": "Cruelladk",
-    "picture_url": "/Pictures/Cruelladk.png",
-    "most_stream_game": ["World of Warcraft", "Celeste", "I'm Only Sleeping"],
-    "average_viewer": 600,
-    "banned": false,
-    "date_birth": "1998/04/12",
-    "creation_date": 2014
-  },
-  {
-    "id": 55,
-    "name": "SuperHenryTran",
-    "picture_url": "/Pictures/SuperHenryTran.png",
-    "most_stream_game": ["Just Chatting", "VALORANT", "Animal Crossing: New Horizons"],
-    "average_viewer": 700,
+    "id": 5,
+    "name": "Gotaga",
+    "picture_url": "/Pictures/gotaga.png",
+    "most_stream_game": ["Teamfight Tactics", "VALORANT", "Rocket League"],
+    "average_viewer": 13600,
     "banned": true,
-    "date_birth": "1996/02/06",
+    "date_birth": "1993/09/07",
+    "creation_date": 2011
+  },
+  {
+    "id": 67,
+    "name": "Grimkujow",
+    "picture_url": "/Pictures/Grimkujow.png",
+    "most_stream_game": ["Just Chatting", "League of Legends", "Grand Theft Auto V"],
+    "average_viewer": 1200,
+    "banned": true,
+    "date_birth": "2001/05/14",
+    "creation_date": 2015
+  },
+  {
+    "id": 72,
+    "name": "helydia",
+    "picture_url": "/Pictures/helydia.png",
+    "most_stream_game": ["VALORANT", "Just Chatting", "ELDEN RING"],
+    "average_viewer": 3700,
+    "banned": false,
+    "date_birth": "2004/06/04",
     "creation_date": 2018
-  },
-  {
-    "id": 56,
-    "name": "AVAMind",
-    "picture_url": "/Pictures/AVAMind.png",
-    "most_stream_game": ["Just Chatting", "Baldur's Gate 3", "ELDEN RING"],
-    "average_viewer": 1500,
-    "banned": true,
-    "date_birth": "1992/03/01",
-    "creation_date": 2018
-  },
-  {
-    "id": 57,
-    "name": "BagheraJones",
-    "picture_url": "/Pictures/BagheraJones.png",
-    "most_stream_game": ["Just Chatting", "VALORANT", "Special Events"],
-    "average_viewer": 2800,
-    "banned": false,
-    "date_birth": "1996/01/06",
-    "creation_date": 2015
-  },
-  {
-    "id": 58,
-    "name": "Nisqyy",
-    "picture_url": "/Pictures/Nisqyy.png",
-    "most_stream_game": ["League of Legends", "World of Warcraft", "I'm Only Sleeping"],
-    "average_viewer": 2600,
-    "banned": false,
-    "date_birth": "1998/07/28",
-    "creation_date": 2015
-  },
-  {
-    "id": 59,
-    "name": "TraYtoNlol",
-    "picture_url": "/Pictures/TraYtoNlol.jpeg",
-    "most_stream_game": ["League of Legends", "Rocket League", "Chained Together"],
-    "average_viewer": 3200,
-    "banned": false,
-    "date_birth": "1998/09/26",
-    "creation_date": 2015
-  },
-  {
-    "id": 60,
-    "name": "SixenTv",
-    "picture_url": "/Pictures/SixenTv.png",
-    "most_stream_game": ["League of Legends", "Black Myth: Wukong", "Enshrouded"],
-    "average_viewer": 1900,
-    "banned": false,
-    "date_birth": "1994/09/25",
-    "creation_date": 2012
-  },
-  {
-    "id": 61,
-    "name": "Linca",
-    "picture_url": "/Pictures/Linca.png",
-    "most_stream_game": ["Minecraft", "Just Chatting", "Variety"],
-    "average_viewer": 1500,
-    "banned": false,
-    "date_birth": "1991/10/30",
-    "creation_date": 2017
-  },
-  {
-    "id": 62,
-    "name": "Wingo",
-    "picture_url": "/Pictures/Wingo.png",
-    "most_stream_game": ["Trackmania", "Celeste", "World of Warcraft"],
-    "average_viewer": 500,
-    "banned": true,
-    "date_birth": "1996/06/14",
-    "creation_date": 2013
   },
   {
     "id": 63,
@@ -650,54 +290,184 @@
     "creation_date": 2013
   },
   {
-    "id": 65,
-    "name": "Onutrem",
-    "picture_url": "/Pictures/Onutrem.png",
-    "most_stream_game": ["Stardew Valley", "60 Seconds! Reatomized", "Just Chatting"],
+    "id": 39,
+    "name": "ImSoFresh",
+    "picture_url": "/Pictures/ImSoFresh.png",
+    "most_stream_game": ["Teamfight Tactics", "Baldur's Gate 3", "League of Legends"],
     "average_viewer": 1500,
     "banned": false,
-    "date_birth": "1996/06/25",
-    "creation_date": 2012
+    "date_birth": "1992/07/29",
+    "creation_date": 2013
   },
   {
-    "id": 66,
-    "name": "Sakor_",
-    "picture_url": "/Pictures/Sakor_.png",
-    "most_stream_game": ["ELDEN RING", "The Witcher 3: Wild Hunt", "Just Chatting"],
-    "average_viewer": 900,
+    "id": 48,
+    "name": "JeanMassiet",
+    "picture_url": "/Pictures/JeanMassiet.png",
+    "most_stream_game": ["Talk Shows & Podcasts", "Just Chatting", "Microsoft Flight Simulator"],
+    "average_viewer": 6700,
     "banned": false,
-    "date_birth": "1991/10/18",
+    "date_birth": "1988/10/01",
+    "creation_date": 2016
+  },
+  {
+    "id": 49,
+    "name": "Jirayalecochon",
+    "picture_url": "/Pictures/Jirayalecochon.png",
+    "most_stream_game": ["Just Chatting", "Pokémon FireRed/LeafGreen", "Pokémon Omega Ruby/Alpha Sapphire"],
+    "average_viewer": 1600,
+    "banned": true,
+    "date_birth": "1991/12/27",
+    "creation_date": 2011
+  },
+  {
+    "id": 2,
+    "name": "JLTomy",
+    "picture_url": "/Pictures/jltomy.png",
+    "most_stream_game": ["Grand Theft Auto V", "Just Chatting", "VALORANT"],
+    "average_viewer": 13100,
+    "banned": true,
+    "date_birth": "1996/12/17",
+    "creation_date": 2017
+  },
+  {
+    "id": 8,
+    "name": "Joueur_du_Grenier",
+    "picture_url": "/Pictures/jdg.png",
+    "most_stream_game": ["Just Chatting", "Lethal Company", "FINAL FANTASY VII REBIRTH"],
+    "average_viewer": 8600,
+    "banned": true,
+    "date_birth": "1982/11/26",
+    "creation_date": 2014
+  },
+  {
+    "id": 1,
+    "name": "Kamet0",
+    "picture_url": "/Pictures/kameto.jpg",
+    "most_stream_game": ["Garry's Mod", "League of Legends", "Just Chatting"],
+    "average_viewer": 21700,
+    "banned": false,
+    "date_birth": "1995/06/27",
+    "creation_date": 2011
+  },
+  {
+    "id": 34,
+    "name": "Kaydop",
+    "picture_url": "/Pictures/kaydop.png",
+    "most_stream_game": ["Rocket League", "ELDEN RING", "Business Tour"],
+    "average_viewer": 2600,
+    "banned": false,
+    "date_birth": "1998/05/22",
+    "creation_date": 2014
+  },
+  {
+    "id": 40,
+    "name": "KennyStream",
+    "picture_url": "/Pictures/KennyStream.png",
+    "most_stream_game": ["Rocket League", "Minecraft", "Celeste"],
+    "average_viewer": 1400,
+    "banned": false,
+    "date_birth": "1997/04/06",
     "creation_date": 2012
   },
   {
-    "id": 67,
-    "name": "Grimkujow",
-    "picture_url": "/Pictures/Grimkujow.png",
-    "most_stream_game": ["Just Chatting", "League of Legends", "Grand Theft Auto V"],
-    "average_viewer": 1200,
-    "banned": true,
-    "date_birth": "2001/05/14",
+    "id": 9,
+    "name": "Laink",
+    "picture_url": "/Pictures/laink.png",
+    "most_stream_game": ["Islands of Insight", "Just Chatting", "7 Days to Die"],
+    "average_viewer": 1900,
+    "banned": false,
+    "date_birth": "1992/01/08",
     "creation_date": 2015
   },
   {
-    "id": 68,
-    "name": "AngleDroit",
-    "picture_url": "/Pictures/AngleDroit.png",
-    "most_stream_game": ["Just Chatting", "VALORANT", "Baldur's Gate 3"],
-    "average_viewer": 1800,
+    "id": 18,
+    "name": "Lapi",
+    "picture_url": "/Pictures/lapi.png",
+    "most_stream_game": ["World of Warcraft", "Last Epoch", "Monster Hunter: World"],
+    "average_viewer": 900,
     "banned": false,
-    "date_birth": "1993/12/19",
+    "date_birth": "1992/05/05",
+    "creation_date": 2013
+  },
+  {
+    "id": 25,
+    "name": "LeBouseuh",
+    "picture_url": "/Pictures/lebouseuh.png",
+    "most_stream_game": ["Just Chatting", "Rocket League", "Supermarket Simulator"],
+    "average_viewer": 2000,
+    "banned": false,
+    "date_birth": "1994/07/26",
+    "creation_date": 2015
+  },
+  {
+    "id": 61,
+    "name": "Linca",
+    "picture_url": "/Pictures/Linca.png",
+    "most_stream_game": ["Minecraft", "Just Chatting", "Variety"],
+    "average_viewer": 1500,
+    "banned": false,
+    "date_birth": "1991/10/30",
     "creation_date": 2017
   },
   {
-    "id": 69,
-    "name": "BastiUi",
-    "picture_url": "/Pictures/BastiUi.png",
-    "most_stream_game": ["Just Chatting", "Special Events", "Fall Guys"],
-    "average_viewer": 500,
+    "id": 27,
+    "name": "LittleBigWhale",
+    "picture_url": "/Pictures/littlebigwhale.png",
+    "most_stream_game": ["PUBG: BATTLEGROUNDS", "Just Chatting", "VALORANT"],
+    "average_viewer": 1600,
     "banned": false,
-    "date_birth": "1991/10/28",
-    "creation_date": 2017
+    "date_birth": "1994/11/13",
+    "creation_date": 2016
+  },
+  {
+    "id": 7,
+    "name": "Locklear",
+    "picture_url": "/Pictures/locklear.png",
+    "most_stream_game": ["Just Chatting", "Grand Theft Auto V", "Delta Force"],
+    "average_viewer": 7400,
+    "banned": false,
+    "date_birth": "1990/10/05",
+    "creation_date": 2016
+  },
+  {
+    "id": 46,
+    "name": "Low4n",
+    "picture_url": "/Pictures/Low4n.png",
+    "most_stream_game": ["Call of Duty: Warzone", "XDefiant", "Just Chatting"],
+    "average_viewer": 1000,
+    "banned": false,
+    "date_birth": "1994/06/04",
+    "creation_date": 2012
+  },
+  {
+    "id": 28,
+    "name": "Maghla",
+    "picture_url": "/Pictures/maghla.png",
+    "most_stream_game": ["Just Chatting", "Grand Theft Auto V", "Special Events"],
+    "average_viewer": 4500,
+    "banned": false,
+    "date_birth": "1993/11/08",
+    "creation_date": 2016
+  },
+  {
+    "id": 19,
+    "name": "MasterSnakou",
+    "picture_url": "/Pictures/mastersnakou.png",
+    "most_stream_game": ["Grand Theft Auto V", "Just Chatting", "Pacific Drive"],
+    "average_viewer": 6700,
+    "banned": false,
+    "date_birth": "1988/11/10",
+    "creation_date": 2013
+  },
+  {
+    "id": 23,
+    "name": "Mickalow",
+    "picture_url": "/Pictures/mickalow.png",
+    "most_stream_game": ["VALORANT", "Apex Legends", "Delta Force"],
+    "average_viewer": 705,
+    "banned": true,
+    "date_birth": "1993/08/08",
+    "creation_date": 2012
   },
   {
     "id": 70,
@@ -710,44 +480,264 @@
     "creation_date": 2013
   },
   {
-    "id": 71,
-    "name": "fugu_fps",
-    "picture_url": "/Pictures/fugu_fps.png",
-    "most_stream_game": ["VALORANT", "Apex Legends", "Escape the Backrooms"],
-    "average_viewer": 4300,
+    "id": 10,
+    "name": "mistermv",
+    "picture_url": "/Pictures/mistermv.png",
+    "most_stream_game": ["Special Events", "The Binding of Isaac: Repentance", "Teamfight Tactics"],
+    "average_viewer": 10900,
     "banned": false,
-    "date_birth": "1999/07/03",
-    "creation_date": 2016
+    "date_birth": "1980/08/26",
+    "creation_date": 2012
   },
   {
-    "id": 72,
-    "name": "helydia",
-    "picture_url": "/Pictures/helydia.png",
-    "most_stream_game": ["VALORANT", "Just Chatting", "ELDEN RING"],
-    "average_viewer": 3700,
+    "id": 17,
+    "name": "MoMaN",
+    "picture_url": "/Pictures/moman.png",
+    "most_stream_game": ["Escape from Tarkov", "Grand Theft Auto V", "VALORANT"],
+    "average_viewer": 700,
     "banned": false,
-    "date_birth": "2004/06/04",
-    "creation_date": 2018
+    "date_birth": "1982/12/27",
+    "creation_date": 2010
   },
   {
-    "id": 73,
-    "name": "Flamby",
-    "picture_url": "/Pictures/Flamby.png",
-    "most_stream_game": ["Just Chatting", "VALORANT", "Grand Theft Auto V"],
-    "average_viewer": 2100,
+    "id": 30,
+    "name": "MrBboy45",
+    "picture_url": "/Pictures/mrbboy45.png",
+    "most_stream_game": ["Grand Theft Auto V", "Just Chatting", "VALORANT"],
+    "average_viewer": 729,
+    "banned": false,
+    "date_birth": "1989/08/31",
+    "creation_date": 2011
+  },
+  {
+    "id": 52,
+    "name": "Mynthos",
+    "picture_url": "/Pictures/Mynthos.png",
+    "most_stream_game": ["Euro Truck Simulator 2", "Stardew Valley", "Lethal Company"],
+    "average_viewer": 2800,
+    "banned": false,
+    "date_birth": "1990/06/20",
+    "creation_date": 2012
+  },
+  {
+    "id": 6,
+    "name": "Nikof",
+    "picture_url": "/Pictures/nikof.png",
+    "most_stream_game": ["Fortnite", "Rocket League", "Just Chatting"],
+    "average_viewer": 9900,
+    "banned": false,
+    "date_birth": "2000/02/04",
+    "creation_date": 2015
+  },
+  {
+    "id": 58,
+    "name": "Nisqyy",
+    "picture_url": "/Pictures/Nisqyy.png",
+    "most_stream_game": ["League of Legends", "World of Warcraft", "I'm Only Sleeping"],
+    "average_viewer": 2600,
+    "banned": false,
+    "date_birth": "1998/07/28",
+    "creation_date": 2015
+  },
+  {
+    "id": 65,
+    "name": "Onutrem",
+    "picture_url": "/Pictures/Onutrem.png",
+    "most_stream_game": ["Stardew Valley", "60 Seconds! Reatomized", "Just Chatting"],
+    "average_viewer": 1500,
+    "banned": false,
+    "date_birth": "1996/06/25",
+    "creation_date": 2012
+  },
+  {
+    "id": 14,
+    "name": "Ponce",
+    "picture_url": "/Pictures/ponce.png",
+    "most_stream_game": ["Just Chatting", "Maitre des Fleurs", "Baldur's Gate 3"],
+    "average_viewer": 3600,
     "banned": true,
-    "date_birth": "2001/09/10",
+    "date_birth": "1991/09/21",
+    "creation_date": 2013
+  },
+  {
+    "id": 78,
+    "name": "Pressea",
+    "picture_url": "/Pictures/Pressea.jpeg",
+    "most_stream_game": ["Just Chatting", "StarCraft II", "Enshrouded"],
+    "average_viewer": 1500,
+    "banned": false,
+    "date_birth": "1997/01/07",
+    "creation_date": 2019
+  },
+  {
+    "id": 50,
+    "name": "RebeuDeter",
+    "picture_url": "/Pictures/RebeuDeter.png",
+    "most_stream_game": ["Just Chatting", "League of Legends", "Grand Theft Auto V"],
+    "average_viewer": 9800,
+    "banned": false,
+    "date_birth": "1997/04/28",
+    "creation_date": 2019
+  },
+  {
+    "id": 32,
+    "name": "rhobalas_lol",
+    "picture_url": "/Pictures/rhobalas_lol.png",
+    "most_stream_game": ["League of Legends", "I'm Only Sleeping", "FINAL FANTASY XIV ONLINE"],
+    "average_viewer": 980,
+    "banned": false,
+    "date_birth": "1994/09/23",
+    "creation_date": 2017
+  },
+  {
+    "id": 45,
+    "name": "Rivenzi",
+    "picture_url": "/Pictures/Rivenzi.png",
+    "most_stream_game": ["Just Chatting", "Baldur's Gate 3", "Hearts of Iron IV"],
+    "average_viewer": 1300,
+    "banned": false,
+    "date_birth": "1995/07/26",
+    "creation_date": 2012
+  },
+  {
+    "id": 12,
+    "name": "samueletienne",
+    "picture_url": "/Pictures/samueletienne.png",
+    "most_stream_game": ["VALORANT", "Just Chatting", "Elden Ring"],
+    "average_viewer": 3900,
+    "banned": true,
+    "date_birth": "1971/05/20",
+    "creation_date": 2020
+  },
+  {
+    "id": 66,
+    "name": "Sakor_",
+    "picture_url": "/Pictures/Sakor_.png",
+    "most_stream_game": ["ELDEN RING", "The Witcher 3: Wild Hunt", "Just Chatting"],
+    "average_viewer": 900,
+    "banned": false,
+    "date_birth": "1991/10/18",
+    "creation_date": 2012
+  },
+  {
+    "id": 21,
+    "name": "Shaunz",
+    "picture_url": "/Pictures/shaunz.png",
+    "most_stream_game": ["Teamfight Tactics", "Just Chatting", "League of Legends"],
+    "average_viewer": 1600,
+    "banned": false,
+    "date_birth": "1991/12/02",
+    "creation_date": 2013
+  },
+    {
+    "id": 11,
+    "name": "Shisheyu",
+    "picture_url": "/Pictures/shisheyu.png",
+    "most_stream_game": ["The Binding of Isaac: Repentance", "Fallout 4", "Dragon's Dogma II"],
+    "average_viewer": 3400,
+    "banned": false,
+    "date_birth": "1994/08/08",
     "creation_date": 2014
   },
   {
-    "id": 74,
-    "name": "AlphaCast",
-    "picture_url": "/Pictures/AlphaCast.png",
-    "most_stream_game": ["Just Chatting", "Baldur's Gate 3", "HELLDIVERS 2"],
-    "average_viewer": 2600,
+    "id": 60,
+    "name": "SixenTv",
+    "picture_url": "/Pictures/SixenTv.png",
+    "most_stream_game": ["League of Legends", "Black Myth: Wukong", "Enshrouded"],
+    "average_viewer": 1900,
     "banned": false,
-    "date_birth": "1990/10/31",
+    "date_birth": "1994/09/25",
+    "creation_date": 2012
+  },
+  {
+    "id": 26,
+    "name": "Skyyart",
+    "picture_url": "/Pictures/skyyart.png",
+    "most_stream_game": ["League of Legends", "Just Chatting", "Grand Theft Auto V"],
+    "average_viewer": 2900,
+    "banned": true,
+    "date_birth": "1988/07/19",
+    "creation_date": 2014
+  },
+  {
+    "id": 3,
+    "name": "Squeezie",
+    "picture_url": "/Pictures/squeezie.png",
+    "most_stream_game": ["VALORANT", "Red Dead Redemption 2", "Just Chatting"],
+    "average_viewer": 27700,
+    "banned": false,
+    "date_birth": "1996/01/27",
+    "creation_date": 2013
+  },
+  {
+    "id": 55,
+    "name": "SuperHenryTran",
+    "picture_url": "/Pictures/SuperHenryTran.png",
+    "most_stream_game": ["Just Chatting", "VALORANT", "Animal Crossing: New Horizons"],
+    "average_viewer": 700,
+    "banned": true,
+    "date_birth": "1996/02/06",
+    "creation_date": 2018
+  },
+  {
+    "id": 47,
+    "name": "Terracid",
+    "picture_url": "/Pictures/Terracid.jpeg",
+    "most_stream_game": ["Just Chatting", "7 Days to Die", "Grand Theft Auto V"],
+    "average_viewer": 3000,
+    "banned": true,
+    "date_birth": "1992/08/07",
     "creation_date": 2015
+  },
+  {
+    "id": 43,
+    "name": "TheGuill84",
+    "picture_url": "/Pictures/TheGuill84.png",
+    "most_stream_game": ["Minecraft", "Special Events", "Celeste"],
+    "average_viewer": 1500,
+    "banned": false,
+    "date_birth": "1998/12/11",
+    "creation_date": 2012
+  },
+  {
+    "id": 16,
+    "name": "Tonton",
+    "picture_url": "/Pictures/tonton.png",
+    "most_stream_game": ["Just Chatting", "ELDEN RING", "FINAL FANTASY VII REBIRTH"],
+    "average_viewer": 2900,
+    "banned": false,
+    "date_birth": "1986/06/02",
+    "creation_date": 2014
+  },
+  {
+    "id": 59,
+    "name": "TraYtoNlol",
+    "picture_url": "/Pictures/TraYtoNlol.jpeg",
+    "most_stream_game": ["League of Legends", "Rocket League", "Chained Together"],
+    "average_viewer": 3200,
+    "banned": false,
+    "date_birth": "1998/09/26",
+    "creation_date": 2015
+  },
+  {
+    "id": 44,
+    "name": "Trinity",
+    "picture_url": "/Pictures/Trinity.png",
+    "most_stream_game": ["Just Chatting", "IRL", "Food & Drink"],
+    "average_viewer": 1100,
+    "banned": false,
+    "date_birth": "1990/09/08",
+    "creation_date": 2013
+  },
+  {
+    "id": 37,
+    "name": "Ultia",
+    "picture_url": "/Pictures/ultia.png",
+    "most_stream_game": ["Just Chatting", "Cyberpunk 2077", "Stardew Valley"],
+    "average_viewer": 1000,
+    "banned": false,
+    "date_birth": "1995/09/11",
+    "creation_date": 2014
   },
   {
     "id": 75,
@@ -760,14 +750,24 @@
     "creation_date": 2015
   },
   {
-    "id": 76,
-    "name": "Alderiate",
-    "picture_url": "/Pictures/Alderiate.png",
-    "most_stream_game": ["League of Legends", "he Elder Scrolls V: Skyrim - Special Edition", "Deep Rock Galactic: Survivor"],
-    "average_viewer": 3400,
+    "id": 62,
+    "name": "Wingo",
+    "picture_url": "/Pictures/Wingo.png",
+    "most_stream_game": ["Trackmania", "Celeste", "World of Warcraft"],
+    "average_viewer": 500,
+    "banned": true,
+    "date_birth": "1996/06/14",
+    "creation_date": 2013
+  },
+  {
+    "id": 31,
+    "name": "Xari",
+    "picture_url": "/Pictures/xari.jpeg",
+    "most_stream_game": ["Just Chatting", "League of Legends", "TopSpin 2K25"],
+    "average_viewer": 2300,
     "banned": false,
-    "date_birth": "1994/10/07",
-    "creation_date": 2014
+    "date_birth": "1992/05/27",
+    "creation_date": 2015
   },
   {
     "id": 77,
@@ -780,16 +780,14 @@
     "creation_date": 2015
   },
   {
-    "id": 78,
-    "name": "Pressea",
-    "picture_url": "/Pictures/Pressea.jpeg",
-    "most_stream_game": ["Just Chatting", "StarCraft II", "Enshrouded"],
-    "average_viewer": 1500,
+    "id": 4,
+    "name": "ZeratoR",
+    "picture_url": "/Pictures/zerator.png",
+    "most_stream_game": ["World of Warcraft", "VALORANT", "Just Chatting"],
+    "average_viewer": 14500,
     "banned": false,
-    "date_birth": "1997/01/07",
-    "creation_date": 2019
+    "date_birth": "1990/03/01",
+    "creation_date": 2013
   }
-  
-
-  ]
+]
   
