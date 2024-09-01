@@ -84,6 +84,28 @@
     background-color: #e6e6e6;
 }
 
+.modeButton {
+    color: #9FC131;
+    padding: 0.575rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: box-shadow 0.15s ease;
+    position: absolute;
+    right: 0;
+    background: none; /* Enlève le fond */
+    border: none; /* Enlève la bordure */
+    outline: none; /* Enlève l'effet de focus */
+    box-shadow: none; /* Supprime toute ombre éventuelle */
+    -webkit-appearance: none; /* Supprime l'apparence par défaut de Webkit */
+    -moz-appearance: none; /* Supprime l'apparence par défaut de Mozilla */
+    appearance: none; /* Propriété standard pour supprimer l'apparence par défaut */
+}
+
 .title {
     margin-bottom: 1rem;
     font-size: 1.5rem;

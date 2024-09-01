@@ -3,7 +3,7 @@ import Select from 'react-select';
 import Card from './Card'; 
 import CardHeader from './CardHeader';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHouse } from "@fortawesome/free-solid-svg-icons";
+import { faHouse, faCalendarDays,faInfinity } from "@fortawesome/free-solid-svg-icons";
 import { getRandomElement } from '../../utils/elementGetter.js';
 import styles from './Game.module.css';
 
@@ -24,13 +24,11 @@ const Game = ({
     handleChange,
     handleCopyResults,
     showPopup,
-    setShowPopup,
     selectedOptions,
     setSelectedOptions,
     options,
 }) => {
     const [selectedValue, setSelectedValue] = useState(null);
-    console.log(chosenElement)
     return (
         <div className={styles.container}>
             <div className={styles.selectorContainer}>
@@ -54,6 +52,9 @@ const Game = ({
                         components={{ Option: selectorComponent }}
                     />
                 </div>
+                <button className={styles.modeButton}>
+                    <FontAwesomeIcon icon={mod === 'daily' ? faCalendarDays : faInfinity} fixedWidth />
+                </button>
             </div>
             {mod === 'infinite' && isCorrect && (
                 <button
