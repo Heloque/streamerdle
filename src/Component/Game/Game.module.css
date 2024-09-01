@@ -1,0 +1,149 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.selectorContainer {
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    position: relative;
+}
+
+.homeButton {
+    background-color: #1f1f1c;
+    border: 1.5px solid #9FC131;
+    color: #9FC131;
+    padding: 0.575rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: clamp(8px, 1.4vw, 16px);
+    margin-right: auto;
+    width: 5vh;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: box-shadow 0.15s ease;
+    position: absolute;
+    left: 0;
+}
+  
+.homeButton:hover {
+    box-shadow: 0 0 10px #9FC131;
+}
+
+.selectContainer {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+  
+.selectControl {
+    text-align: center;
+    justify-content: center;
+    width: 32vw;
+}
+
+.selectOption {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+}
+
+.selectSingleValue {
+    text-align: center;
+    width: 100%;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.optionImage {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.optionLabel {
+    font-size: 14px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.optionFocused {
+    background-color: #e6e6e6;
+}
+
+.title {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.cardContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+}
+
+.card {
+    background-color: #1f1f1c;
+    border: 1.5px solid #9FC131;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.resultContainer {
+    margin-top: 15px;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+  
+.button-container button {
+    background-color: #9FC131;
+    color: #1f1f1c;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.15s ease;
+}
+
+.button-container button:hover {
+    box-shadow: 0 0 10px #9FC131;
+}
+
+.replay {
+    background-color: #1f1f1c;
+    border: 1.5px solid #9FC131;
+    color: #9FC131;
+    padding: 1rem 1rem;
+    margin-bottom: 2rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: box-shadow 0.15s ease;
+}
+
+.replay:hover {
+    box-shadow: 0 0 10px #9FC131;
+}
+

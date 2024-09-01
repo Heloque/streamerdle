@@ -15,7 +15,7 @@ const CardHeader = () => {
                 <div className={styles.colorBox}>
                     <span className={styles.attributeName}>Jeux les plus streamés</span>
                     <Tippy
-                        content={"Couleur perçue\n(Rouge, Vert, Bleu, Jaune, Violet, Marron, Rose ou Orange)"}
+                        content={"Les 3 jeux les plus streamés de 2024"}
                         trigger="mouseenter"
                         theme="custom"
                     >
@@ -27,7 +27,7 @@ const CardHeader = () => {
                 <div className={styles.colorBox}>
                     <span className={styles.attributeName}>Nombre de viewers moyen</span>
                     <Tippy
-                        content={"Puissance lumineuse\n(Foncé ou Clair)"}
+                        content={"Nombre de viewer moyen en 2024"}
                         trigger="mouseenter"
                         theme="custom"
                     >
@@ -38,39 +38,12 @@ const CardHeader = () => {
                 </div>
                 <div className={styles.colorBox}>
                     <span className={styles.attributeName}>A déjà été banni</span>
-                    <Tippy
-                        content={"Référence liée au nom\n(Nourriture, Concept, Fleur, Lieu, Matériel ou Animal)"}
-                        trigger="mouseenter"
-                        theme="custom"
-                    >
-                        <span className={styles.infoIcon}>
-                            <FontAwesomeIcon icon={faInfoCircle} size="xs" fixedWidth />
-                        </span>
-                    </Tippy>
                 </div>
                 <div className={styles.colorBox}>
                     <span className={styles.attributeName}>Âge</span>
-                    <Tippy
-                        content={"Couleur dominante dans le code RGB\n(Rouge, Vert ou Bleu)"}
-                        trigger="mouseenter"
-                        theme="custom"
-                    >
-                        <span className={styles.infoIcon}>
-                            <FontAwesomeIcon icon={faInfoCircle} size="xs" fixedWidth />
-                        </span>
-                    </Tippy>
                 </div>
                 <div className={styles.colorBox}>
-                    <span className={styles.attributeName}>Création de la chaîne</span>
-                    <Tippy
-                        content={"Couleur secondaire dans le code RGB\n(Rouge, Vert ou Bleu)"}
-                        trigger="mouseenter"
-                        theme="custom"
-                    >
-                        <span className={styles.infoIcon}>
-                            <FontAwesomeIcon icon={faInfoCircle} size="xs" fixedWidth />
-                        </span>
-                    </Tippy>
+                    <span className={styles.attributeName}>Date de création de la chaîne</span>
                 </div>
             </div>
         </div>

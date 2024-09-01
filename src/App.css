@@ -11,7 +11,7 @@
 } */
 
 .App-header {
-  height: 10vh;
+  height: 13vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -27,30 +27,8 @@
 
 .App-logo {
   position: absolute;
-  left: 2vw;
-  height: 13vh;
-  width: 13vh;
-}
-
-.play-button {
-  position: absolute;
-  right: 2vw;
-  height: 3vh;
-  width: 9vw;
-  padding: 0.5rem 1rem;
-  background-color: #1f1f1c;
-  border: 1.5px solid #9FC131;
-  color: #9FC131;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: box-shadow 0.3s ease;
-  font-size: clamp(8px, 1.4vw, 16px);
-}
-
-.play-button:hover {
-  box-shadow: 0 0 10px #9FC131;
+  height: 18vh;
+  width: 18vh;
 }
 
 @keyframes App-logo-spin {

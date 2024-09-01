@@ -1,6 +1,6 @@
 {
-  "name": "colordle",
-  "homepage": "https://colordle.fr",
+  "name": "streamerdle",
+  "homepage": "https://streamerdle.fr",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
