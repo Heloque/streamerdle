@@ -46,7 +46,7 @@ const EnhancedGame = ({chosenElement, mod, setMod, ...props}) => {
             return resultRow;
         });
 
-        return `J'ai deviné le streamer du jour sur #Streamerdle en ${selectedOptions.length} essai(s)! 🕵️🔎🔄\n\n${attempts.join('\n')}\n\nJouez sur https://streamerdle.fr 🎮!`;
+        return `J'ai deviné le streamer du jour sur #Streamerdle\nen ${selectedOptions.length} essai(s)! 🕵️🔎🔄\n\n${attempts.join('\n')}\n\nJouez sur https://streamerdle.fr 🎮!`;
 
     };
 

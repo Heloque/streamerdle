@@ -3,37 +3,27 @@
     justify-content: center;
     align-items: center;
     margin-top: 5rem;
-}
-  
-.card {
-    height: 40vh;
-    width: 40vw;
-    background-color: #1f1f1c;
-    border: 1.5px solid #9FC131;
-    padding: 2rem;
-    border-radius: 8px;
-    display: flex;
     flex-direction: column;
-    justify-content: center;
+    gap: 2rem;
 }
   
 .button {
     background-color: #9FC131;
-    border: 1.5px solid #9FC131;
+    border: none;
     color: #1f1f1c;
-    padding: 1rem 1rem;
-    margin-bottom: 2rem;
-    border-radius: 4px;
+    height: 8vh;
+    width: 45vw;
+    margin-bottom: 1.5rem;
+    padding: 1rem 2rem;
+    border-radius: 15px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: clamp(12px, 1.4vw, 16px);
     font-weight: bold;
-    transition: box-shadow 0.15s ease;
-}
-  
-.button:last-child {
-    margin-bottom: 0;
+    box-shadow: 0 8px 0 #738D22;
+    transition: all 0.25s ease;
 }
 
 .button:hover {
-    box-shadow: 0 0 10px #9FC131;
+    transform: translateY(6px);
+    box-shadow: none;
 }

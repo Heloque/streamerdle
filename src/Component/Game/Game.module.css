@@ -14,26 +14,28 @@
 }
 
 .homeButton {
-    background-color: #1f1f1c;
-    border: 1.5px solid #9FC131;
-    color: #9FC131;
-    padding: 0.575rem;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: clamp(8px, 1.4vw, 16px);
-    margin-right: auto;
-    width: 5vh;
+    background-color: #9FC131;
+    border: none;
+    color: #1f1f1c;
     height: 5vh;
+    width: 5vh;
+    padding: 0.575rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: clamp(12px, 1.4vw, 16px);
+    margin-right: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: box-shadow 0.15s ease;
+    box-shadow: 0 5px 0 #738D22;
+    transition: all 0.25s ease;
     position: absolute;
     left: 0;
 }
   
 .homeButton:hover {
-    box-shadow: 0 0 10px #9FC131;
+    transform: translateY(6px);
+    box-shadow: none;
 }
 
 .selectContainer {
@@ -134,38 +136,46 @@
 }
 
 .button-container {
-    margin-top: 20px;
+    padding: 1rem;
 }
   
 .button-container button {
     background-color: #9FC131;
-    color: #1f1f1c;
     border: none;
+    color: #1f1f1c;
     padding: 10px 15px;
+    height: 6vh;
+    width: 25vw;
     cursor: pointer;
-    border-radius: 4px;
-    font-size: 16px;
-    transition: background-color 0.15s ease;
+    border-radius: 15px;
+    font-size: clamp(12px, 1.4vw, 16px);
+    font-weight: bold;
+    box-shadow: 0 8px 0 #738D22;
+    transition: all 0.25s ease;
 }
 
 .button-container button:hover {
-    box-shadow: 0 0 10px #9FC131;
+    transform: translateY(6px);
+    box-shadow: none;
 }
 
 .replay {
-    background-color: #1f1f1c;
-    border: 1.5px solid #9FC131;
-    color: #9FC131;
+    background-color: #9FC131;
+    border: none;
+    color: #1f1f1c;
+    width: 15vw;
     padding: 1rem 1rem;
-    margin-bottom: 2rem;
-    border-radius: 4px;
+    margin-bottom: 3rem;
+    border-radius: 15px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: clamp(12px, 1.4vw, 16px);
     font-weight: bold;
-    transition: box-shadow 0.15s ease;
+    box-shadow: 0 8px 0 #738D22;
+    transition: all 0.25s ease;
 }
 
 .replay:hover {
-    box-shadow: 0 0 10px #9FC131;
+    transform: translateY(6px);
+    box-shadow: none;
 }
 

@@ -16,10 +16,8 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  background-color: #1f1f1c;
   margin-bottom: 3rem;
-  border-bottom: 1.5px solid rgb(159, 193, 49, 0.5);
-  position: sticky; 
+  margin-top: 1rem;
   top: 0;
   z-index: 1000;
   color: white;
@@ -27,8 +25,8 @@
 
 .App-logo {
   position: absolute;
-  height: 18vh;
-  width: 18vh;
+  height: 25vh;
+  width: 25vh;
 }
 
 @keyframes App-logo-spin {
