@@ -6,6 +6,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHouse, faCalendarDays,faInfinity } from "@fortawesome/free-solid-svg-icons";
 import { getRandomElement } from '../../utils/elementGetter.js';
 import styles from './Game.module.css';
+import Tippy from "@tippyjs/react";
+import 'tippy.js/dist/tippy.css';
 
 const selectorComponent = ({ innerRef, innerProps, data, isFocused }) => (
     <div ref={innerRef} {...innerProps} className={`${styles.option} ${isFocused ? styles.optionFocused : ''}`}>
@@ -52,9 +54,15 @@ const Game = ({
                         components={{ Option: selectorComponent }}
                     />
                 </div>
-                <button className={styles.modeButton}>
-                    <FontAwesomeIcon icon={mod === 'daily' ? faCalendarDays : faInfinity} fixedWidth />
-                </button>
+                <Tippy
+                    content={mod === 'daily' ? 'Mode de jeu : streamer du jour' : 'Mode de jeu : jeu infini'}
+                    trigger="mouseenter"
+                    theme="custom"
+                >
+                    <button className={styles.modeButton}>
+                        <FontAwesomeIcon icon={mod === 'daily' ? faCalendarDays : faInfinity} fixedWidth />
+                    </button>
+                </Tippy>
             </div>
             {mod === 'infinite' && isCorrect && (
                 <button

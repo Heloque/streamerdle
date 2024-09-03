@@ -32,6 +32,7 @@ const Card = ({
             {most_stream_game.map((game, index) => (
               <div key={index} className={styles.gameItem}>
                 {game}
+                {chosenElementFull.most_stream_game.includes(game) && ' ✅'}
               </div>
             ))}
           </span>

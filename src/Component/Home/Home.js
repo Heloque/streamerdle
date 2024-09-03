@@ -13,6 +13,9 @@ const Home = ({ setMod }) => {
             <button className={styles.button} onClick={() => window.open('https://colordle.fr', '_blank')}>
                 Jouer aussi à Colordle
             </button>
+            <a href="mailto:contact@streamerdle.fr" className={styles.contactLink}>
+                Nous contacter
+            </a>
         </div>
     )
 }

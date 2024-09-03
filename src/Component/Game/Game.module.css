@@ -87,6 +87,23 @@
     background-color: #e6e6e6;
 }
 
+.tippy-box[data-theme~="custom"] {
+    border: 1px solid #333;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+    padding: 4px 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    white-space: nowrap;
+    transform: translateX(-50%);
+}
+
+.tippy-box[data-theme~="custom"] .tippy-content {
+    font-size: 0.8rem;
+    text-align: center;
+}
+
 .modeButton {
     color: #9FC131;
     padding: 0.575rem;
@@ -100,13 +117,13 @@
     transition: box-shadow 0.15s ease;
     position: absolute;
     right: 0;
-    background: none; /* Enlève le fond */
-    border: none; /* Enlève la bordure */
-    outline: none; /* Enlève l'effet de focus */
-    box-shadow: none; /* Supprime toute ombre éventuelle */
-    -webkit-appearance: none; /* Supprime l'apparence par défaut de Webkit */
-    -moz-appearance: none; /* Supprime l'apparence par défaut de Mozilla */
-    appearance: none; /* Propriété standard pour supprimer l'apparence par défaut */
+    background: none;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 
 .title {

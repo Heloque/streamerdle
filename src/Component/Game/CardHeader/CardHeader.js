@@ -15,7 +15,7 @@ const CardHeader = () => {
                 <div className={styles.colorBox}>
                     <span className={styles.attributeName}>Jeux les plus streamés</span>
                     <Tippy
-                        content={"Les 3 jeux les plus streamés de 2024"}
+                        content={"Les 3 jeux les plus streamés de 2024. Code couleur : aucun jeu trouvé (rouge), 1 ou 2 jeux trouvés (orange), tous les jeux trouvés (vert)"}
                         trigger="mouseenter"
                         theme="custom"
                     >

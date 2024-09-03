@@ -29,3 +29,14 @@
     transform: translateY(6px);
     box-shadow: none;
 }
+
+.contactLink {
+    color: #9FC131;
+    font-weight: bold;
+    text-decoration: none;
+    transition: text-decoration 0.15s ease;
+}
+
+.contactLink:hover {
+    text-decoration: underline;
+}
