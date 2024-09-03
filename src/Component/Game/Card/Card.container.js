@@ -4,7 +4,7 @@ import data from '../../../data.json';
 
 const EnhancedCard = ({chosenElement, date_birth, ...props}) => {
     const chosenElementFull = data.find(item => item.id === chosenElement);
-
+    console.log(chosenElementFull.name);
     const calculateAge = (birthdate) => {
         const today = new Date();
         const birthDate = new Date(birthdate);

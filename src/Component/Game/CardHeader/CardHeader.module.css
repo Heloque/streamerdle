@@ -7,9 +7,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 4.5vw;
+    gap: 3vw;
     align-items: center;
-    padding: 0.75rem;
+    padding: 1.5rem;
     background-color: #1f1f1c;
     border-radius: 8px;
     margin: 0 auto;
@@ -20,7 +20,7 @@
 
 .colorBox {
     color: white;
-    width: 10vw;
+    width: 12vw;
     height: 2.5vh;
     display: flex;
     justify-content: center;
@@ -29,6 +29,7 @@
     text-align: center;
     position: relative;
     font-size: clamp(8px, 1.4vw, 16px);
+    font-family: 'Chakra Petch', sans-serif;
 }
 
 .attributeName {

@@ -11,6 +11,7 @@
     justify-content: center;
     width: 90vw;
     position: relative;
+    font-family: 'Chakra Petch', sans-serif;
 }
 
 .homeButton {
@@ -129,6 +130,7 @@
     border-radius: 8px;
     margin-bottom: 3rem;
     text-align: center;
+    font-family: 'Chakra Petch', sans-serif;
 }
 
 .resultContainer {
@@ -152,6 +154,7 @@
     font-weight: bold;
     box-shadow: 0 8px 0 #738D22;
     transition: all 0.25s ease;
+    font-family: 'Chakra Petch', sans-serif;
 }
 
 .button-container button:hover {
@@ -172,6 +175,7 @@
     font-weight: bold;
     box-shadow: 0 8px 0 #738D22;
     transition: all 0.25s ease;
+    font-family: 'Chakra Petch', sans-serif;
 }
 
 .replay:hover {

@@ -5,6 +5,7 @@
     margin-top: 5rem;
     flex-direction: column;
     gap: 2rem;
+    font-family: 'Chakra Petch', sans-serif;
 }
   
 .button {
@@ -21,6 +22,7 @@
     font-weight: bold;
     box-shadow: 0 8px 0 #738D22;
     transition: all 0.25s ease;
+    font-family: 'Chakra Petch', sans-serif;
 }
 
 .button:hover {
