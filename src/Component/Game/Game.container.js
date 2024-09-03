@@ -23,7 +23,7 @@ const EnhancedGame = ({chosenElement, mod, setMod, ...props}) => {
         const updatedOptions = [selectedOption, ...selectedOptions];
         setSelectedOptions(updatedOptions);
         if (mod === 'daily') {
-            localStorage.setItem('selectedOptions', JSON.stringify(updatedOptions));
+            localStorage.setItem('updatedOptions', JSON.stringify(updatedOptions));
         }
 
         if (selectedOption.value === chosenElement) {
@@ -53,7 +53,7 @@ const EnhancedGame = ({chosenElement, mod, setMod, ...props}) => {
     useEffect(() => {
         switch (mod) {
             case "daily":
-                const savedCards = JSON.parse(localStorage.getItem('selectedOptions'));
+                const savedCards = JSON.parse(localStorage.getItem('updatedOptions'));
                 if (savedCards) {
                     setSelectedOptions(savedCards);
                     if (savedCards[0].value === chosenElement){

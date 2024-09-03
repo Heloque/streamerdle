@@ -30,6 +30,34 @@
     box-shadow: none;
 }
 
+.buttonColordle {
+    background-color: #f6f2b3;
+    border: none;
+    color: #1f1f1c;
+    height: 8vh;
+    width: 45vw;
+    margin-bottom: 1.5rem;
+    padding: 1rem 2rem;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: clamp(12px, 1.4vw, 16px);
+    font-weight: bold;
+    box-shadow: 0 8px 0 #eadf49;
+    transition: all 0.25s ease;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.buttonColordle:hover {
+    transform: translateY(6px);
+    box-shadow: none;
+}
+
+.logo {
+    height: 24px;
+    margin-left: 4px;
+    vertical-align: middle;
+}
+
 .contactLink {
     color: #9FC131;
     font-weight: bold;

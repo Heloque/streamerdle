@@ -10,8 +10,8 @@ const Home = ({ setMod }) => {
             <button className={styles.button} onClick={() => setMod('infinite')}>
                 Jouer à l'infini
             </button>
-            <button className={styles.button} onClick={() => window.open('https://colordle.fr', '_blank')}>
-                Jouer aussi à Colordle
+            <button className={styles.buttonColordle} onClick={() => window.open('https://colordle.fr', '_blank')}>
+                Jouer aussi à <img src="assets/colordle_logo.png" alt="Colordle Logo" className={styles.logo} />
             </button>
             <a href="mailto:contact@streamerdle.fr" className={styles.contactLink}>
                 Nous contacter
