@@ -7,6 +7,7 @@
     "average_viewer": 3400,
     "banned": false,
     "date_birth": "1994/10/07",
+    "sexe": "Homme",
     "creation_date": 2014
   },
   {
@@ -17,6 +18,7 @@
     "average_viewer": 2700,
     "banned": false,
     "date_birth": "1986/12/20",
+    "sexe": "Homme",
     "creation_date": 2015
   },
   {
@@ -27,6 +29,7 @@
     "average_viewer": 2600,
     "banned": false,
     "date_birth": "1990/10/31",
+    "sexe": "Homme",
     "creation_date": 2015
   },
   {
@@ -37,6 +40,7 @@
     "average_viewer": 39000,
     "banned": true,
     "date_birth": "1994/07/21",
+    "sexe": "Homme",
     "creation_date": 2019
   },
   {
@@ -47,6 +51,7 @@
     "average_viewer": 1800,
     "banned": false,
     "date_birth": "1993/12/19",
+    "sexe": "Femme",
     "creation_date": 2017
   },
   {
@@ -57,6 +62,7 @@
     "average_viewer": 9900,
     "banned": false,
     "date_birth": "1989/04/23",
+    "sexe": "Homme",
     "creation_date": 2016
   },
   {
@@ -67,6 +73,7 @@
     "average_viewer": 1500,
     "banned": true,
     "date_birth": "1992/03/01",
+    "sexe": "Femme",
     "creation_date": 2018
   },
   {
@@ -77,6 +84,7 @@
     "average_viewer": 1800,
     "banned": false,
     "date_birth": "1987/01/20",
+    "sexe": "Homme",
     "creation_date": 2012
   },
   {
@@ -87,6 +95,7 @@
     "average_viewer": 2800,
     "banned": false,
     "date_birth": "1996/01/06",
+    "sexe": "Femme",
     "creation_date": 2015
   },
   {
@@ -97,6 +106,7 @@
     "average_viewer": 500,
     "banned": false,
     "date_birth": "1991/10/28",
+    "sexe": "Homme",
     "creation_date": 2017
   },
   {
@@ -107,6 +117,7 @@
     "average_viewer": 5200,
     "banned": false,
     "date_birth": "1992/08/21",
+    "sexe": "Homme",
     "creation_date": 2016
   },
   {
@@ -117,6 +128,7 @@
     "average_viewer": 1400,
     "banned": true,
     "date_birth": "1991/08/29",
+    "sexe": "Homme",
     "creation_date": 2015
   },
   {
@@ -127,6 +139,7 @@
     "average_viewer": 600,
     "banned": false,
     "date_birth": "1998/04/12",
+    "sexe": "Femme",
     "creation_date": 2014
   },
   {
@@ -137,6 +150,7 @@
     "average_viewer": 900,
     "banned": false,
     "date_birth": "1984/12/17",
+    "sexe": "Femme",
     "creation_date": 2013
   },
   {
@@ -147,6 +161,7 @@
     "average_viewer": 5600,
     "banned": false,
     "date_birth": "1992/12/09",
+    "sexe": "Homme",
     "creation_date": 2011
   },
   {
@@ -157,6 +172,7 @@
     "average_viewer": 11600,
     "banned": false,
     "date_birth": "1994/07/12",
+    "sexe": "Homme",
     "creation_date": 2013
   },
   {
@@ -167,6 +183,7 @@
     "average_viewer": 1000,
     "banned": false,
     "date_birth": "1995/01/25",
+    "sexe": "Homme",
     "creation_date": 2012
   },
   {
@@ -177,6 +194,7 @@
     "average_viewer": 6400,
     "banned": false,
     "date_birth": "1996/08/02",
+    "sexe": "Homme",
     "creation_date": 2015
   },
   {
@@ -187,6 +205,7 @@
     "average_viewer": 1100,
     "banned": true,
     "date_birth": "1987/04/03",
+    "sexe": "Homme",
     "creation_date": 2012
   },
   {
@@ -197,6 +216,7 @@
     "average_viewer": 2100,
     "banned": true,
     "date_birth": "2001/09/10",
+    "sexe": "Homme",
     "creation_date": 2014
   },
   {
@@ -207,6 +227,7 @@
     "average_viewer": 4300,
     "banned": false,
     "date_birth": "1999/07/03",
+    "sexe": "Homme",
     "creation_date": 2016
   },
   {
@@ -217,6 +238,7 @@
     "average_viewer": 600,
     "banned": false,
     "date_birth": "1988/09/04",
+    "sexe": "Homme",
     "creation_date": 2014
   },
   {
@@ -227,6 +249,7 @@
     "average_viewer": 1300,
     "banned": false,
     "date_birth": "1993/10/21",
+    "sexe": "Homme",
     "creation_date": 2013
   },
   {
@@ -237,6 +260,7 @@
     "average_viewer": 1700,
     "banned": false,
     "date_birth": "1993/12/04",
+    "sexe": "Femme",
     "creation_date": 2017
   },
   {
@@ -247,6 +271,7 @@
     "average_viewer": 13600,
     "banned": true,
     "date_birth": "1993/09/07",
+    "sexe": "Homme",
     "creation_date": 2011
   },
   {
@@ -257,6 +282,7 @@
     "average_viewer": 1200,
     "banned": true,
     "date_birth": "2001/05/14",
+    "sexe": "Homme",
     "creation_date": 2015
   },
   {
@@ -267,6 +293,7 @@
     "average_viewer": 3700,
     "banned": false,
     "date_birth": "2004/06/04",
+    "sexe": "Femme",
     "creation_date": 2018
   },
   {
@@ -277,6 +304,7 @@
     "average_viewer": 2900,
     "banned": false,
     "date_birth": "1998/06/04",
+    "sexe": "Femme",
     "creation_date": 2016
   },
   {
@@ -287,6 +315,7 @@
     "average_viewer": 3600,
     "banned": false,
     "date_birth": "1995/09/15",
+    "sexe": "Homme",
     "creation_date": 2013
   },
   {
@@ -297,6 +326,7 @@
     "average_viewer": 1500,
     "banned": false,
     "date_birth": "1992/07/29",
+    "sexe": "Homme",
     "creation_date": 2013
   },
   {
@@ -307,6 +337,7 @@
     "average_viewer": 6700,
     "banned": false,
     "date_birth": "1988/10/01",
+    "sexe": "Homme",
     "creation_date": 2016
   },
   {
@@ -317,6 +348,7 @@
     "average_viewer": 1600,
     "banned": true,
     "date_birth": "1991/12/27",
+    "sexe": "Homme",
     "creation_date": 2011
   },
   {
@@ -327,6 +359,7 @@
     "average_viewer": 13100,
     "banned": true,
     "date_birth": "1996/12/17",
+    "sexe": "Homme",
     "creation_date": 2017
   },
   {
@@ -337,6 +370,7 @@
     "average_viewer": 8600,
     "banned": true,
     "date_birth": "1982/11/26",
+    "sexe": "Homme",
     "creation_date": 2014
   },
   {
@@ -347,6 +381,7 @@
     "average_viewer": 21700,
     "banned": false,
     "date_birth": "1995/06/27",
+    "sexe": "Homme",
     "creation_date": 2011
   },
   {
@@ -357,6 +392,7 @@
     "average_viewer": 2600,
     "banned": false,
     "date_birth": "1998/05/22",
+    "sexe": "Homme",
     "creation_date": 2014
   },
   {
@@ -367,6 +403,7 @@
     "average_viewer": 1400,
     "banned": false,
     "date_birth": "1997/04/06",
+    "sexe": "Homme",
     "creation_date": 2012
   },
   {
@@ -377,6 +414,7 @@
     "average_viewer": 1900,
     "banned": false,
     "date_birth": "1992/01/08",
+    "sexe": "Homme",
     "creation_date": 2015
   },
   {
@@ -387,6 +425,7 @@
     "average_viewer": 900,
     "banned": false,
     "date_birth": "1992/05/05",
+    "sexe": "Homme",
     "creation_date": 2013
   },
   {
@@ -397,6 +436,7 @@
     "average_viewer": 2000,
     "banned": false,
     "date_birth": "1994/07/26",
+    "sexe": "Homme",
     "creation_date": 2015
   },
   {
@@ -407,6 +447,7 @@
     "average_viewer": 1500,
     "banned": false,
     "date_birth": "1991/10/30",
+    "sexe": "Homme",
     "creation_date": 2017
   },
   {
@@ -417,6 +458,7 @@
     "average_viewer": 1600,
     "banned": false,
     "date_birth": "1994/11/13",
+    "sexe": "Femme",
     "creation_date": 2016
   },
   {
@@ -427,6 +469,7 @@
     "average_viewer": 7400,
     "banned": false,
     "date_birth": "1990/10/05",
+    "sexe": "Homme",
     "creation_date": 2016
   },
   {
@@ -437,6 +480,7 @@
     "average_viewer": 1000,
     "banned": false,
     "date_birth": "1994/06/04",
+    "sexe": "Homme",
     "creation_date": 2012
   },
   {
@@ -447,6 +491,7 @@
     "average_viewer": 4500,
     "banned": false,
     "date_birth": "1993/11/08",
+    "sexe": "Femme",
     "creation_date": 2016
   },
   {
@@ -457,6 +502,7 @@
     "average_viewer": 6700,
     "banned": false,
     "date_birth": "1988/11/10",
+    "sexe": "Homme",
     "creation_date": 2013
   },
   {
@@ -467,6 +513,7 @@
     "average_viewer": 705,
     "banned": true,
     "date_birth": "1993/08/08",
+    "sexe": "Homme",
     "creation_date": 2012
   },
   {
@@ -477,6 +524,7 @@
     "average_viewer": 500,
     "banned": false,
     "date_birth": "1993/01/10",
+    "sexe": "Homme",
     "creation_date": 2013
   },
   {
@@ -487,6 +535,7 @@
     "average_viewer": 10900,
     "banned": false,
     "date_birth": "1980/08/26",
+    "sexe": "Homme",
     "creation_date": 2012
   },
   {
@@ -497,6 +546,7 @@
     "average_viewer": 700,
     "banned": false,
     "date_birth": "1982/12/27",
+    "sexe": "Homme",
     "creation_date": 2010
   },
   {
@@ -507,6 +557,7 @@
     "average_viewer": 729,
     "banned": false,
     "date_birth": "1989/08/31",
+    "sexe": "Homme",
     "creation_date": 2011
   },
   {
@@ -517,6 +568,7 @@
     "average_viewer": 2800,
     "banned": false,
     "date_birth": "1990/06/20",
+    "sexe": "Homme",
     "creation_date": 2012
   },
   {
@@ -527,6 +579,7 @@
     "average_viewer": 9900,
     "banned": false,
     "date_birth": "2000/02/04",
+    "sexe": "Homme",
     "creation_date": 2015
   },
   {
@@ -537,6 +590,7 @@
     "average_viewer": 2600,
     "banned": false,
     "date_birth": "1998/07/28",
+    "sexe": "Homme",
     "creation_date": 2015
   },
   {
@@ -547,6 +601,7 @@
     "average_viewer": 1500,
     "banned": false,
     "date_birth": "1996/06/25",
+    "sexe": "Homme",
     "creation_date": 2012
   },
   {
@@ -557,6 +612,7 @@
     "average_viewer": 3600,
     "banned": true,
     "date_birth": "1991/09/21",
+    "sexe": "Homme",
     "creation_date": 2013
   },
   {
@@ -567,6 +623,7 @@
     "average_viewer": 1500,
     "banned": false,
     "date_birth": "1997/01/07",
+    "sexe": "Femme",
     "creation_date": 2019
   },
   {
@@ -577,6 +634,7 @@
     "average_viewer": 9800,
     "banned": false,
     "date_birth": "1997/04/28",
+    "sexe": "Homme",
     "creation_date": 2019
   },
   {
@@ -587,6 +645,7 @@
     "average_viewer": 980,
     "banned": false,
     "date_birth": "1994/09/23",
+    "sexe": "Homme",
     "creation_date": 2017
   },
   {
@@ -597,6 +656,7 @@
     "average_viewer": 1300,
     "banned": false,
     "date_birth": "1995/07/26",
+    "sexe": "Homme",
     "creation_date": 2012
   },
   {
@@ -607,6 +667,7 @@
     "average_viewer": 3900,
     "banned": true,
     "date_birth": "1971/05/20",
+    "sexe": "Homme",
     "creation_date": 2020
   },
   {
@@ -617,6 +678,7 @@
     "average_viewer": 900,
     "banned": false,
     "date_birth": "1991/10/18",
+    "sexe": "Homme",
     "creation_date": 2012
   },
   {
@@ -627,6 +689,7 @@
     "average_viewer": 1600,
     "banned": false,
     "date_birth": "1991/12/02",
+    "sexe": "Homme",
     "creation_date": 2013
   },
     {
@@ -637,6 +700,7 @@
     "average_viewer": 3400,
     "banned": false,
     "date_birth": "1994/08/08",
+    "sexe": "Homme",
     "creation_date": 2014
   },
   {
@@ -647,6 +711,7 @@
     "average_viewer": 1900,
     "banned": false,
     "date_birth": "1994/09/25",
+    "sexe": "Homme",
     "creation_date": 2012
   },
   {
@@ -657,6 +722,7 @@
     "average_viewer": 2900,
     "banned": true,
     "date_birth": "1988/07/19",
+    "sexe": "Homme",
     "creation_date": 2014
   },
   {
@@ -667,6 +733,7 @@
     "average_viewer": 27700,
     "banned": false,
     "date_birth": "1996/01/27",
+    "sexe": "Homme",
     "creation_date": 2013
   },
   {
@@ -677,6 +744,7 @@
     "average_viewer": 700,
     "banned": true,
     "date_birth": "1996/02/06",
+    "sexe": "Homme",
     "creation_date": 2018
   },
   {
@@ -687,6 +755,7 @@
     "average_viewer": 3000,
     "banned": true,
     "date_birth": "1992/08/07",
+    "sexe": "Homme",
     "creation_date": 2015
   },
   {
@@ -697,6 +766,7 @@
     "average_viewer": 1500,
     "banned": false,
     "date_birth": "1998/12/11",
+    "sexe": "Homme",
     "creation_date": 2012
   },
   {
@@ -707,6 +777,7 @@
     "average_viewer": 2900,
     "banned": false,
     "date_birth": "1986/06/02",
+    "sexe": "Homme",
     "creation_date": 2014
   },
   {
@@ -717,6 +788,7 @@
     "average_viewer": 3200,
     "banned": false,
     "date_birth": "1998/09/26",
+    "sexe": "Homme",
     "creation_date": 2015
   },
   {
@@ -727,6 +799,7 @@
     "average_viewer": 1100,
     "banned": false,
     "date_birth": "1990/09/08",
+    "sexe": "Femme",
     "creation_date": 2013
   },
   {
@@ -737,6 +810,7 @@
     "average_viewer": 1000,
     "banned": false,
     "date_birth": "1995/09/11",
+    "sexe": "Femme",
     "creation_date": 2014
   },
   {
@@ -747,6 +821,7 @@
     "average_viewer": 2000,
     "banned": false,
     "date_birth": "1993/02/08",
+    "sexe": "Homme",
     "creation_date": 2015
   },
   {
@@ -757,6 +832,7 @@
     "average_viewer": 500,
     "banned": true,
     "date_birth": "1996/06/14",
+    "sexe": "Homme",
     "creation_date": 2013
   },
   {
@@ -767,6 +843,7 @@
     "average_viewer": 2300,
     "banned": false,
     "date_birth": "1992/05/27",
+    "sexe": "Homme",
     "creation_date": 2015
   },
   {
@@ -777,6 +854,7 @@
     "average_viewer": 1800,
     "banned": true,
     "date_birth": "1995/03/31",
+    "sexe": "Homme",
     "creation_date": 2015
   },
   {
@@ -787,6 +865,7 @@
     "average_viewer": 14500,
     "banned": false,
     "date_birth": "1990/03/01",
+    "sexe": "Homme",
     "creation_date": 2013
   }
 ]

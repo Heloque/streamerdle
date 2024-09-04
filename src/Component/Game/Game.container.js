@@ -8,7 +8,7 @@ const EnhancedGame = ({chosenElement, mod, setMod, ...props}) => {
     const [isCorrect, setIsCorrect] = useState(false);
     const [selectedOptions, setSelectedOptions] = useState([]);
 
-    const options = data.map(({ id, name, picture_url, most_stream_game, average_viewer, banned, date_birth, creation_date }) => ({
+    const options = data.map(({ id, name, picture_url, most_stream_game, average_viewer, banned, date_birth, sexe, creation_date }) => ({
         value: id,
         label: name,
         picture_url,
@@ -16,6 +16,7 @@ const EnhancedGame = ({chosenElement, mod, setMod, ...props}) => {
         average_viewer,
         banned,
         date_birth,
+        sexe,
         creation_date
     }));
 
@@ -41,6 +42,7 @@ const EnhancedGame = ({chosenElement, mod, setMod, ...props}) => {
                 option.average_viewer === streamer.average_viewer ? '🟩' : '🟥',
                 option.banned === streamer.banned ? '🟩' : '🟥',
                 option.date_birth === streamer.date_birth ? '🟩' : '🟥',
+                option.sexe === streamer.sexe ? '🟩' : '🟥',
                 option.creation_date === streamer.creation_date ? '🟩' : '🟥'
             ].join('');
             return resultRow;

@@ -10,6 +10,7 @@ const Card = ({
   average_viewer,
   banned,
   age,
+  sexe,
   creation_date,
   determineMostStreamGameBg,
   determineArrowStyle
@@ -45,6 +46,9 @@ const Card = ({
         </div>
         <div className={styles.colorBox} style={determineArrowStyle(chosenAge, age)}>
           <span className={styles.attributeName}>{age} ans</span>
+        </div>
+        <div className={styles.colorBox} style={{ backgroundColor: chosenElementFull.sexe === sexe ? "#108910" : "#D42D2D" }}>
+          <span className={styles.attributeName}>{sexe}</span>
         </div>
         <div className={styles.colorBox} style={determineArrowStyle(chosenElementFull.creation_date, creation_date)}>
           <span className={styles.attributeName}>{creation_date}</span>

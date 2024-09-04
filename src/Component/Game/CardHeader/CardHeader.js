@@ -43,6 +43,9 @@ const CardHeader = () => {
                     <span className={styles.attributeName}>Âge</span>
                 </div>
                 <div className={styles.colorBox}>
+                    <span className={styles.attributeName}>Sexe</span>
+                </div>
+                <div className={styles.colorBox}>
                     <span className={styles.attributeName}>Date de création de la chaîne</span>
                 </div>
             </div>
