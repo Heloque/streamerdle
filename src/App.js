@@ -20,7 +20,6 @@ function App() {
         <p>
           © {currentYear}
           <a href="https://www.linkedin.com/in/louis-thomas-3775a21b5/" target="_blank" rel="noopener noreferrer" className="footer-link">Louis</a>,
-          <a href="https://www.linkedin.com/in/quentin-roussey/" target="_blank" rel="noopener noreferrer" className="footer-link">Quentin</a>,
           <a href="https://www.linkedin.com/in/héloïse-suat-8ab266227/" target="_blank" rel="noopener noreferrer" className="footer-link">Héloïse</a>. All rights reserved.
         </p>
         <p>Version: {version}</p>
