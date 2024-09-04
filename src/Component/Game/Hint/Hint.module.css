@@ -1,0 +1,5 @@
+.blurredImage {
+    filter: blur(35px); /* Applique un flou de 10px */
+    width: 100%; /* Ajuste la largeur de l'image */
+    height: auto; /* Conserve les proportions */
+  }

@@ -8,6 +8,7 @@ import { getRandomElement } from '../../utils/elementGetter.js';
 import styles from './Game.module.css';
 import Tippy from "@tippyjs/react";
 import 'tippy.js/dist/tippy.css';
+import Hint from './Hint';
 
 const selectorComponent = ({ innerRef, innerProps, data, isFocused }) => (
     <div ref={innerRef} {...innerProps} className={`${styles.option} ${isFocused ? styles.optionFocused : ''}`}>
@@ -96,6 +97,9 @@ const Game = ({
                     </div>
                 </div>
             )}
+
+            <Hint chosenElement={chosenElement} selectedOptions={selectedOptions} />
+
             <div className={styles.cardContainer}>
                 <CardHeader/>
             </div>
