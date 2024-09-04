@@ -114,6 +114,7 @@ const Game = ({
                         average_viewer={option.average_viewer}
                         banned={option.banned}
                         date_birth={option.date_birth}
+                        sexe={option.sexe}
                         creation_date={option.creation_date}
                     />
                 ))}
