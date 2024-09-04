@@ -35,8 +35,9 @@
 }
 
 .colorBox img {
-    width: 10vh;
-    height: 10vh;
+    width: 100%;
+    max-width: 5rem;
+    height: auto;
     object-fit: cover;
     display: block;
     margin: 0 auto;
@@ -49,11 +50,12 @@
 }
 
 .attributeName {
-    padding: 1vw;
+    padding: 0.5vw;
 }
 
 .gameItem {
-    padding: 0.575vh 0.575vh;
+    display: inline-block;
+    padding: 0.4vh 0;
     border-bottom: 1px solid #ccc;
 }
   
