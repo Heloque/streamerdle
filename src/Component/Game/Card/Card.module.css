@@ -54,9 +54,12 @@
 }
 
 .gameItem {
-    display: inline-block;
+    display: block;
+    width: 100%;
     padding: 0.4vh 0;
     border-bottom: 1px solid #ccc;
+    text-align: center;
+    box-sizing: border-box;
 }
   
 .gameItem:last-child {

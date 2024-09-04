@@ -37,7 +37,7 @@ const EnhancedGame = ({chosenElement, mod, setMod, ...props}) => {
         
         const attempts = selectedOptions.map(option => {
             const resultRow = [
-                option.most_stream_game === streamer.most_stream_game ? '🟩' : '🟥',
+                arraysEqual(option.most_stream_game, streamer.most_stream_game) ? '🟩' : '🟥',
                 option.average_viewer === streamer.average_viewer ? '🟩' : '🟥',
                 option.banned === streamer.banned ? '🟩' : '🟥',
                 option.date_birth === streamer.date_birth ? '🟩' : '🟥',
@@ -47,7 +47,14 @@ const EnhancedGame = ({chosenElement, mod, setMod, ...props}) => {
         });
 
         return `J'ai deviné le streamer du jour sur #Streamerdle\nen ${selectedOptions.length} essai(s)! 🕵️🔎🔄\n\n${attempts.join('\n')}\n\nJouez sur https://streamerdle.fr 🎮!`;
+    };
 
+    const arraysEqual = (arr1, arr2) => {
+        if (arr1.length !== arr2.length) return false;
+        for (let i = 0; i < arr1.length; i++) {
+            if (arr1[i] !== arr2[i]) return false;
+        }
+        return true;
     };
 
     useEffect(() => {
