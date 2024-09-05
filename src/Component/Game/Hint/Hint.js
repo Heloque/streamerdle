@@ -6,7 +6,8 @@ const Hint = ({
   chosenElementFull,
   isUnlock,
   hintDisplayed,
-  setHintDisplayed
+  setHintDisplayed,
+  bluredPicture
 }) => {
 
 
@@ -26,9 +27,7 @@ const Hint = ({
               className={`tab-button ${isUnlock.hint1 ? 'unlocked' : 'locked'}`}
               onClick={() => setHintDisplayed(1)}
             >
-            <p>
               Indice 1
-            </p>
             </button>
 
             <button 
@@ -36,9 +35,9 @@ const Hint = ({
               className={`tab-button ${isUnlock.hint2 ? 'unlocked' : 'locked'}`}
               onClick={() => setHintDisplayed(2)}
             >
-            <p>
+          
               Indice 2
-            </p>
+            
             </button>
 
             <button 
@@ -46,10 +45,15 @@ const Hint = ({
               className={`tab-button ${isUnlock.hint3 ? 'unlocked' : 'locked'}`}
               onClick={() => setHintDisplayed(3)}
             >
-            <p>
               Indice 3
-            </p>
             </button>
+            <button 
+              className={`tab-button ${isUnlock.hint3 ? 'unlocked' : 'locked'}`}
+              onClick={() => setHintDisplayed(0)}
+            >
+              -
+            </button>
+            
         </div>
         )}
 
@@ -67,7 +71,7 @@ const Hint = ({
         {hintDisplayed===3 && (
           <div> 
             <p>Photo floutée</p>
-            <img src={chosenElementFull.picture_url} className={styles.blurredImage}/>
+            <canvas ref={bluredPicture} width={200} height={200}/>
           </div>
         )}
     </div>
