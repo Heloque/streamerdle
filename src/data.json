@@ -9,7 +9,7 @@
     "date_birth": "1994/10/07",
     "sexe": "Homme",
     "creation_date": 2014,
-    "voice_url": "/Voices/Alderiate.ogg"
+    "voice_url": "/Voices/Alderiate.mp3"
   },
   {
     "id": 36,
@@ -20,7 +20,8 @@
     "banned": false,
     "date_birth": "1986/12/20",
     "sexe": "Homme",
-    "creation_date": 2015
+    "creation_date": 2015,
+    "voice_url": "/Voices/Alexclick.mp3"
   },
   {
     "id": 74,
@@ -31,7 +32,8 @@
     "banned": false,
     "date_birth": "1990/10/31",
     "sexe": "Homme",
-    "creation_date": 2015
+    "creation_date": 2015,
+    "voice_url": "/Voices/AlphaCast.mp3"
   },
   {
     "id": 41,
@@ -42,7 +44,8 @@
     "banned": true,
     "date_birth": "1994/07/21",
     "sexe": "Homme",
-    "creation_date": 2019
+    "creation_date": 2019,
+    "voice_url": "/Voices/aminematue.mp3"
   },
   {
     "id": 68,
@@ -53,7 +56,8 @@
     "banned": false,
     "date_birth": "1993/12/19",
     "sexe": "Femme",
-    "creation_date": 2017
+    "creation_date": 2017,
+    "voice_url": "/Voices/AngleDroit.mp3"
   },
   {
     "id": 15,
@@ -64,7 +68,8 @@
     "banned": false,
     "date_birth": "1989/04/23",
     "sexe": "Homme",
-    "creation_date": 2016
+    "creation_date": 2016,
+    "voice_url": "/Voices/AntoineDaniel.mp3"
   },
   {
     "id": 56,
@@ -75,7 +80,8 @@
     "banned": true,
     "date_birth": "1992/03/01",
     "sexe": "Femme",
-    "creation_date": 2018
+    "creation_date": 2018,
+    "voice_url": "/Voices/AVAMind.mp3"
   },
   {
     "id": 38,
@@ -86,7 +92,8 @@
     "banned": false,
     "date_birth": "1987/01/20",
     "sexe": "Homme",
-    "creation_date": 2012
+    "creation_date": 2012,
+    "voice_url": "/Voices/aypierre.mp3"
   },
   {
     "id": 57,
@@ -97,7 +104,8 @@
     "banned": false,
     "date_birth": "1996/01/06",
     "sexe": "Femme",
-    "creation_date": 2015
+    "creation_date": 2015,
+    "voice_url": "/Voices/BagheraJones.mp3"
   },
   {
     "id": 69,
@@ -108,7 +116,8 @@
     "banned": false,
     "date_birth": "1991/10/28",
     "sexe": "Homme",
-    "creation_date": 2017
+    "creation_date": 2017,
+    "voice_url": "/Voices/BastiUi.mp3"
   },
   {
     "id": 24,
@@ -119,7 +128,8 @@
     "banned": false,
     "date_birth": "1992/08/21",
     "sexe": "Homme",
-    "creation_date": 2016
+    "creation_date": 2016,
+    "voice_url": "/Voices/chowh1.mp3"
   },
   {
     "id": 42,
@@ -130,7 +140,8 @@
     "banned": true,
     "date_birth": "1991/08/29",
     "sexe": "Homme",
-    "creation_date": 2015
+    "creation_date": 2015,
+    "voice_url": "/Voices/CrocodyleTV.mp3"
   },
   {
     "id": 54,
@@ -141,7 +152,8 @@
     "banned": false,
     "date_birth": "1998/04/12",
     "sexe": "Femme",
-    "creation_date": 2014
+    "creation_date": 2014,
+    "voice_url": "/Voices/Cruelladk.mp3"
   },
   {
     "id": 53,
@@ -152,7 +164,8 @@
     "banned": false,
     "date_birth": "1984/12/17",
     "sexe": "Femme",
-    "creation_date": 2013
+    "creation_date": 2013,
+    "voice_url": "/Voices/DamDamLive.mp3"
   },
   {
     "id": 22,
@@ -163,7 +176,8 @@
     "banned": false,
     "date_birth": "1992/12/09",
     "sexe": "Homme",
-    "creation_date": 2011
+    "creation_date": 2011,
+    "voice_url": "/Voices/Doigby.mp3"
   },
   {
     "id": 13,
@@ -174,7 +188,8 @@
     "banned": false,
     "date_birth": "1994/07/12",
     "sexe": "Homme",
-    "creation_date": 2013
+    "creation_date": 2013,
+    "voice_url": "/Voices/Domingo.mp3"
   },
   {
     "id": 35,
@@ -185,7 +200,8 @@
     "banned": false,
     "date_birth": "1995/01/25",
     "sexe": "Homme",
-    "creation_date": 2012
+    "creation_date": 2012,
+    "voice_url": "/Voices/DrFeelgood.mp3"
   },
   {
     "id": 0,
@@ -196,7 +212,8 @@
     "banned": false,
     "date_birth": "1996/08/02",
     "sexe": "Homme",
-    "creation_date": 2015
+    "creation_date": 2015,
+    "voice_url": "/Voices/Etoiles.mp3"
   },
   {
     "id": 29,
@@ -207,7 +224,8 @@
     "banned": true,
     "date_birth": "1987/04/03",
     "sexe": "Homme",
-    "creation_date": 2012
+    "creation_date": 2012,
+    "voice_url": "/Voices/FantaBobShow.mp3"
   },
   {
     "id": 73,
@@ -218,7 +236,8 @@
     "banned": true,
     "date_birth": "2001/09/10",
     "sexe": "Homme",
-    "creation_date": 2014
+    "creation_date": 2014,
+    "voice_url": "/Voices/Flamby.mp3"
   },
   {
     "id": 71,
@@ -229,7 +248,8 @@
     "banned": false,
     "date_birth": "1999/07/03",
     "sexe": "Homme",
-    "creation_date": 2016
+    "creation_date": 2016,
+    "voice_url": "/Voices/fugu_fps.mp3"
   },
   {
     "id": 33,
@@ -240,7 +260,8 @@
     "banned": false,
     "date_birth": "1988/09/04",
     "sexe": "Homme",
-    "creation_date": 2014
+    "creation_date": 2014,
+    "voice_url": "/Voices/Gius.mp3"
   },
   {
     "id": 20,
@@ -251,7 +272,8 @@
     "banned": false,
     "date_birth": "1993/10/21",
     "sexe": "Homme",
-    "creation_date": 2013
+    "creation_date": 2013,
+    "voice_url": "/Voices/GoBGG.mp3"
   },
   {
     "id": 51,
@@ -262,7 +284,8 @@
     "banned": false,
     "date_birth": "1993/12/04",
     "sexe": "Femme",
-    "creation_date": 2017
+    "creation_date": 2017,
+    "voice_url": "/Voices/Gom4rt.mp3"
   },
   {
     "id": 5,
@@ -273,7 +296,8 @@
     "banned": true,
     "date_birth": "1993/09/07",
     "sexe": "Homme",
-    "creation_date": 2011
+    "creation_date": 2011,
+    "voice_url": "/Voices/Gotaga.mp3"
   },
   {
     "id": 67,
@@ -284,7 +308,8 @@
     "banned": true,
     "date_birth": "2001/05/14",
     "sexe": "Homme",
-    "creation_date": 2015
+    "creation_date": 2015,
+    "voice_url": "/Voices/Grimkujow.mp3"
   },
   {
     "id": 72,
