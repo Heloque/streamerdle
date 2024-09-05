@@ -9,6 +9,12 @@ const EnhancedHint = ({chosenElement, selectedOptions, ...props}) => {
     const [hintDisplayed, setHintDisplayed] = useState(0);
     const bluredPicture = useRef()
 
+    const isSafari = () => {
+        // Check for the presence of "Safari" in the user agent string, but exclude "Chrome" and "Android"
+        return /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+    };
+    
+
     useEffect(() => {
         switch (hintDisplayed) {
             case 1:
@@ -23,7 +29,12 @@ const EnhancedHint = ({chosenElement, selectedOptions, ...props}) => {
                 image.src = chosenElementFull.picture_url
                 image.onload = () => {
                     context.clearRect(0, 0, bluredPicture.current.width, bluredPicture.current.height); 
-                    context.filter = 'blur(35px)';
+                    if (isSafari()) {
+                        bluredPicture.current.style.filter = 'blur(35px)';
+                    }
+                    else{
+                        context.filter = 'blur(35px)';
+                    }
                     context.drawImage(image, 0, 0, 200, 200);
                 }
                 break;

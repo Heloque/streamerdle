@@ -8,7 +8,8 @@
     "banned": false,
     "date_birth": "1994/10/07",
     "sexe": "Homme",
-    "creation_date": 2014
+    "creation_date": 2014,
+    "voice_url": "/Voices/Alderiate.ogg"
   },
   {
     "id": 36,
