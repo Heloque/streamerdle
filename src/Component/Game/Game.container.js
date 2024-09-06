@@ -1,25 +1,29 @@
 import React, { useState, useEffect } from "react";
 import data from '../../data.json';
 import Game from "./Game";
+import { getRandomElement } from '../../utils/elementGetter.js';
 
-const EnhancedGame = ({chosenElement, mod, setMod, ...props}) => {
+const defaultValues = data.map(({ id, name, picture_url, most_stream_game, average_viewer, banned, date_birth, sexe, creation_date }) => ({
+    value: id,
+    label: name,
+    picture_url,
+    most_stream_game,
+    average_viewer,
+    banned,
+    date_birth,
+    sexe,
+    creation_date
+}));
+
+const EnhancedGame = ({chosenElement, setChosenElement, mod, setMod, ...props}) => {
 
     const [showPopup, setShowPopup] = useState(false);
     const [isCorrect, setIsCorrect] = useState(false);
     const [selectedOptions, setSelectedOptions] = useState([]);
     const [selectedValue, setSelectedValue] = useState(null);
+    const [hintDisplayed, setHintDisplayed] = useState(0);
 
-    const [options, setOptions] = useState(data.map(({ id, name, picture_url, most_stream_game, average_viewer, banned, date_birth, sexe, creation_date }) => ({
-        value: id,
-        label: name,
-        picture_url,
-        most_stream_game,
-        average_viewer,
-        banned,
-        date_birth,
-        sexe,
-        creation_date
-    })));
+    const [options, setOptions] = useState(defaultValues);
 
     const handleChange = (selectedOption) => {
         const updatedOptions = [selectedOption, ...selectedOptions];
@@ -63,6 +67,15 @@ const EnhancedGame = ({chosenElement, mod, setMod, ...props}) => {
             if (arr1[i] !== arr2[i]) return false;
         }
         return true;
+    };
+
+    const resetGame = () => {
+        setChosenElement(getRandomElement());
+        setIsCorrect(false);
+        setSelectedOptions([]);
+        setSelectedValue(null);
+        setHintDisplayed(0);
+        setOptions(defaultValues);
     };
 
     useEffect(() => {
@@ -135,8 +148,11 @@ const EnhancedGame = ({chosenElement, mod, setMod, ...props}) => {
             setSelectedOptions={setSelectedOptions}
             selectedValue={selectedValue}
             setSelectedValue={setSelectedValue}
+            hintDisplayed={hintDisplayed}
+            setHintDisplayed={setHintDisplayed}
             options={options}
             customStyles={customStyles}
+            resetGame={resetGame}
             {...props} 
         />
     );

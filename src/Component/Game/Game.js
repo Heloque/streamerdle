@@ -4,7 +4,6 @@ import Card from './Card';
 import CardHeader from './CardHeader';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHouse, faCalendarDays,faInfinity } from "@fortawesome/free-solid-svg-icons";
-import { getRandomElement } from '../../utils/elementGetter.js';
 import styles from './Game.module.css';
 import Tippy from "@tippyjs/react";
 import 'tippy.js/dist/tippy.css';
@@ -19,20 +18,19 @@ const selectorComponent = ({ innerRef, innerProps, data, isFocused }) => (
 
 const Game = ({
     chosenElement,
-    setChosenElement,
     mod,
     setMod,
     isCorrect,
-    setIsCorrect,
     handleChange,
     handleCopyResults,
     showPopup,
     selectedOptions,
-    setSelectedOptions,
     selectedValue,
-    setSelectedValue,
+    hintDisplayed,
+    setHintDisplayed,
     options,
-    customStyles
+    customStyles,
+    resetGame,
 }) => {
     return (
         <div className={styles.container}>
@@ -70,10 +68,7 @@ const Game = ({
                 <button
                     className={styles.replay}
                     onClick={() => {
-                        setChosenElement(getRandomElement());
-                        setIsCorrect(false);
-                        setSelectedOptions([]);
-                        setSelectedValue(null);
+                        resetGame();
                     }}
                 >
                     Rejouer
@@ -98,7 +93,7 @@ const Game = ({
                     </div>
                 </div>
             )}
-            <Hint chosenElement={chosenElement} selectedOptions={selectedOptions} />
+            <Hint chosenElement={chosenElement} selectedOptions={selectedOptions} hintDisplayed={hintDisplayed} setHintDisplayed={setHintDisplayed}/>
             <div className={styles.cardContainer}>
                 <CardHeader/>
             </div>

@@ -2,10 +2,9 @@ import React, { useState, useEffect, useRef } from "react";
 import Hint from "./Hint";
 import data from '../../../data.json';
 
-const EnhancedHint = ({chosenElement, selectedOptions, ...props}) => {
+const EnhancedHint = ({chosenElement, selectedOptions, hintDisplayed, setHintDisplayed, ...props}) => {
     const chosenElementFull = data.find(item => item.id === chosenElement);
     const [isUnlock, setIsUnlock] = useState({hint1 : false, hint2: false, hint3: false});
-    const [hintDisplayed, setHintDisplayed] = useState(0);
     const [showTemporaryMessage, setShowTemporaryMessage] = useState(false);
     const bluredPicture = useRef();    
 
