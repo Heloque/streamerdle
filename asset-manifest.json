@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.9a288fbd.css",
-    "main.js": "/static/js/main.b8c9822c.js",
+    "main.css": "/static/css/main.3f119d9b.css",
+    "main.js": "/static/js/main.313bbe54.js",
     "static/js/453.44d3f14e.chunk.js": "/static/js/453.44d3f14e.chunk.js",
     "static/media/streamerdle_logo.png": "/static/media/streamerdle_logo.2ad2ab4d1855254a0206.png",
     "index.html": "/index.html",
-    "main.9a288fbd.css.map": "/static/css/main.9a288fbd.css.map",
-    "main.b8c9822c.js.map": "/static/js/main.b8c9822c.js.map",
+    "main.3f119d9b.css.map": "/static/css/main.3f119d9b.css.map",
+    "main.313bbe54.js.map": "/static/js/main.313bbe54.js.map",
     "453.44d3f14e.chunk.js.map": "/static/js/453.44d3f14e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a288fbd.css",
-    "static/js/main.b8c9822c.js"
+    "static/css/main.3f119d9b.css",
+    "static/js/main.313bbe54.js"
   ]
 }
