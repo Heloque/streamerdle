@@ -179,7 +179,8 @@
     background-color: #9FC131;
     border: none;
     color: #1f1f1c;
-    width: 15vw;
+    width: 100%;
+    max-width: 25vw;
     padding: 1rem 1rem;
     margin-bottom: 3rem;
     border-radius: 15px;
