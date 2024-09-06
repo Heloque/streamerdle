@@ -1,7 +1,7 @@
 {
   "name": "streamerdle",
   "homepage": "https://streamerdle.fr",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "private": true,
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.4.2",

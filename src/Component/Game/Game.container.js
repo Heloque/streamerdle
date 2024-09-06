@@ -110,26 +110,59 @@ const EnhancedGame = ({chosenElement, setChosenElement, mod, setMod, ...props}) 
     const customStyles = {
         control: (provided) => ({
             ...provided,
+            backgroundColor: '#1c1c1c',
+            border: '1px solid #444',
+            boxShadow: 'none',
+            borderRadius: '8px',
+            padding: '5px',
+            color: '#fff',
             display: 'flex',
             justifyContent: 'flex-start',
             alignItems: 'center',
             width: '13rem',
+            ':hover': {
+                borderColor: '#888',
+            },
         }),
         placeholder: (provided) => ({
             ...provided,
+            color: '#aaa', 
             textAlign: 'left',
             width: '100%',
         }),
         singleValue: (provided) => ({
             ...provided,
+            color: '#fff',  
             textAlign: 'left',
             width: '100%',
         }),
-        option: (provided) => ({
+        option: (provided, state) => ({
             ...provided,
             display: 'flex',
             justifyContent: 'flex-start',
-            textAlign: 'left',
+            alignItems: 'center',
+            padding: '10px 15px',
+            backgroundColor: state.isFocused ? '#333' : '#1c1c1c',
+            color: '#fff',
+            cursor: 'pointer',
+            ':hover': {
+              backgroundColor: '#555',
+            },
+        }),
+        menu: (provided) => ({
+            ...provided,
+            backgroundColor: '#1c1c1c',
+            borderRadius: '8px',
+            border: '1px solid #444',
+            boxShadow: '0 8px 16px rgba(0, 0, 0, 0.2)',
+        }),
+        menuList: (provided) => ({
+            ...provided,
+            padding: '0',
+        }),
+        input: (provided) => ({
+            ...provided,
+            color: '#fff',
         }),
     };
 

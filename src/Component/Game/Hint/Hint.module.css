@@ -1,13 +1,14 @@
 .card {
   background-color: #1f1f1c;
-  border: 1.5px solid #9FC131;
+  border: 0.5px solid #9FC131;
   padding: 0.75rem;
   border-radius: 8px;
-  width: 90%;
-  max-width: 500px;
+  width: 100%;
+  max-width: 40rem;
   margin: 1rem auto;
   position: relative;
   margin-bottom: 3rem;
+  box-sizing: border-box;
 }
 
 .temporaryMessage {
@@ -32,7 +33,7 @@
   font-family: 'Chakra Petch', sans-serif;
   color: #ffffff;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: clamp(8px, 1.4vw, 16px);
   position: relative;
 }
 
@@ -116,4 +117,45 @@
   border-radius: 10px;
   background-color: #1f1f1c;
   color: #9FC131;
+}
+
+@media (min-width: 1024px) {
+  .card {
+    max-width: 50vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .buttonContainer {
+    flex-wrap: wrap;
+  }
+
+  .tabButton {
+    width: 100%;
+    font-size: clamp(10px, 1.2vw, 14px);
+    height: 5vh;
+  }
+
+  .card {
+    max-width: 90vw;
+  }
+
+  .audioPlayer {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .tabButton {
+    width: 100%;
+    font-size: clamp(8px, 1vw, 12px);
+  }
+
+  .card {
+    max-width: 100vw;
+  }
+
+  .audioPlayer {
+    max-width: 80%;
+  }
 }
