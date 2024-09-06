@@ -5,7 +5,7 @@ import React from 'react';
 
 function App() {
   const currentYear = 2024;
-  const version = "1.1.0";  
+  const version = "1.1.1";  
 
   return (
     <div className="App quadrillage">
