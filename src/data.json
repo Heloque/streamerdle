@@ -720,6 +720,18 @@
     "voice_url": "/Voices/Rivenzi.mp3"
   },
   {
+    "id": 66,
+    "name": "Sakor_",
+    "picture_url": "/Pictures/Sakor_.png",
+    "most_stream_game": ["ELDEN RING", "The Witcher 3: Wild Hunt", "Just Chatting"],
+    "average_viewer": 900,
+    "banned": false,
+    "date_birth": "1991/10/18",
+    "sexe": "Homme",
+    "creation_date": 2012,
+    "voice_url": "/Voices/Sakor_.mp3"
+  },
+  {
     "id": 12,
     "name": "samueletienne",
     "picture_url": "/Pictures/samueletienne.png",
@@ -732,17 +744,6 @@
     "voice_url": "/Voices/samueletienne.mp3"
   },
   {
-    "id": 66,
-    "name": "Sakor_",
-    "picture_url": "/Pictures/Sakor_.png",
-    "most_stream_game": ["ELDEN RING", "The Witcher 3: Wild Hunt", "Just Chatting"],
-    "average_viewer": 900,
-    "banned": false,
-    "date_birth": "1991/10/18",
-    "sexe": "Homme",
-    "creation_date": 2012
-  },
-  {
     "id": 21,
     "name": "Shaunz",
     "picture_url": "/Pictures/shaunz.png",
@@ -751,7 +752,8 @@
     "banned": false,
     "date_birth": "1991/12/02",
     "sexe": "Homme",
-    "creation_date": 2013
+    "creation_date": 2013,
+    "voice_url": "/Voices/Shaunz.mp3"
   },
     {
     "id": 11,
@@ -762,7 +764,8 @@
     "banned": false,
     "date_birth": "1994/08/08",
     "sexe": "Homme",
-    "creation_date": 2014
+    "creation_date": 2014,
+    "voice_url": "/Voices/Shisheyu.mp3"
   },
   {
     "id": 60,
@@ -773,7 +776,8 @@
     "banned": false,
     "date_birth": "1994/09/25",
     "sexe": "Homme",
-    "creation_date": 2012
+    "creation_date": 2012,
+    "voice_url": "/Voices/SixenTv.mp3"
   },
   {
     "id": 26,
@@ -784,7 +788,8 @@
     "banned": true,
     "date_birth": "1988/07/19",
     "sexe": "Homme",
-    "creation_date": 2014
+    "creation_date": 2014,
+    "voice_url": "/Voices/Skyyart.mp3"
   },
   {
     "id": 3,
@@ -795,7 +800,8 @@
     "banned": false,
     "date_birth": "1996/01/27",
     "sexe": "Homme",
-    "creation_date": 2013
+    "creation_date": 2013,
+    "voice_url": "/Voices/Squeezie.mp3"
   },
   {
     "id": 55,
@@ -806,7 +812,8 @@
     "banned": true,
     "date_birth": "1996/02/06",
     "sexe": "Homme",
-    "creation_date": 2018
+    "creation_date": 2018,
+    "voice_url": "/Voices/SuperHenryTran.mp3"
   },
   {
     "id": 47,
@@ -817,7 +824,8 @@
     "banned": true,
     "date_birth": "1992/08/07",
     "sexe": "Homme",
-    "creation_date": 2015
+    "creation_date": 2015,
+    "voice_url": "/Voices/Terracid.mp3"
   },
   {
     "id": 43,
@@ -828,7 +836,8 @@
     "banned": false,
     "date_birth": "1998/12/11",
     "sexe": "Homme",
-    "creation_date": 2012
+    "creation_date": 2012,
+    "voice_url": "/Voices/TheGuill84.mp3"
   },
   {
     "id": 16,
@@ -839,7 +848,8 @@
     "banned": false,
     "date_birth": "1986/06/02",
     "sexe": "Homme",
-    "creation_date": 2014
+    "creation_date": 2014,
+    "voice_url": "/Voices/Tonton.mp3"
   },
   {
     "id": 59,
@@ -850,7 +860,8 @@
     "banned": false,
     "date_birth": "1998/09/26",
     "sexe": "Homme",
-    "creation_date": 2015
+    "creation_date": 2015,
+    "voice_url": "/Voices/TraYtoNlol.mp3"
   },
   {
     "id": 44,
@@ -861,7 +872,8 @@
     "banned": false,
     "date_birth": "1990/09/08",
     "sexe": "Femme",
-    "creation_date": 2013
+    "creation_date": 2013,
+    "voice_url": "/Voices/Trinity.mp3"
   },
   {
     "id": 37,
@@ -872,7 +884,8 @@
     "banned": false,
     "date_birth": "1995/09/11",
     "sexe": "Femme",
-    "creation_date": 2014
+    "creation_date": 2014,
+    "voice_url": "/Voices/Ultia.mp3"
   },
   {
     "id": 75,
@@ -883,7 +896,8 @@
     "banned": false,
     "date_birth": "1993/02/08",
     "sexe": "Homme",
-    "creation_date": 2015
+    "creation_date": 2015,
+    "voice_url": "/Voices/WakzLoL.mp3"
   },
   {
     "id": 62,
@@ -894,7 +908,8 @@
     "banned": true,
     "date_birth": "1996/06/14",
     "sexe": "Homme",
-    "creation_date": 2013
+    "creation_date": 2013,
+    "voice_url": "/Voices/Wingo.mp3"
   },
   {
     "id": 31,
@@ -905,7 +920,8 @@
     "banned": false,
     "date_birth": "1992/05/27",
     "sexe": "Homme",
-    "creation_date": 2015
+    "creation_date": 2015,
+    "voice_url": "/Voices/Xari.mp3"
   },
   {
     "id": 77,
@@ -916,7 +932,8 @@
     "banned": true,
     "date_birth": "1995/03/31",
     "sexe": "Homme",
-    "creation_date": 2015
+    "creation_date": 2015,
+    "voice_url": "/Voices/zacknani.mp3"
   },
   {
     "id": 4,
@@ -927,7 +944,8 @@
     "banned": false,
     "date_birth": "1990/03/01",
     "sexe": "Homme",
-    "creation_date": 2013
+    "creation_date": 2013,
+    "voice_url": "/Voices/ZeratoR.mp3"
   }
 ]
   

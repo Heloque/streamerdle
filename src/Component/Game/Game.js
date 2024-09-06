@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Select from 'react-select';
 import Card from './Card'; 
 import CardHeader from './CardHeader';
@@ -29,9 +29,11 @@ const Game = ({
     showPopup,
     selectedOptions,
     setSelectedOptions,
+    selectedValue,
+    setSelectedValue,
     options,
+    customStyles
 }) => {
-    const [selectedValue, setSelectedValue] = useState(null);
     return (
         <div className={styles.container}>
             <div className={styles.selectorContainer}>
@@ -43,16 +45,15 @@ const Game = ({
                         options={options}
                         onChange={(selectedOption) => {
                             handleChange(selectedOption);
-                            setSelectedValue(selectedOption);
                         }}
                         value={selectedValue}
                         isDisabled={isCorrect}
-                        classNames={{
-                            control: () => styles.selectControl,
-                            option: () => styles.selectOption,
-                            singleValue: () => styles.selectSingleValue,
+                        styles={customStyles}
+                        components={{
+                            Option: selectorComponent,
+                            DropdownIndicator: () => null,
+                            IndicatorSeparator: () => null
                         }}
-                        components={{ Option: selectorComponent }}
                     />
                 </div>
                 <Tippy
@@ -97,9 +98,7 @@ const Game = ({
                     </div>
                 </div>
             )}
-
             <Hint chosenElement={chosenElement} selectedOptions={selectedOptions} />
-
             <div className={styles.cardContainer}>
                 <CardHeader/>
             </div>

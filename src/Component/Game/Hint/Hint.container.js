@@ -1,44 +1,41 @@
 import React, { useState, useEffect, useRef } from "react";
 import Hint from "./Hint";
 import data from '../../../data.json';
-import { faL } from "@fortawesome/free-solid-svg-icons";
 
 const EnhancedHint = ({chosenElement, selectedOptions, ...props}) => {
     const chosenElementFull = data.find(item => item.id === chosenElement);
     const [isUnlock, setIsUnlock] = useState({hint1 : false, hint2: false, hint3: false});
     const [hintDisplayed, setHintDisplayed] = useState(0);
-    const bluredPicture = useRef()
+    const [showTemporaryMessage, setShowTemporaryMessage] = useState(false);
+    const bluredPicture = useRef();    
 
-    const isSafari = () => {
-        // Check for the presence of "Safari" in the user agent string, but exclude "Chrome" and "Android"
-        return /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+    const handleHintToggle = () => {
+        if (selectedOptions.length < 4) {
+          setShowTemporaryMessage(true);
+          setTimeout(() => {
+            setShowTemporaryMessage(false);
+          }, 4000);
+        } else {
+          setHintDisplayed(hintDisplayed === 0 ? 1 : 0);
+        }
     };
-    
 
     useEffect(() => {
         switch (hintDisplayed) {
             case 1:
                 break;
-
             case 2:
                 break;
-
             case 3:
                 const context = bluredPicture.current.getContext("2d");
                 const image = new Image();
                 image.src = chosenElementFull.picture_url
                 image.onload = () => {
                     context.clearRect(0, 0, bluredPicture.current.width, bluredPicture.current.height); 
-                    if (isSafari()) {
-                        bluredPicture.current.style.filter = 'blur(35px)';
-                    }
-                    else{
-                        context.filter = 'blur(35px)';
-                    }
+                    bluredPicture.current.style.filter = 'blur(30px)';
                     context.drawImage(image, 0, 0, 200, 200);
                 }
                 break;
-        
             default:
                 break;
         }
@@ -57,7 +54,8 @@ const EnhancedHint = ({chosenElement, selectedOptions, ...props}) => {
             hintDisplayed={hintDisplayed}
             setHintDisplayed={setHintDisplayed}
             bluredPicture={bluredPicture}
-
+            showTemporaryMessage={showTemporaryMessage}
+            handleHintToggle={handleHintToggle}
             {...props}
         />
     );
