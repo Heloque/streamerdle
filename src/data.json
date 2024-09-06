@@ -320,7 +320,8 @@
     "banned": false,
     "date_birth": "2004/06/04",
     "sexe": "Femme",
-    "creation_date": 2018
+    "creation_date": 2018,
+    "voice_url": "/Voices/helydia.mp3"
   },
   {
     "id": 63,
@@ -331,7 +332,8 @@
     "banned": false,
     "date_birth": "1998/06/04",
     "sexe": "Femme",
-    "creation_date": 2016
+    "creation_date": 2016,
+    "voice_url": "/Voices/HortyUnderscore.mp3"
   },
   {
     "id": 64,
@@ -342,7 +344,8 @@
     "banned": false,
     "date_birth": "1995/09/15",
     "sexe": "Homme",
-    "creation_date": 2013
+    "creation_date": 2013,
+    "voice_url": "/Voices/HugoDelire.mp3"
   },
   {
     "id": 39,
@@ -353,7 +356,8 @@
     "banned": false,
     "date_birth": "1992/07/29",
     "sexe": "Homme",
-    "creation_date": 2013
+    "creation_date": 2013,
+    "voice_url": "/Voices/ImSoFresh.mp3"
   },
   {
     "id": 48,
@@ -364,7 +368,8 @@
     "banned": false,
     "date_birth": "1988/10/01",
     "sexe": "Homme",
-    "creation_date": 2016
+    "creation_date": 2016,
+    "voice_url": "/Voices/JeanMassiet.mp3"
   },
   {
     "id": 49,
@@ -375,7 +380,8 @@
     "banned": true,
     "date_birth": "1991/12/27",
     "sexe": "Homme",
-    "creation_date": 2011
+    "creation_date": 2011,
+    "voice_url": "/Voices/Jirayalecochon.mp3"
   },
   {
     "id": 2,
@@ -386,7 +392,8 @@
     "banned": true,
     "date_birth": "1996/12/17",
     "sexe": "Homme",
-    "creation_date": 2017
+    "creation_date": 2017,
+    "voice_url": "/Voices/JLTomy.mp3"
   },
   {
     "id": 8,
@@ -397,7 +404,8 @@
     "banned": true,
     "date_birth": "1982/11/26",
     "sexe": "Homme",
-    "creation_date": 2014
+    "creation_date": 2014,
+    "voice_url": "/Voices/Joueur_du_Grenier.mp3"
   },
   {
     "id": 1,
@@ -408,7 +416,8 @@
     "banned": false,
     "date_birth": "1995/06/27",
     "sexe": "Homme",
-    "creation_date": 2011
+    "creation_date": 2011,
+    "voice_url": "/Voices/Kamet0.mp3"
   },
   {
     "id": 34,
@@ -419,7 +428,8 @@
     "banned": false,
     "date_birth": "1998/05/22",
     "sexe": "Homme",
-    "creation_date": 2014
+    "creation_date": 2014,
+    "voice_url": "/Voices/Kaydop.mp3"
   },
   {
     "id": 40,
@@ -430,7 +440,8 @@
     "banned": false,
     "date_birth": "1997/04/06",
     "sexe": "Homme",
-    "creation_date": 2012
+    "creation_date": 2012,
+    "voice_url": "/Voices/KennyStream.mp3"
   },
   {
     "id": 9,
@@ -441,7 +452,8 @@
     "banned": false,
     "date_birth": "1992/01/08",
     "sexe": "Homme",
-    "creation_date": 2015
+    "creation_date": 2015,
+    "voice_url": "/Voices/Laink.mp3"
   },
   {
     "id": 18,
@@ -452,7 +464,8 @@
     "banned": false,
     "date_birth": "1992/05/05",
     "sexe": "Homme",
-    "creation_date": 2013
+    "creation_date": 2013,
+    "voice_url": "/Voices/Lapi.mp3"
   },
   {
     "id": 25,
@@ -463,7 +476,8 @@
     "banned": false,
     "date_birth": "1994/07/26",
     "sexe": "Homme",
-    "creation_date": 2015
+    "creation_date": 2015,
+    "voice_url": "/Voices/LeBouseuh.mp3"
   },
   {
     "id": 61,
@@ -474,7 +488,8 @@
     "banned": false,
     "date_birth": "1991/10/30",
     "sexe": "Homme",
-    "creation_date": 2017
+    "creation_date": 2017,
+    "voice_url": "/Voices/Linca.mp3"
   },
   {
     "id": 27,
@@ -485,7 +500,8 @@
     "banned": false,
     "date_birth": "1994/11/13",
     "sexe": "Femme",
-    "creation_date": 2016
+    "creation_date": 2016,
+    "voice_url": "/Voices/LittleBigWhale.mp3"
   },
   {
     "id": 7,
@@ -496,7 +512,8 @@
     "banned": false,
     "date_birth": "1990/10/05",
     "sexe": "Homme",
-    "creation_date": 2016
+    "creation_date": 2016,
+    "voice_url": "/Voices/Locklear.mp3"
   },
   {
     "id": 46,
@@ -507,7 +524,8 @@
     "banned": false,
     "date_birth": "1994/06/04",
     "sexe": "Homme",
-    "creation_date": 2012
+    "creation_date": 2012,
+    "voice_url": "/Voices/Low4n.mp3"
   },
   {
     "id": 28,
@@ -518,7 +536,8 @@
     "banned": false,
     "date_birth": "1993/11/08",
     "sexe": "Femme",
-    "creation_date": 2016
+    "creation_date": 2016,
+    "voice_url": "/Voices/Maghla.mp3"
   },
   {
     "id": 19,
@@ -529,7 +548,8 @@
     "banned": false,
     "date_birth": "1988/11/10",
     "sexe": "Homme",
-    "creation_date": 2013
+    "creation_date": 2013,
+    "voice_url": "/Voices/MasterSnakou.mp3"
   },
   {
     "id": 23,
@@ -540,7 +560,8 @@
     "banned": true,
     "date_birth": "1993/08/08",
     "sexe": "Homme",
-    "creation_date": 2012
+    "creation_date": 2012,
+    "voice_url": "/Voices/Mickalow.mp3"
   },
   {
     "id": 70,
@@ -551,7 +572,8 @@
     "banned": false,
     "date_birth": "1993/01/10",
     "sexe": "Homme",
-    "creation_date": 2013
+    "creation_date": 2013,
+    "voice_url": "/Voices/MisterJDay.mp3"
   },
   {
     "id": 10,
@@ -562,7 +584,8 @@
     "banned": false,
     "date_birth": "1980/08/26",
     "sexe": "Homme",
-    "creation_date": 2012
+    "creation_date": 2012,
+    "voice_url": "/Voices/mistermv.mp3"
   },
   {
     "id": 17,
@@ -573,7 +596,8 @@
     "banned": false,
     "date_birth": "1982/12/27",
     "sexe": "Homme",
-    "creation_date": 2010
+    "creation_date": 2010,
+    "voice_url": "/Voices/MoMaN.mp3"
   },
   {
     "id": 30,
@@ -584,7 +608,8 @@
     "banned": false,
     "date_birth": "1989/08/31",
     "sexe": "Homme",
-    "creation_date": 2011
+    "creation_date": 2011,
+    "voice_url": "/Voices/MrBboy45.mp3"
   },
   {
     "id": 52,
@@ -595,7 +620,8 @@
     "banned": false,
     "date_birth": "1990/06/20",
     "sexe": "Homme",
-    "creation_date": 2012
+    "creation_date": 2012,
+    "voice_url": "/Voices/Mynthos.mp3"
   },
   {
     "id": 6,
@@ -606,7 +632,8 @@
     "banned": false,
     "date_birth": "2000/02/04",
     "sexe": "Homme",
-    "creation_date": 2015
+    "creation_date": 2015,
+    "voice_url": "/Voices/Nikof.mp3"
   },
   {
     "id": 58,
@@ -617,7 +644,8 @@
     "banned": false,
     "date_birth": "1998/07/28",
     "sexe": "Homme",
-    "creation_date": 2015
+    "creation_date": 2015,
+    "voice_url": "/Voices/Nisqyy.mp3"
   },
   {
     "id": 65,
@@ -628,7 +656,8 @@
     "banned": false,
     "date_birth": "1996/06/25",
     "sexe": "Homme",
-    "creation_date": 2012
+    "creation_date": 2012,
+    "voice_url": "/Voices/Onutrem.mp3"
   },
   {
     "id": 14,
@@ -639,7 +668,8 @@
     "banned": true,
     "date_birth": "1991/09/21",
     "sexe": "Homme",
-    "creation_date": 2013
+    "creation_date": 2013,
+    "voice_url": "/Voices/Ponce.mp3"
   },
   {
     "id": 78,
@@ -650,7 +680,8 @@
     "banned": false,
     "date_birth": "1997/01/07",
     "sexe": "Femme",
-    "creation_date": 2019
+    "creation_date": 2019,
+    "voice_url": "/Voices/Pressea.mp3"
   },
   {
     "id": 50,
@@ -661,7 +692,8 @@
     "banned": false,
     "date_birth": "1997/04/28",
     "sexe": "Homme",
-    "creation_date": 2019
+    "creation_date": 2019,
+    "voice_url": "/Voices/RebeuDeter.mp3"
   },
   {
     "id": 32,
@@ -672,7 +704,8 @@
     "banned": false,
     "date_birth": "1994/09/23",
     "sexe": "Homme",
-    "creation_date": 2017
+    "creation_date": 2017,
+    "voice_url": "/Voices/rhobalas_lol.mp3"
   },
   {
     "id": 45,
@@ -683,7 +716,8 @@
     "banned": false,
     "date_birth": "1995/07/26",
     "sexe": "Homme",
-    "creation_date": 2012
+    "creation_date": 2012,
+    "voice_url": "/Voices/Rivenzi.mp3"
   },
   {
     "id": 12,
@@ -694,7 +728,8 @@
     "banned": true,
     "date_birth": "1971/05/20",
     "sexe": "Homme",
-    "creation_date": 2020
+    "creation_date": 2020,
+    "voice_url": "/Voices/samueletienne.mp3"
   },
   {
     "id": 66,
