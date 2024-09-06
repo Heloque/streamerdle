@@ -7,8 +7,9 @@ const EnhancedGame = ({chosenElement, mod, setMod, ...props}) => {
     const [showPopup, setShowPopup] = useState(false);
     const [isCorrect, setIsCorrect] = useState(false);
     const [selectedOptions, setSelectedOptions] = useState([]);
+    const [selectedValue, setSelectedValue] = useState(null);
 
-    const options = data.map(({ id, name, picture_url, most_stream_game, average_viewer, banned, date_birth, sexe, creation_date }) => ({
+    const [options, setOptions] = useState(data.map(({ id, name, picture_url, most_stream_game, average_viewer, banned, date_birth, sexe, creation_date }) => ({
         value: id,
         label: name,
         picture_url,
@@ -18,11 +19,15 @@ const EnhancedGame = ({chosenElement, mod, setMod, ...props}) => {
         date_birth,
         sexe,
         creation_date
-    }));
+    })));
 
     const handleChange = (selectedOption) => {
         const updatedOptions = [selectedOption, ...selectedOptions];
         setSelectedOptions(updatedOptions);
+
+        const filteredOptions = options.filter(option => option.value !== selectedOption.value);
+        setOptions(filteredOptions);
+
         if (mod === 'daily') {
             localStorage.setItem('updatedOptions', JSON.stringify(updatedOptions));
         }
@@ -30,6 +35,7 @@ const EnhancedGame = ({chosenElement, mod, setMod, ...props}) => {
         if (selectedOption.value === chosenElement) {
             setShowPopup(true);
             setIsCorrect(true);
+            setSelectedValue(selectedOption);
         }
     };
 
@@ -88,6 +94,32 @@ const EnhancedGame = ({chosenElement, mod, setMod, ...props}) => {
         
     }, [chosenElement, mod]);
 
+    const customStyles = {
+        control: (provided) => ({
+            ...provided,
+            display: 'flex',
+            justifyContent: 'flex-start',
+            alignItems: 'center',
+            width: '13rem',
+        }),
+        placeholder: (provided) => ({
+            ...provided,
+            textAlign: 'left',
+            width: '100%',
+        }),
+        singleValue: (provided) => ({
+            ...provided,
+            textAlign: 'left',
+            width: '100%',
+        }),
+        option: (provided) => ({
+            ...provided,
+            display: 'flex',
+            justifyContent: 'flex-start',
+            textAlign: 'left',
+        }),
+    };
+
     return (
         <Game
             chosenElement={chosenElement}
@@ -101,7 +133,10 @@ const EnhancedGame = ({chosenElement, mod, setMod, ...props}) => {
             setShowPopup={setShowPopup}
             selectedOptions={selectedOptions}
             setSelectedOptions={setSelectedOptions}
+            selectedValue={selectedValue}
+            setSelectedValue={setSelectedValue}
             options={options}
+            customStyles={customStyles}
             {...props} 
         />
     );
